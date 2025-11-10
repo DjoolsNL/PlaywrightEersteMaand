@@ -1,0 +1,39 @@
+ChatGPT: vragen over testen en quality assurance
+
+----------------------------------------------------------------------------------
+
+OPDRACHT
+Stel de volgende vragen aan chatGPT en bestudeer de antwoorden:
+1. Wat is de functie van testen in de IT branche?
+2. Wat is quality assurance en wat is de relatie met testen?
+3. Wat is end-to-end testing?
+4. Waarom is manueel testen nog steeds belangrijk?
+5. Wat is het voordeel van geautomatiseerd testen?
+6. Wat wordt met de happy flow bedoeld in het kader van testen?
+7. Welke testframeworks voor web zijn er en wat zijn de belangrijkste?
+8. Welke rol kan AI in het testen van web gaan spelen?
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+9. Wat is de samenhang tussen een browser, html en TypeScript?
+10. Wat is een server?
+11. Wat is interactiviteit en dynamisch gedrag van webpagina's?
+12. Wat is een TypeScript-engine?
+13. Hoe ziet een simpele html pagina eruit?
+14. Wat zijn de belangrijkste HTML elementen?
+15. Moet elk html element gesloten worden?
+16. Dus html bevat zowel structuur en opmaak als inhoud?
+17. Waarom is html geen programmeertaal?
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+18. Ik werk met Jira, Gitlab, Visual Studio Code, Mailslurp, Playwright, 
+Chrome browser, Chrome DevTools, Scrum, HTML, TypeScript. Raad wat voor werk ik doe?
+19. Wat is een browser?
+20. Dus een browser laat een webpagina zien door de HTML code en de CSS code van 
+de webpagina op te vragen op de server waar de website staat en geeft dan de pagina 
+weer op mijn lokale pc?
+
+
+
+
+
+WAAROM
+Enerzijds leer je van de antwoorden, anderzijds leer je met AI om te gaan.
+

@@ -1,0 +1,24 @@
+{
+  "name": "playwright_eerste_maand",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "codegen": "npx playwright codegen https://the-internet.herokuapp.com/",
+    "codegen1": "npx playwright codegen https://thepulper.herokuapp.com/apps/pulp/",
+    "codegen2": "npx playwright codegenhttps://practicesoftwaretesting.com/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.45.3",
+    "@types/node": "^22.10.7",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "dotenv": "^16.4.7",
+    "readline": "^1.3.0"
+  }
+}
