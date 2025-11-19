@@ -100,3 +100,16 @@ begrijpen en wat onbelangrijk is.
 
 Vaak heeft leerstof een overdaad en details. Ga die niet allemaal van buiten leren. 
 Beperk je tot details die je helpen om het grotere plaatje te begrijpen.  
+
+11. Controversieel! Doe vooral NIET je best om chocolade te maken van alle nieuwe dingen die om je oren vliegen. 
+
+Anecdote: op mijn 18de mocht ik gaan rijlessen. De eerste 10 lessen waren bagger en dat was niet verbazingwekkend. Thuis hadden we nooit een auto gehad en ik had nooit een auto bestuurd. Les 11 was gepland voor na de zomervakantie.
+
+Na bijna twee maanden niet aan autorijden gedacht te hebben reed ik in les 11 op een veel hoger niveau dan daarvoor.
+Les 11 was geen toevalstreffer want ook de lessen erna bleef ik op dat hoge niveau rijden en na les 15 zei Ab mijn instructeur dat het tijd werd om het examen aan te vragen. Een maand later slaagde ik.
+
+Op de een of andere manier had mijn brein de puzzels gelegd tijdens de periode dat ik helemaal niet bewust
+bezig was met autorijden. Sinds die ervaring vertrouw ik op mijn vermogen om onbewust te leren. Dat werkt als je
+de meters, de vlieguren maakt. Het begrip komt dan vanzelf. 
+
+Het is geen recept voor een lui leven want het werkt alleen als je voldoende meters, vlieguren maakt.
