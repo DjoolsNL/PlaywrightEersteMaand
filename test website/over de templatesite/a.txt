@@ -89,11 +89,9 @@
          <object />
          <iframe />
          <img alt="" />
+      </div>   
 
 +++   Voor wie een eigen site wil bouwen:
       gebruik de template zoals je wil, inclusief alle content.
 
-+++   Check je html op https://validator.w3.org/nu/
-
-+++   Check je css op https://jigsaw.w3.org/css-validator/
 

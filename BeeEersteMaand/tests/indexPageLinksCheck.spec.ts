@@ -64,9 +64,11 @@ test( 'Check all links ', async ( { page } ) => {
     expect( failures, 'Some links returned non-2xx/3xx' ).toHaveLength( 0 );
   }
 
+  await checkLinks('/c-baanperspectief/kansen op de arbeidsmarkt');
   await checkLinks('index');
   await checkLinks('/b-educatief/probleemoplossend');
   await checkLinks('/c-baanperspectief/jobsearch');
+  
 
 } );
 
