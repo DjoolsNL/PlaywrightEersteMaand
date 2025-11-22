@@ -28,16 +28,22 @@
       main {
          padding-left: 2vw;
          padding-right: 2vw;
-         padding-bottom: 10%;
+         /* padding-bottom: 5%; */
          margin: 0 auto;
       }
 
       footer {
          padding-left: 2vw;
          padding-right: 2vw;
-         font-size: 1.2vw;         
+         font-size: 1.2vw;  
       }
 
+      .footer-object {
+         width: 100%; 
+         min-height: 20vw;/* height:25vw;  */
+         margin-top:8vw;
+      }
+      
       h1 {
          border-top: 2px solid #bebebe;;
          padding-top: 10px;
@@ -65,17 +71,69 @@
          background-color: transparent;
       }
 
+      .tooltip {
+         cursor: pointer;
+         position: relative;
+      }
+
+      .tooltiptext {
+         visibility: hidden;
+         font-size: 1.0vw;
+         width: 150px;
+         background-color: black;
+         color: #ffffff;
+         text-align: center;
+         border-radius: 6px;
+         padding: 5px 0;
+         position: absolute;
+         z-index: 1;
+         bottom: 100%;
+         left: 65%;
+         margin-left: -65px;
+      }
+
+      .imagelinks:hover .tooltiptext {
+         visibility: visible;
+      }
+
+      .textlinks:hover .tooltiptext {
+         visibility: visible;
+      }
+
       .linkbox {
          width: 250px;
       }
       .centreren {
+
          display:flex; 
          justify-content: center;
          background-color: lightsteelblue;
+         /* padding-top: 2vw;
+         padding-bottom: 2vw; */
+         border-top: 2vw solid lightsteelblue;
+         border-bottom: 2vw solid lightsteelblue;
       }
 
-      .introduction {
-         background-color:  rgb(227, 238, 245);
+      .imagelinks {
+         margin-bottom: 0px;
+         border: 1px solid gray;
+         border-radius: 2px;
+      }
+
+      .textlinks {
+         text-align: center;
+      }
+      
+      .textlinks a {
+         text-decoration: none;
+      }
+
+      .textlinks a:hover {
+         text-decoration: underline;
+      }
+
+      .inleiding {
+         background-color: rgb(227, 238, 245);
          padding: 15px 40px 15px;
       }
 
@@ -92,26 +150,17 @@
          width: 50vw; height:33vw
       }
 
-      .flexwrap {
+      .linkbox-container-nowrap {
             display: flex; 
             justify-content:center;
             flex-wrap: wrap;
       }   
 
-      .wrapmobile {
+      .linkbox-container-wrap {
             display: flex; 
             justify-content:center;
             flex-wrap: nowrap;
       }         
-
-      .quicklinks {
-         margin-bottom: 0px;
-         border: 1px solid gray;
-      }
-
-      .textlinks {
-         text-align: center;
-      } 
 
       @media screen and (min-width: 300px) {
          body {

@@ -5,346 +5,8 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="style.css">
-   <title>Home Home</title>
-    <!-- <style>
-            body {
-         /* display: flex; */
-         justify-content: center;
-         font-family: sans-serif;
-         font-size: 1.2vw;
-         /* font-size: 1.2rem; */
-         line-height: 1.6;
-         background-color: #ffffff;
-         margin: 0px;
-         background-image: url("../media/beebgrustiger.png");
-         /* background-position: center center; */
-         /* background-size: cover; */
-      }
-
-      main {
-         padding-left: 2vw;
-         padding-right: 2vw;
-         padding-bottom: 10%;
-         /* Shorthand for horizontal centering: */
-         margin: 0 auto;
-         /* padding: 10px 35pc 1pc 10pc;  */
-      }
-
-      hr {
-         color: #bebebe;
-      }
-      header {
-         text-decoration: none;
-         position: sticky;
-         /* Toggles between relative and fixed positioning */
-         top: 0;
-         /* Sticks to the top of the viewport when scrolled to this position */
-         background-color: rgb(227, 238, 245);
-         /* Ensure the header has a background so content doesn't show through */
-         color: rgb(0, 0, 0);
-         padding: 1em;
-         /* padding-left: 5pc; */
-         z-index: 100;
-         /* Ensures the header appears above other content */
-         width: 100%;
-         border-bottom: 1px solid grey;
-         font-size: 2vw;
-
-      }
-
-      .centreren {
-         display:flex; 
-         justify-content: center;
-      }
-
-      h1 {
-         border-top: 2px solid #bebebe;;
-         padding-top: 10px;
-
-         padding-bottom: 10px;
-         border-bottom: 2px solid #bebebe;
-         /* background-color: #085CF0; */
-         color: #000000;
-
-      }
-
-      footer {
-         padding-left: 2vw;
-         padding-right: 2vw;
-         font-size: 1.2vw;
-         
-      }
-
-
-
-
-
-      .introduction {
-         background-color: rgb(227, 238, 245);
-         padding: 15px 40px 15px;
-      }
-
-      .dark {
-
-         background-color: rgb(227, 238, 245);
-         padding: 5px 20px 5px;
-      }
-
-      .light {
-
-         padding: 5px 20px 5px;
-      }
-
-      li {
-         list-style-type: disc;
-         padding: 5px 20px 5px;
-      }
-
-      .red {
-         background-color: rgb(207, 168, 179);
-         padding: 5px 20px 5px;
-      }
-
-
-      .embedded-content {
-         border: 3px solid rgb(143, 170, 186);
-         padding: 1em;
-         /* width: auto; */
-         width: 85%;
-         height: 800px;
-      }
-
-      a:link {
-         color: rgb(0, 0, 0);
-         background-color: transparent;
-
-      }
-
-      a:visited {
-         color: rgb(0, 0, 0);
-         background-color: transparent;
-      }
-
-      .flexwrap {
-            display: flex; 
-            justify-content:center;
-            flex-wrap: wrap;
-      }   
-
-      .wrapmobile {
-            display: flex; 
-            justify-content:center;
-            flex-wrap: nowrap;
-      }         
-
-      .quicklinks {
-         margin-bottom: 0px;
-         border: 1px solid gray;
-      }
-
-      .textlinks {
-         text-align: center;
-      } 
-
-      @media screen and (min-width: 300px) {
-         body {
-            font-size: 4vw;
-         }
-         header {
-            font-size: 3vw;
-         }
-         main {
-            padding-left: 5vw;
-            padding-right: 5vw;
-         }
-         .wrapmobile {
-             display: flex; 
-             justify-content:center;
-             flex-wrap: wrap;
-         }
-      }
-      
-      @media screen and (min-width: 400px) {
-         body {
-            font-size: 3vw;
-         }
-         main {
-            padding-left: 4vw;
-            padding-right: 4vw;
-         }
-         .wrapmobile {
-             display: flex; 
-             justify-content:center;
-             flex-wrap: wrap;
-         }         
-      }
-
-      @media screen and (min-width: 500px) {
-         body,
-         header {
-            font-size: 2.7vw;
-         }
-         main, .footer {
-            padding-left: 2vw;
-            padding-right: 2vw;
-         }
-         .wrapmobile {
-             display: flex; 
-             justify-content:center;
-             flex-wrap: wrap;
-         }         
-      }
-
-      @media screen and (min-width: 600px) {
-         body,
-         header {
-            font-size: 2.3vw;
-         }
-         main, footer, .footer {
-            padding-left: 2.3vw;
-            padding-right: 2.3vw;
-         }
-         .wrapmobile {
-             display: flex; 
-             justify-content:center;
-             flex-wrap: wrap;
-         }         
-      }
-
-      @media screen and (min-width: 700px) {
-         body,
-         header {
-            font-size: 2.0vw;
-         }
-         main, footer, .footer {
-            padding-left: 3.5w;
-            padding-right: 3.5vw;
-         }
-         .wrapmobile {
-             display: flex; 
-             justify-content:center;
-             flex-wrap: wrap;
-         }         
-      }
-
-      @media screen and (min-width: 800px) {
-         body,
-         header {
-            font-size: 1.8vw;
-         }
-
-         main, footer, .footer {
-            padding-left: 4.8vw;
-            padding-right: 4.8vw;
-         }
-         .wrapmobile {
-             display: flex; 
-             justify-content:center;
-             flex-wrap: wrap;
-         }         
-      }
-
-      @media screen and (min-width: 900px) {
-         body,
-         header {
-            font-size: 1.6vw;
-         }
-
-         main, footer, .footer {
-            padding-left: 6.1vw;
-            padding-right: 6.1vw;
-         }
-         .wrapmobile {
-             display: flex; 
-             justify-content:center;
-             flex-wrap: wrap;
-         }         
-      }
-
-      @media screen and (min-width: 1000px) {
-         body,
-         header {
-            font-size: 1.4vw;
-         }
-
-         main, footer, .footer {
-            font-size: 1.3vw;
-            padding-left: 9vw;
-            padding-right: 9vw;
-         }
-         .wrapmobile {
-             display: flex; 
-             justify-content:center;
-             flex-wrap: wrap;
-         }         
-      }
-
-      @media screen and (min-width: 1100px) {
-         body,
-         header {
-            font-size: 1.2vw;
-         }
-
-         main, footer, .footer {
-            font-size: 1.2vw;
-            padding-left: 14vw;
-            padding-right: 14vw;
-         }
-         .wrapmobile {
-             display: flex; 
-             justify-content:center;
-             flex-wrap: wrap;
-         }         
-      }
-
-      @media screen and (min-width: 1200px) {
-         body,
-         header {
-            font-size: 1.0vw;
-         }
-         main, footer, .footer {
-            font-size: 1.1vw;
-            padding-left: 19vw;
-            padding-right: 19vw;
-         }
-
-         footer {
-            font-size: 1vw;
-         }
-         .wrapmobile {
-             display: flex; 
-             justify-content:center;
-             flex-wrap: nowrap;
-         }         
-      }
-
-       @media screen and (min-width: 1700px) {
-         body,
-         header {
-            font-size: 0.9vw;
-         }
-         main, .footer {
-            font-size: 1.1vw;
-            padding-left: 19vw;
-            padding-right: 19vw;
-         }
-
-         footer {
-            font-size: 0.9vw;
-            padding-left: 19vw;
-            padding-right: 19vw;
-         }
-         .wrapmobile {
-             display: flex; 
-             justify-content:center;
-             flex-wrap: nowrap;
-         }         
-         .quicklink-container {
-            display: flex; justify-content:center; 
-         }         
-      }
-
-    </style> -->
+   <title>Home</title>
+   <!-- <style>   </style> -->
 </head>
 
 <body>
@@ -354,77 +16,85 @@
          <a href="#Leerbedrijf">Leerbedrijf</a> -
          <a href="#Educatief">Educatief</a> -
          <a href="#Baanperspectief">Baanperspectief</a> -
+         <a href="#Portfolio">Portfolio</a> -
          <a href="#Templates">Templates</a>
       </nav>
    </header>
 
    <main>
       <h1>BEE LKQ - Erkend leerbedrijf</h1>
-      <div class="introduction">
+      <div class="inleiding">
          <p>
             Het team werkt voor een commercieel bedrijf en draagt met haar geautomatiseerde tests bij aan de
             kwaliteit van de software die het bedrijf haar Europese klanten levert.
          </p>
-         <p>Het leerbedrijf richt zich op deelnemers met affiniteit voor de ICT. Testen, automatiseren en leren staan
-            centraal. 
+         <p>
+            Het leerbedrijf richt zich op deelnemers met affiniteit voor de ICT. Testen, automatiseren en leren staan
+            centraal.
          </p>
          <p>
-            <a href="leerbedrijf/openingen.html"><ruby>Kansen<rp>(</rp><rt>Opportunities</rt><rp>)</rp></ruby></a>
+            <a href="a-leerbedrijf/openingen.html"><ruby>Deelnemen<rp>(</rp>
+                  <rt>informatie</rt>
+                  <rp>)</rp>
+               </ruby></a>
          </p>
-         
+
          <span id="Leerbedrijf"></span>
 
       </div>
 
       <hr>
       <h2>Leerbedrijf</h2>
-      <div class="hoofdstuk">
-         <div class="wrapmobile">
+      <div class="hoofdstuk" id="a-Leerbedrijf">
+         <div class="linkbox-container-wrap">
             <div class="linkbox">
-               <p class="quicklinks">
-                  <a href="leerbedrijf/about us.html"><img src="../media/about.png" width="100%"></a>
+               <p class="imagelinks">
+                  <a href="a-leerbedrijf/about us.html"><img alt="about us" src="../media/about.png" width="100%"></a>
                </p>
-               <p class="textlinks">
-                  <a href="leerbedrijf/about us.html">About us</a>
+               <p class="textlinks tooltip">
+                  <a href="a-leerbedrijf/about us.html">About us</a>
                </p>
             </div>
 
             <div class="linkbox">
-               <p class="quicklinks">
-                  <a href="leerbedrijf/onboarding.html"><img src="../media/onboarding.png" width="100%"></a>
+               <p class="imagelinks">
+                  <a href="a-leerbedrijf/onboarding.html"><img alt="" src="../media/onboarding.png" width="100%"></a>
                </p>
                <p class="textlinks">
-                  <a href="leerbedrijf/onboarding.html">Onboarding the team</a>
+                  <a href="a-leerbedrijf/onboarding.html">Onboarding the team</a>
                </p>
             </div>
 
             <div class="linkbox">
-
-               <p class="quicklinks">
-                  <a href="leerbedrijf/geautomatiseerde test.html"><img src="../media/who-are-we.png" width="100%"></a>
+               <p class="imagelinks">
+                  <a href="a-leerbedrijf/geautomatiseerde test.html"><img alt="" src="../media/who-are-we.png"
+                        width="100%"></a>
                </p>
                <p class="textlinks">
-                  <a href="leerbedrijf/geautomatiseerde test.html">Testautomation</a>
+                  <a href="a-leerbedrijf/geautomatiseerde test.html">Testautomation</a>
                </p>
             </div>
+
             <div class="linkbox">
-               <p class="quicklinks">
-                  <a href="leerbedrijf/openingen.html"><img src="../media/openingen.png" width="100%"></a>
+               <p class="imagelinks">
+                  <a href="a-leerbedrijf/openingen.html"><img alt="" src="../media/openingen.png" width="100%"></a>
                </p>
                <p class="textlinks">
-                  👉 <a href="leerbedrijf/openingen.html">Opportunities</a> 👈
+                  👉 <a href="a-leerbedrijf/openingen.html">Opportunities</a> 👈
                </p>
             </div>
 
             <span id="Educatief"></span>
+
             <div class="linkbox">
-               <p class="quicklinks">
-                  <a href="https://it-talenten.com/talent" target="_blank"><img src="../media/talentenportaal.png"
-                        width="100%"></a>
+               <p class="imagelinks tooltip">
+                  <span class="tooltiptext">Externe link</span>
+                  <a href="https://it-talenten.com/talent" target="_blank"><img alt=""
+                        src="../media/talentenportaal.png" width="100%"></a>
                </p>
-               <p class="textlinks">
-                  <a href="https://it-talenten.com/talent" target="_blank">Externe link - IT-Talenten
-                     Portaal</a>
+               <p class="textlinks tooltip">
+                  <span class="tooltiptext">Externe link</span>
+                  <a href="https://it-talenten.com/talent" target="_blank">IT-Talenten Portaal</a>
                </p>
             </div>
          </div>
@@ -432,64 +102,81 @@
 
       <hr>
       <h2>Educatief</h2>
-      <div class="hoofdstuk">
-         <div class="flexwrap">
+      <div class="hoofdstuk" id="b-Educatief">
+         <div class="linkbox-container-nowrap">
             <div class="linkbox">
-               <p class="quicklinks">
-                  <a href="educatief/onboardingdoelen.html"><img src="../media/skills.png" width="100%"></a>
+               <p class="imagelinks">
+                  <a href="b-educatief/onboardingdoelen.html"><img alt="" src="../media/skills.png" width="100%"></a>
                </p>
-               <p class="textlinks"><a href="educatief/onboardingdoelen.html">Onboarding skills en leerdoelen</a></p>
+               <p class="textlinks"><a href="b-educatief/onboardingdoelen.html">Onboarding skills en leerdoelen</a></p>
             </div>
 
             <div class="linkbox">
-               <p class="quicklinks">
-                  <a href="educatief/basic webtesting met playwright.html"><img src="../media/client-server.png"
-                        width="100%"></a>
+               <p class="imagelinks">
+                  <a href="b-educatief/basic webtesting met playwright.html"><img alt=""
+                        src="../media/client-server.png" width="100%"></a>
                </p>
-               <p class="textlinks"><a href="educatief/basic webtesting met playwright.html">Basics webtesten met
+               <p class="textlinks"><a href="b-educatief/basic webtesting met playwright.html">Basics webtesten met
                      playwright</a>
                </p>
             </div>
 
             <div class="linkbox">
-               <p class="quicklinks">
-                  <a href="educatief/probleemoplossend.html">
-                     <img src="../media/probleemoplossend-vermogen.png" width="100%">
+               <p class="imagelinks">
+                  <a href="b-educatief/probleemoplossend.html">
+                     <img alt="" src="../media/probleemoplossend-vermogen.png" width="100%">
                   </a>
                </p>
                <p class="textlinks">
-                  <a href="educatief/probleemoplossend.html">Probleemoplossend vermogen</a>
+                  <a href="b-educatief/probleemoplossend.html">Probleemoplossend vermogen</a>
                </p>
             </div>
 
             <div class="linkbox">
-               <p class="quicklinks">
-                  <a href="https://www.reddit.com/r/BeesHeerlen/" target="_blank"><img src="../media/reddit.png"
+               <p class="imagelinks tooltip">
+                  <span class="tooltiptext">Externe link</span>
+                  <a href="https://www.reddit.com/r/BeesHeerlen/" target="_blank"><img alt="" src="../media/reddit.png"
                         width="100%"></a>
                </p>
-               <p class="textlinks"><a href="https://www.reddit.com/r/BeesHeerlen/" target="_blank">Externe link -
-                     BeesHeerlen op Reddit</a>
+               <p class="textlinks tooltip">
+                  <span class="tooltiptext">Externe link</span>
+                  <a href="https://www.reddit.com/r/BeesHeerlen/" target="_blank">BeesHeerlen op Reddit</a>
                </p>
             </div>
 
-            <span id="Baanperspectief"></span>
             <div class="linkbox">
-               <p class="quicklinks">
-                  <a href="https://www.cbs.nl/nl-nl/dossier/dossier-kunstmatige-intelligentie--ai--"
-                     target="_blank"><img src="../media/cbs.png" width="100%"></a>
+               <p class="imagelinks tooltip">
+                  <span class="tooltiptext">Externe link</span>
+                  <a href="b-educatief/dossier ai.html"><img alt="" src="../media/ai.png" width="100%"></a>
                </p>
-               <p class="textlinks"><a href="https://www.cbs.nl/nl-nl/dossier/dossier-kunstmatige-intelligentie--ai--"
-                     target="_blank">Externe link - CBS Dossier AI</a></p>
+               <p class="textlinks tooltip">
+                  <span class="tooltiptext">Externe link</span>
+                  <a href="b-educatief/dossier ai.html">Dossier AI</a>
+               </p>
             </div>
 
             <div class="linkbox">
-               <p class="quicklinks">
-                  <a href="educatief/instructievideo codegen.html">
-                     <img src="../media/instructievideo.png" width="100%" />
+               <p class="imagelinks tooltip">
+                  <span class="tooltiptext">Instructie video</span>
+                  <a href="b-educatief/instructievideo codegen.html">
+                     <img alt="" src="../media/instructievideo.png" width="100%" />
                   </a>
                </p>
-               <p class="textlinks">
-                  <a href="educatief/instructievideo codegen.html">Instructie video - Werken met codegen</a>
+               <p class="textlinks tooltip">
+                  <span class="tooltiptext">Instructie video</span>
+                  <a href="b-educatief/instructievideo codegen.html">Werken met codegen</a>
+               </p>
+            </div>
+
+            <div class="linkbox">
+               <p class="imagelinks tooltip">
+                  <a href="b-educatief/vaktermen.html">
+                     <img alt="" src="../media/vaktermen.png" width="100%" />
+                  </a>
+               </p>
+               <span id="Baanperspectief"></span>
+               <p class="textlinks tooltip">
+                  <a href="b-educatief/vaktermen.html">Enkele vaktermen</a>
                </p>
             </div>
          </div>
@@ -497,122 +184,145 @@
 
       <hr>
       <h2>Baanperspectief</h2>
-      <div class="hoofdstuk">
-         <div class="wrapmobile">
+      <div class="hoofdstuk" id="c-Baanperspectief">
+         <div class="linkbox-container-wrap">
             <div class="linkbox">
-               <p class="quicklinks">
-                  <a href="baanperspectief/kansen op de arbeidsmarkt.html"><img src="../media/orange_arbeidsmarkt.png"
-                        width="100%"></a>
+               <p class="imagelinks">
+                  <a href="c-baanperspectief/kansen op de arbeidsmarkt.html"><img alt=""
+                        src="../media/orange_arbeidsmarkt.png" width="100%"></a>
                </p>
-               <p class="textlinks"><a href="baanperspectief/kansen op de arbeidsmarkt.html">Kansen op de
+               <p class="textlinks"><a href="c-baanperspectief/kansen op de arbeidsmarkt.html">Kansen op de
                      arbeidsmarkt</a>
                </p>
             </div>
 
             <div class="linkbox">
-               <p class="quicklinks">
-                  <a href="baanperspectief/certificaten.html"><img src="../media/baanperspectief.png" width="100%"></a>
-               </p>
-               <p class="textlinks"><a href="baanperspectief/certificaten.html">Certificaten voor testers</a></p>
-            </div>
-
-            <div class="linkbox">
-               <p class="quicklinks">
-                  <a href="baanperspectief/ict-beroepen-in-beeld.html"><img src="../media/arbeidsmarkt.png"
+               <p class="imagelinks">
+                  <a href="c-baanperspectief/certificaten.html"><img alt="" src="../media/baanperspectief.png"
                         width="100%"></a>
                </p>
-               <p class="textlinks"><a href="baanperspectief/ict-beroepen-in-beeld.html">UWV ICT-beroepen in beeld</a>
+               <p class="textlinks"><a href="c-baanperspectief/certificaten.html">Certificaten voor testers</a></p>
+            </div>
+
+            <div class="linkbox">
+               <p class="imagelinks">
+                  <a href="c-baanperspectief/ict-beroepen-in-beeld.html"><img alt="" src="../media/arbeidsmarkt.png"
+                        width="100%"></a>
+               </p>
+               <p class="textlinks">
+                  <a href="c-baanperspectief/ict-beroepen-in-beeld.html">UWV ICT-beroepen in beeld</a>
                </p>
             </div>
 
             <div class="linkbox">
-               <p class="quicklinks">
-                  <a href="baanperspectief/jobsearch.html"><img src="../media/leerweg.png" width="100%"></a>
+               <p class="imagelinks">
+                  <a href="c-baanperspectief/jobsearch.html"><img alt="" src="../media/leerweg.png" width="100%"></a>
                </p>
-               <p class="textlinks"><a href="baanperspectief/jobsearch.html">Job search</a></p>
+               <p class="textlinks">
+                  <a href="c-baanperspectief/jobsearch.html">Job search</a>
+               </p>
             </div>
 
             <div class="linkbox">
-               <p class="quicklinks">
-                  <a href="baanperspectief/cv.html"><img src="../media/cv.png" width="100%"></a>
+               <p class="imagelinks">
+                  <a href="c-baanperspectief/cv.html"><img alt="" src="../media/cv.png" width="100%"></a>
                </p>
-               <span id="Templates"></span>
-               <p class="textlinks"><a href="baanperspectief/cv.html">Je cv</a></p>
+               <span id="Portfolio"></span>
+               <p class="textlinks">
+                  <a href="c-baanperspectief/cv.html">Je cv</a>
+               </p>
             </div>
 
          </div>
       </div>
 
       <hr>
-      <h2>Templates</h2>
-      <div class="hoofdstuk">
-         <div class="Introductie">
-            Een template is een blauwdruk om een eigen portfolio project te maken.
-         </div>
-         <h3>Portfolio projecten voor op de cv</h3>
-         <div class="flexwrap">
+      <h2>Portfolio</h2>
+      <div class="hoofdstuk" id="d-Portfolio">
+         <div class="linkbox-container-nowrap">
             <div class="linkbox">
-               <p class="quicklinks">
-                  <a href="portfoliotemplates/portfolioprojecten.html"><img src="../media/portfolio.png"
-                        width="100%"></a>
-               </p>
-               <p class="textlinks"><a href="portfoliotemplates/portfolioprojecten.html">Templates, aanpak en
-                     voorbeelden</a></p>
-            </div>
-
-            <div class="linkbox">
-               <p class="quicklinks">
-                  <a href="portfoliotemplates/istqb.html"><img src="../media/blue_example.png" width="100%"></a>
-               </p>
-               <p class="textlinks"><a href="portfoliotemplates/istqb.html">Project ISTQB: content</a></p>
-            </div>
-
-            <div class="linkbox">
-               <p class="quicklinks">
-                  <a href="portfoliotemplates/subreddit.html"><img src="../media/orange_example.png" width="100%"></a>
-               </p>
-               <p class="textlinks"><a href="portfoliotemplates/subreddit.html">Project Reddit</a></p>
-            </div>
-
-            <span id="Gittemplates"></span>
-
-            <div class="linkbox">
-               <p class="quicklinks">
-                  <a href="portfoliotemplates/custom browser.html"><img src="../media/purple_example.png"
-                        width="100%"></a>
-               </p>
-               <p class="textlinks"><a href="portfoliotemplates/custom browser.html">Project Custom browser</a>
-               </p>
-            </div>
-
-            <div class="linkbox">
-               <p class="quicklinks">
-                  <a href="index.html"><img src="../media/brown_example.png" width="100%"></a>
-               </p>
-               <p class="textlinks"><a href="index.html">Project Websitetemplate en website</a></p>
-            </div>
-         </div>
-
-         <hr>
-         <h3>Bee Templates op Github</h3>
-         <div class="wrapmobile">
-            <div class="linkbox">
-               <p class="quicklinks">
-                  <a href="https://github.com/DjoolsNL/PlaywrightEersteMaand.git"><img src="../media/blue_template.png"
+               <p class="imagelinks">
+                  <a href="d-portfolio/portfolioprojecten.html"><img alt="" src="../media/portfolio.png"
                         width="100%"></a>
                </p>
                <p class="textlinks">
+                  <a href="d-portfolio/portfolioprojecten.html">Templates, aanpak en
+                     voorbeelden</a>
+               </p>
+            </div>
+
+            <div class="linkbox">
+               <p class="imagelinks">
+                  <a href="d-portfolio/istqb.html"><img alt="" src="../media/blue_example.png" width="100%"></a>
+               </p>
+               <p class="textlinks">
+                  <a href="d-portfolio/istqb.html">Project ISTQB: content</a>
+               </p>
+            </div>
+
+            <div class="linkbox">
+               <p class="imagelinks">
+                  <a href="d-portfolio/subreddit.html"><img alt="" src="../media/orange_example.png" width="100%"></a>
+               </p>
+               <p class="textlinks">
+                  <a href="d-portfolio/subreddit.html">Project Reddit</a>
+               </p>
+            </div>
+            
+            <div class="linkbox">
+               <p class="imagelinks">
+                  <span class="tooltiptext">Externe link</span>
+                  <a href="d-portfolio/custom browser.html"><img alt="" src="../media/purple_example.png"
+                        width="100%"></a>
+               </p>
+               <p class="textlinks">
+                  <a href="d-portfolio/custom browser.html">Project Custom browser</a>
+               </p>
+            </div>
+
+            <div class="linkbox">
+               <p class="imagelinks">
+                  <a href="index.html"><img alt="" src="../media/brown_example.png" width="100%"></a>
+               </p>               
+               <p class="textlinks">
+                  <a href="index.html">Project Websitetemplate en website</a>
+               </p>
+            </div>
+            <span id="Templates"></span>
+         </div>
+      </div>
+
+      <hr>
+      <h2>Bee Templates op Github</h2>
+
+      <div class="inleiding">
+         Software templates zijn vooraf gedefinieerde structuren die helpen om sneller en
+         consistenter nieuwe projecten te bouwen. In ons geval zijn het folders met bestanden die ervoor zorgen dat
+         het fundament en de infra aanwezig is en aangesloten kan worden voor specifieke projecten.
+      </div>
+      <div class="hoofdstuk" id="e-templates">
+         <div class="linkbox-container-wrap">
+            <div class="linkbox">
+               <p class="imagelinks tooltip">
+                  <span class="tooltiptext">Externe link</span>
+                  <a href="https://github.com/DjoolsNL/PlaywrightEersteMaand.git"><img alt=""
+                        src="../media/blue_template.png" width="100%"></a>
+               </p>
+               <p class="textlinks tooltip">
+                  <span class="tooltiptext">Externe link</span>
                   <a href="https://github.com/DjoolsNL/PlaywrightEersteMaand.git">Playwright onboarding
                      repo</a>
                </p>
             </div>
 
             <div class="linkbox">
-               <p class="quicklinks">
+               <p class="imagelinks tooltip">
+                  <span class="tooltiptext">Externe link</span>
                   <a href="https://github.com/DjoolsNL/ClassicalRadioBrowser.git"><img
                         src="../media/orange_template.png" width="100%"></a>
                </p>
-               <p class="textlinks">
+               <p class="textlinks tooltip">
+                  <span class="tooltiptext">Externe link</span>
                   <a href="https://github.com/DjoolsNL/ClassicalRadioBrowser.git">Custom Browser Template C#</a>
                </p>
             </div>
@@ -620,12 +330,14 @@
             <span id="Templates"></span>
 
             <div class="linkbox">
-               <p class="quicklinks">
+               <p class="imagelinks tooltip">
+                  <span class="tooltiptext">Externe link</span>
                   <a href="https://github.com/DjoolsNL/DesktopAppTemplate.git">
-                     <img src="../media/green_template.png" width="100%" />
+                     <img alt="" src="../media/green_template.png" width="100%" />
                   </a>
                </p>
-               <p class="textlinks">
+               <p class="textlinks tooltip">
+                  <span class="tooltiptext">Externe link</span>
                   <a href="https://github.com/DjoolsNL/DesktopAppTemplate.git">
                      Desktop App Template for C#
                   </a>
@@ -633,43 +345,54 @@
             </div>
 
             <div class="linkbox">
-               <p class="quicklinks">
+               <p class="imagelinks tooltip">
+                  <span class="tooltiptext">Externe link</span>
                   <a href="https://github.com/DjoolsNL/playwrightTemplate.git">
-                     <img src="../media/blue_template.png" width="100%">
+                     <img alt="" src="../media/blue_template.png" width="100%">
                   </a>
                </p>
-               <p class="textlinks">
+               <p class="textlinks tooltip">
+                  <span class="tooltiptext">Externe link</span>
                   <a href="https://github.com/DjoolsNL/playwrightTemplate.git">Playwright Template for
                      Typescript</a>
                </p>
             </div>
 
             <div class="linkbox">
-               <p class="quicklinks">
-                  <a href="https://github.com/DjoolsNL/EersteMaand.git"><img src="../media/orange_template.png"
+               <p class="imagelinks tooltip">
+                  <span class="tooltiptext">Externe link</span>
+                  <a href="https://github.com/DjoolsNL/EersteMaand.git"><img alt="" src="../media/orange_template.png"
                         width="100%"></a>
                </p>
-               <p class="textlinks">
+               <p class="textlinks tooltip">
+                  <span class="tooltiptext">Externe link</span>
                   <a href="https://github.com/DjoolsNL/EersteMaand.git">Cypress Template for
                      Javascript</a>
                </p>
             </div>
 
             <div class="linkbox">
-               <p class="quicklinks">
-                  <a href="https://github.com/DjoolsNL/BeeTeamLkqHeerlen.git"><img src="../media/template.png"
+               <p class="imagelinks tooltip">
+                  <span class="tooltiptext">Externe link</span>
+                  <a href="https://github.com/DjoolsNL/BeeTeamLkqHeerlen.git"><img alt="" src="../media/template.png"
                         width="100%"></a>
                </p>
-               <p class="textlinks">
+               <p class="textlinks tooltip">
+                  <span class="tooltiptext">Externe link</span>
                   <a href="https://github.com/DjoolsNL/BeeTeamLkqHeerlen.git">HTML/CSS-template</a>
                </p>
 
             </div>
          </div>
       </div>
+
+      <div>
+         <object data="footers/indexfooter-object.html" class="footer-object"></object>
+      </div>
+
    </main>
 
-   <footer>
+   <!-- <footer>
       <hr>
       <p>
          <a href="../media/loca.png">Locatie:</a> Betahuis, Wilhelminaplein 25, 6411 KW Heerlen<br>
@@ -677,10 +400,10 @@
          mobiel: 06 23 56 26 30<br>
          email: jules.vannuijs@bee-organisation.com
       </p>
-<hr>   
+      <hr>
       <p>© 2025 Bee met uitzondering van de ISTQB Foundation Level Sillabus en het UWV rapport ICT-beroepen.</p>
-   
-   </footer>
+
+   </footer> -->
 
 </body>
 
