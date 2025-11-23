@@ -74,13 +74,13 @@
       .linkbox-container-nowrap {
          display: flex;
          justify-content: center;
-         flex-wrap: wrap;
+         flex-wrap: nowrap;
       }
 
       .linkbox-container-wrap {
          display: flex;
          justify-content: center;
-         flex-wrap: nowrap;
+         flex-wrap: wrap;
       }
 
       .linkbox {
@@ -89,8 +89,18 @@
 
       .imagelinks {
          margin-bottom: 0px;
-         border: 1px solid gray;
+         border: 1px solid gray; 
          border-radius: 2px;
+      }
+
+      .linkbox-container-nowrap .imagelinks img {
+         max-width: 100%; 
+         height: auto;
+      }
+
+      .linkbox-container-wrap .imagelinks img {
+         max-width: 100%; 
+         height: auto;
       }
 
       .textlinks {
@@ -169,7 +179,7 @@
             padding-right: 4vw;
          }
 
-         .wrapmobile {
+         .linkbox-container-nowrap {
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
@@ -186,7 +196,7 @@
             padding-right: 4vw;
          }
 
-         .wrapmobile {
+         .linkbox-container-nowrap {
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
@@ -206,7 +216,7 @@
             padding-right: 2vw;
          }
 
-         .wrapmobile {
+         .linkbox-container-nowrap {
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
@@ -227,7 +237,7 @@
             padding-right: 2.3vw;
          }
 
-         .wrapmobile {
+         .linkbox-container-nowrap {
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
@@ -248,7 +258,7 @@
             padding-right: 3.5vw;
          }
 
-         .wrapmobile {
+         .linkbox-container-nowrap {
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
@@ -269,7 +279,7 @@
             padding-right: 4.8vw;
          }
 
-         .wrapmobile {
+         .linkbox-container-nowrap {
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
@@ -290,7 +300,7 @@
             padding-right: 6.1vw;
          }
 
-         .wrapmobile {
+         .linkbox-container-nowrap {
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
@@ -312,7 +322,7 @@
             padding-right: 9vw;
          }
 
-         .wrapmobile {
+         .linkbox-container-nowrap {
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
@@ -334,7 +344,7 @@
             padding-right: 14vw;
          }
 
-         .wrapmobile {
+         .linkbox-container-nowrap {
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
@@ -360,7 +370,7 @@
             font-size: 1vw;
          }
 
-         .wrapmobile {
+         .linkbox-container-nowrap {
             display: flex;
             justify-content: center;
             flex-wrap: nowrap;
@@ -387,7 +397,7 @@
             padding-right: 19vw;
          }
 
-         .wrapmobile {
+         .linkbox-container-nowrap {
             display: flex;
             justify-content: center;
             flex-wrap: nowrap;

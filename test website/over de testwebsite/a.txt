@@ -1,7 +1,8 @@
 
 +++   De site: 
       1. een digitaal visitekaartje naar alle kanten toe met relevante en representatieve content over Bee LKQ,
-      2. een template project voor deelnemers die naar eigen inzicht gebruikt mag worden.
+      2. een template project voor deelnemers dat naar eigen inzicht gebruikt mag worden om een website te bouwen,
+      3. een test website om geautomatiseerd testen te oefenen.
 
       Gebouwd met alleen css en html. Voor web-testers zeer relevante talen en zeker ook voor web-frontend mensen.
       Wie deze template wil gebruiken leert eerst het handwerk. Html en css zijn prima instappers. 
