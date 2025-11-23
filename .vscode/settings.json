@@ -1,0 +1,9 @@
+{
+   "files.exclude": {
+      "**/.gitignore": true,
+      "**/desktop.ini": true,
+      "**/package.json": true,
+      "**/playwright.config.ts": true,
+      "**/tsconfig.json": true
+   }
+}

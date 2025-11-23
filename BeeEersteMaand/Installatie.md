@@ -27,3 +27,6 @@ manager (npm, vandaar dat de commando's die je in de terminal gebruikt allemaal 
    -  `npm init playwright@latest`
 
 7. Je bent er nu bijna. Alleen dien je nog naar het linkermenu van vscode te gaan en hier de Playwright Test extensie te installeren. Die geeft je wat extra mogelijkheden.
+
+
+

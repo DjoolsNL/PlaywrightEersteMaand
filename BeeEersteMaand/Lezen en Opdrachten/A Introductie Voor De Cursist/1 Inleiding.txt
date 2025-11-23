@@ -13,8 +13,7 @@ Voordat je gaat praktijkleren krijg je eerst een introductieprogramma dat ongeve
 vier weken duurt. In die 4 weken leer je de basis die nodig is om aan te haken bij
 ons team van testers.   
 
-Omdat testen leuk is, beginnen we daarmee op dag 1 of uiterlijk op dag 2. Je gaat 
-o.a. de websites Buienrader.nl, Heerlen.nl en WSP.nl scripten en testen. 
+Omdat testen leuk is, beginnen we daarmee op dag 1 of uiterlijk op dag 2. 
  
 Ter afsluiting van je eerste vier weken presenteer je in het bijzijn van
 het team wat je allemaal hebt geleerd. Je doet dat aan de hand van een 
