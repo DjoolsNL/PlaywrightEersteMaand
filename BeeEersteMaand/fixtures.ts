@@ -1,5 +1,3 @@
-
-// fixtures.ts
 import { test as base, expect, type Locator, type Page } from '@playwright/test';
 
 class Menu {
@@ -17,12 +15,6 @@ class Menu {
       this.baanperspectief = page.getByRole('link', { name: 'Baanperspectief' });
       this.portfolio = page.getByRole('link', { name: 'Portfolio' });
       this.templates = page.getByRole('link', { name: 'Templates', exact: true });
-  }
-
-
-
-  toastMessage() {
-    return this.page.getByRole('status');
   }
 }
 
