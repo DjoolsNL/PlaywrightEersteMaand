@@ -3,13 +3,13 @@ import { expect, request } from '@playwright/test';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import fileNames from '../htmlfile_names.json';
-import { Topmenu } from '../pages/topmenu';
+
 test.use( { viewport: { width: 1920, height: 1080 } } );
 
 // schrijf je eigen toelichtingen bij de coderegels
 
 test( 'Go to any page', async ( { page, menu } ) => {
-   const topmenu = new Topmenu( page )
+   
    await goTo( fileNames.istqb );
    // await goTo( fileNames.index );
    // await goTo( fileNames.subreddit );

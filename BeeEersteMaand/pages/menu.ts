@@ -1,6 +1,6 @@
 import { test, expect, request, Page, Locator } from '@playwright/test';
 
-export class Topmenu {
+export class Menu {
    page: Page;
    home: Locator;
    leerbedrijf: Locator;
