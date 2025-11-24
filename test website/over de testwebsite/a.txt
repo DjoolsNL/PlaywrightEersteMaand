@@ -59,16 +59,12 @@
       <div class="hoofdstuk" id="PLACEHOLDER"> optionele elementen:
       
          <div class="inleiding">
-            optionele elementen: <div> <p> <ol> <ul> <img> <object> <iframe>    
+            optionele elementen: <div> <p> <ol> <ul> <img> <object>     
          </div>
          <p>
-            optionele elementen: <div> <p> <ol> <ul> <img> <object> <iframe>
-         </p>
-         <ul><li>PLACEHOLDER CONTENT</li></ul>
-         <ol><li>PLACEHOLDER CONTENT</li></ol>
-         <div>PLACEHOLDER CONTENT</div>
-
-         <!-- voor links met foto's -->
+         <ul>
+         <ol>
+         <div>
          <div class="linkbox-container-wrap">
             <div class="linkbox">
                <p class="imagelinks">
@@ -89,11 +85,9 @@
                </p>
             </div>
          </div> 
-         
-         <object></object>
+         <object />
          <iframe />
          <img alt="" />
-      </div>         
 
 +++   Voor wie een eigen site wil bouwen:
       gebruik de template zoals je wil, inclusief alle content.
