@@ -1,4 +1,5 @@
-import { test, expect, request } from '@playwright/test';
+import { test } from '../../fixtures';
+import { expect, request } from '@playwright/test';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import fileNames from '../../htmlfile_names.json';
