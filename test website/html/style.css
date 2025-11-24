@@ -89,17 +89,17 @@
 
       .imagelinks {
          margin-bottom: 0px;
-         border: 1px solid gray; 
+         border: 1px solid gray;
          border-radius: 2px;
       }
 
       .linkbox-container-nowrap .imagelinks img {
-         max-width: 100%; 
+         max-width: 100%;
          height: auto;
       }
 
       .linkbox-container-wrap .imagelinks img {
-         max-width: 100%; 
+         max-width: 100%;
          height: auto;
       }
 
@@ -144,12 +144,23 @@
          visibility: visible;
       }
 
-      .centreren {
-         display: flex;
-         justify-content: center;
-         background-color: lightsteelblue;
-         border-top: 2vw solid lightsteelblue;
-         border-bottom: 2vw solid lightsteelblue;
+      .container-embedded-content {
+         position: relative;
+          /* creates a 16:9 aspect ratio (9 / 16 = 0.5625) */
+         padding-bottom: 56.25%;
+         height: 0;
+         overflow: hidden;
+         max-width: 100%;
+         margin: 0 auto;
+      }
+
+      .embedded-content {
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+         border: none;
       }
 
       .dark {
@@ -157,28 +168,17 @@
          padding: 5px 20px 5px;
       }
 
-      .embedded-content {
-         border: none;
-         padding: 0.5em;
-         width: 50vw;
-         height: 33vw
-      }
-
-
       @media screen and (min-width: 300px) {
          body {
             font-size: 4vw;
          }
-
          header {
             font-size: 3vw;
          }
-
          main {
             padding-left: 4vw;
             padding-right: 4vw;
          }
-
          .linkbox-container-nowrap {
             display: flex;
             justify-content: center;
@@ -190,12 +190,10 @@
          body {
             font-size: 3vw;
          }
-
          main {
             padding-left: 4vw;
             padding-right: 4vw;
          }
-
          .linkbox-container-nowrap {
             display: flex;
             justify-content: center;
@@ -209,13 +207,11 @@
          header {
             font-size: 2.7vw;
          }
-
          main,
          .footer {
             padding-left: 2vw;
             padding-right: 2vw;
          }
-
          .linkbox-container-nowrap {
             display: flex;
             justify-content: center;
@@ -229,14 +225,12 @@
          header {
             font-size: 2.3vw;
          }
-
          main,
          footer,
          .footer {
             padding-left: 2.3vw;
             padding-right: 2.3vw;
          }
-
          .linkbox-container-nowrap {
             display: flex;
             justify-content: center;
@@ -250,14 +244,12 @@
          header {
             font-size: 2.0vw;
          }
-
          main,
          footer,
          .footer {
             padding-left: 3.5vw;
             padding-right: 3.5vw;
          }
-
          .linkbox-container-nowrap {
             display: flex;
             justify-content: center;
@@ -266,12 +258,10 @@
       }
 
       @media screen and (min-width: 800px) {
-
          body,
          header {
             font-size: 1.8vw;
          }
-
          main,
          footer,
          .footer {
@@ -292,14 +282,12 @@
          header {
             font-size: 1.6vw;
          }
-
          main,
          footer,
          .footer {
             padding-left: 6.1vw;
             padding-right: 6.1vw;
          }
-
          .linkbox-container-nowrap {
             display: flex;
             justify-content: center;
@@ -308,12 +296,10 @@
       }
 
       @media screen and (min-width: 1000px) {
-
          body,
          header {
             font-size: 1.4vw;
          }
-
          main,
          footer,
          .footer {
@@ -321,7 +307,6 @@
             padding-left: 9vw;
             padding-right: 9vw;
          }
-
          .linkbox-container-nowrap {
             display: flex;
             justify-content: center;
@@ -330,12 +315,10 @@
       }
 
       @media screen and (min-width: 1100px) {
-
          body,
          header {
             font-size: 1.2vw;
          }
-
          main,
          footer,
          .footer {
@@ -352,12 +335,10 @@
       }
 
       @media screen and (min-width: 1200px) {
-
          body,
          header {
             font-size: 1.0vw;
          }
-
          main,
          footer,
          .footer {
@@ -365,11 +346,9 @@
             padding-left: 19vw;
             padding-right: 19vw;
          }
-
          footer {
             font-size: 1vw;
          }
-
          .linkbox-container-nowrap {
             display: flex;
             justify-content: center;
@@ -378,31 +357,26 @@
       }
 
       @media screen and (min-width: 1700px) {
-
          body,
          header {
             font-size: 0.9vw;
          }
-
          main,
          .footer {
             font-size: 1.0vw;
             padding-left: 19vw;
             padding-right: 19vw;
          }
-
          footer {
             font-size: 0.9vw;
             padding-left: 19vw;
             padding-right: 19vw;
          }
-
          .linkbox-container-nowrap {
             display: flex;
             justify-content: center;
             flex-wrap: nowrap;
          }
-
          .quicklink-container {
             display: flex;
             justify-content: center;
