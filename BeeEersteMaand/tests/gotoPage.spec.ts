@@ -4,12 +4,10 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import fileNames from '../htmlfile_names.json';
 
-test.use( { viewport: { width: 1920, height: 1080 } } );
-
 // schrijf je eigen toelichtingen bij de coderegels
 
+test.use( { viewport: { width: 1920, height: 1080 } } );
 test( 'Go to any page', async ( { page, menu } ) => {
-   
    await goTo( fileNames.istqb );
    // await goTo( fileNames.index );
    // await goTo( fileNames.subreddit );
