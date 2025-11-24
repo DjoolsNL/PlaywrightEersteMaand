@@ -56,7 +56,7 @@
          </html>
 
 +++   Verdere bouwstenen:
-      <div class="hoofdstuk" id="PLACEHOLDER"> optionele elementen:
+      optionele elementen voor: <div class="hoofdstuk" id="PLACEHOLDER">
       
          <div class="inleiding">
             optionele elementen: <div> <p> <ol> <ul> <img> <object>     
@@ -91,7 +91,3 @@
 
 +++   Voor wie een eigen site wil bouwen:
       gebruik de template zoals je wil, inclusief alle content.
-
-+++   Check je html op https://validator.w3.org/nu/
-
-+++   Check je css op https://jigsaw.w3.org/css-validator/

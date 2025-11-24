@@ -8,10 +8,7 @@ vervullen een ondersteunende rol.
 Hier een overzicht van leermiddelen die je ook na de eerste 4 weken kunt 
 gebruiken:
 
-Algemeen:
-1. Programming constructs: https://www.bbc.co.uk/bitesize/guides/z433rwx/revision/1
-Sequence, Selection and Iteration. Leer ze van buiten want in elke code zul je ze tegenkomen.
-
+Algemeen om dingen na te zoeken.
 2. https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web
 De beste gratis cursus voor wie het web wil leren kennen. Van de makers van FireFox. 
 De site bevat daarnaast de beste documentatie van alles wat met web verband houdt. 

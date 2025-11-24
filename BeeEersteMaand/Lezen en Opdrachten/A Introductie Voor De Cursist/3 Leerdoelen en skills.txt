@@ -2,6 +2,5 @@ LEERDOELEN en SKILLS
 
 ------------------------------------------------------------------------
 
-Zie de map test website
-
-file:///C:/Users/dell/source/repos/PlaywrightEersteMaand/test%20website/html/index.html
+Zie de links Educatief op de indexpagina van de testwebsite. Daar zit een link 'Onboarding skills en leerdoelen'.
+Die leidt naar een opsomming van de leerdoelen. 
