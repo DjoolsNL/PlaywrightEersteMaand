@@ -18,6 +18,4 @@ export class Menu {
       this.portfolio = page.getByRole('link', { name: 'Portfolio' });
       this.templates = page.getByRole('link', { name: 'Templates', exact: true });
    }
-
-
 }

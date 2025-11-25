@@ -74,7 +74,7 @@ test( 'Validate all links - run with trace viewer to see results of checks', asy
 } );
 
 test( 'Validate links on certain pages - run with trace viewer to see results of checks', async ( { page } ) => {
-   await checkLinks( fileNames.index );
+   await checkLinks( fileNames.kansen_op_de_arbeidsmarkt );
    //await checkLinks( pages.kansen_op_de_arbeidsmarkt );
    // await checkLinks( pages.probleemoplossend );
    // await checkLinks( pages.dossier_ai );
