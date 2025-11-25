@@ -23,6 +23,7 @@ manager (npm, vandaar dat de commando's die je in de terminal gebruikt allemaal 
    -  Add a GitHub Actions workflow (recommended for CI) 
    -  Install Playwright browsers (default: yes)
    -  Playwright.config.js overschreven moet worden. kies hier false
+   
    -  Onderstaand het commando voor de terminal:
    -  `npm init playwright@latest`
 
