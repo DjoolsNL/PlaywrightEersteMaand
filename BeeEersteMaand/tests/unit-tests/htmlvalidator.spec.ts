@@ -9,7 +9,7 @@ test( 'Validate html', async ( { page } ) => {
    await goTo(fileNames.index);
 
    async function goTo ( fileName: string ) {
-      let filePath = path.resolve( `test website/html/${fileName}.html` );
+      let filePath = path.resolve( `test website/html-css/${fileName}.html` );
       const fileUrl = `file://${filePath}`;
 
       await page.goto( fileUrl );

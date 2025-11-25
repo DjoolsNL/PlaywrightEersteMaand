@@ -1,48 +1,47 @@
-import { test } from '../fixtures';
-import { expect, request } from '@playwright/test';
+import { test, expect, request } from '@playwright/test';
+import {Nav} from '../pages/nav';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import fileNames from '../htmlfile_names.json';
-
+let nav: Nav;
 // schrijf je eigen toelichtingen bij de coderegels
 
-test.use( { viewport: { width: 1600, height: 900 } } );
-test( 'Go to any page', async ( { page, menu } ) => {
+test.use( { viewport: { width: 1833, height: 980 } } );
+test( 'Go to any page', async ( { page } ) => {
+   nav = new Nav(page);
    await goTo( fileNames.istqb );
-   // await goTo( fileNames.index );
-   // await goTo( fileNames.subreddit );
+   // of await goTo( fileNames.index );
+   // of await goTo( fileNames.subreddit );
 
    async function goTo ( fileName: string ) {
-      let filePath = path.resolve( `test website/html/${fileName}.html` );
+      let filePath = path.resolve( `test website/html-css/${fileName}.html` );
       const fileUrl = `file://${filePath}`;
 
       await page.goto( fileUrl );
    }
 
       // // en dezelfde reeks clicks zonder de class
-   // await page.getByRole( 'link', { name: 'Educatief' } ).click( { delay: 1000 } );
-   // await page.getByRole( 'link', { name: 'Templates', exact: true } ).click( { delay: 1000 } );
-   // await page.getByRole( 'link', { name: 'Leerbedrijf' } ).click( { delay: 1000 } );
-   // await page.getByRole( 'link', { name: 'Portfolio' } ).click( { delay: 1000 } );
-   // await page.getByRole( 'link', { name: 'Baanperspectief' } ).click( { delay: 1000 } );
-   // await page.getByRole( 'link', { name: 'Home' } ).click( { delay: 1000 } );
+   await page.getByRole( 'link', { name: 'Educatief' } ).click( { delay: 1000 } );
+   await page.getByRole( 'link', { name: 'Templates', exact: true } ).click( { delay: 1000 } );
+   await page.getByRole( 'link', { name: 'Leerbedrijf' } ).click( { delay: 1000 } );
+   await page.getByRole( 'link', { name: 'Portfolio' } ).click( { delay: 1000 } );
+   await page.getByRole( 'link', { name: 'Baanperspectief' } ).click( { delay: 1000 } );
+   await page.getByRole( 'link', { name: 'Home' } ).click( { delay: 1000 } );
 
-   // // class Menu in actie
-   // await menu.educatief.click();
-   // await menu.templates.click();
-   // await menu.leerbedrijf.click();
-   // await menu.portfolio.click();
-   // await menu.baanperspectief.click();
-   await menu.home.click();
-   // await menu.templates.click();
+   // class Menu in actie
+   await nav.educatief.click();
+   await nav.templates.click();
+   await nav.leerbedrijf.click();
+   await nav.portfolio.click();
+   await nav.baanperspectief.click();
+   await nav.home.click();
+   // await nav.templates.click();
 
    await page.getByRole('link', { name: 'Project Reddit' }).click( { delay: 1000 });
    await page.getByRole('link', { name: 'Home' }).click( { delay: 1000 });
    await page.getByRole('link', { name: 'Testautomation' }).click( { delay: 1000 });
-   await page.getByRole('link', { name: 'Locatie:' }).click( { delay: 1000 });
-   await page.goto('file:///C:/Users/dell/source/repos/PlaywrightEersteMaand/test%20website/html/a-leerbedrijf/geautomatiseerde-test.html');
 
-   await expect(page.getByRole('heading')).toContainText('Een van onze geautomatiseerde tests');
+
 
 
 

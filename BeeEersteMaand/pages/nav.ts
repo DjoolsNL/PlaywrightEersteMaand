@@ -1,6 +1,6 @@
-import { test, expect, request, Page, Locator } from '@playwright/test';
+import { test, Page, Locator } from '@playwright/test';
 
-export class Menu {
+export class Nav {
    page: Page;
    home: Locator;
    leerbedrijf: Locator;

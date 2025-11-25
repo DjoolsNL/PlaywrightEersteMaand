@@ -1,33 +1,53 @@
 Installatie
 
 ---
-1. Als je node.js nog niet hebt op je pc: download node.js: https://nodejs.org/en/download
-Je kiest hier de windows installer 64 bit. Na het downloaden installeer je de software. 
-Gewoon overal op next klikken tot je door de menu's heen bent. 
+Je hebt de volgende gratis software nodig:
+a. git
+b. node.js
+c. playwright 
 
-2. Node.js zorgt voor de runtime environment waarbinnen playwright in vscode kan draaien. 
-Na de installatie van node.js open je een terminal in vscode (ctrl-j). De terminal is een 
-commandline tool waarmee je met node.js kunt werken. Dat werken met gaat via de node package
-manager (npm, vandaar dat de commando's die je in de terminal gebruikt allemaal met npm beginnen).
+Open een terminal (met ctrl-j). Wacht tot het pad naar je repo in de terminal verschijnt. 
+ kun je checken of de bovenstaande software al aanwezig is voor het project:
 
-3. De terminal is klaar voor een commando op het moment dat je in de terminal het pad naar je repo ziet verschijnen.
+a. plak dit commando achter het pad om te checken of git aanwezig is: 
 
-4. Plak het volgende commando in de terminal en druk Enter op je toetsenbord: `npm install --no-save`.
-
-5. Plak het volgende commando in de terminal en druk Enter op je toetsenbord: `npm update --no-save`.
-
-6. Nu gaan we playwright installeren. Tijdens het installatieproces krijg je een paar vragen:
-
-   -  TypeScript or JavaScript (default: TypeScript)
-   -  Tests folder name (default: tests, or e2e if tests already exists)
-   -  Add a GitHub Actions workflow (recommended for CI) 
-   -  Install Playwright browsers (default: yes)
-   -  Playwright.config.js overschreven moet worden. kies hier false
+   git --version
    
-   -  Onderstaand het commando voor de terminal:
-   -  `npm init playwright@latest`
+   Als git niet aanwezig is zal de terminal dat laten zien. In dat geval moet je git googlen en 
+   de windows versie downloaden. Bij het installeren klik je telkens de 'next' button. Zodra 
+   die is geinstalleerd voer je het commando opnieuw uit om te kijken of git gevonden wordt. 
 
-7. Je bent er nu bijna. Alleen dien je nog naar het linkermenu van vscode te gaan en hier de Playwright Test extensie te installeren. Die geeft je wat extra mogelijkheden.
+   Als git aanwezig is kun je door naar b.
+
+b. plak dit commando achter het pad om te checken of node.js aanwezig is:
+
+   node --version
+
+   Als node niet aanwezig is zal de terminal dat laten zien. In dat geval moet je node googlen en 
+   de windows versie downloaden. Bij het installeren klik je telkens de 'next' button. 
+   Zodra die is geinstalleerd voer je het commando opnieuw uit om te kijken of node gevonden wordt. 
+
+   Als node aanwezig is kun je door naar c.
+
+c. check of playwright aanwezig is:
+
+   npx playwright --version
+
+   Als playwright niet aanwezig is zal de terminal dat laten zien. In dat geval moet je playwright 
+   installeren via de terminal. Tijdens de installatie kun je in de terminal enkele opties kiezen:  
+   -  TypeScript or JavaScript (default: TypeScript) - kies Typescript
+   -  Tests folder name (default: tests) - kies tests
+   -  Add a GitHub Actions workflow (recommended for CI) - type in: false 
+   -  Install Playwright browsers (default: yes) - kies yes
+   -  Laatste optie is of de Playwright.config.js die al aanwezig is overschreven moet worden. kies hier false
+    
+   Nu je weet welke keuzes je moet maken kun je de installatie beginnen:
+   
+   npm install --save-dev playwright
+
+d. Je bent er nu bijna. Alleen dien je nog naar de activity bar (het linkermenu van vscode) 
+   te gaan en hier de Playwright Test extensie te installeren. Die geeft je wat extra mogelijkheden.   
+ 
 
 
 

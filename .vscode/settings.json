@@ -4,6 +4,6 @@
       "**/desktop.ini": true,
       "**/xpackage.json": true,
       "**/xplaywright.config.ts": true,
-      "**/tsconfig.json": true
+      "**/xtsconfig.json": true
    }
 }
