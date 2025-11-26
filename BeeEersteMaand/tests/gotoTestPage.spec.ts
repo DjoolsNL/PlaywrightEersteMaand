@@ -1,9 +1,6 @@
 import { test, expect, request } from '@playwright/test';
-import { Nav } from '../pages/nav';
 import path from 'path';
-import { fileURLToPath } from 'url';
-import fileNames from '../htmlfile_names.json';
-let nav: Nav;
+
 // schrijf je eigen toelichtingen bij de coderegels
 
 //#region namen naar de verschillende webpagina's
@@ -37,7 +34,7 @@ test( 'Go to any page', async ( { page } ) => {
    const fileUrl = `file://${filePath}`;
 
    await page.goto( fileUrl );
-   // // en dezelfde reeks clicks zonder de class
+
    await page.getByRole( 'link', { name: 'Educatief' } ).click( { delay: 1000 } );
    await page.getByRole( 'link', { name: 'Templates', exact: true } ).click(  );
    await page.getByRole( 'link', { name: 'Leerbedrijf' } ).click( { delay: 1000 } );
