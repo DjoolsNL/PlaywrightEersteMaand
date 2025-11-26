@@ -1,13 +1,14 @@
-Installatie
+Installatie instructies
 
 ---
-Je hebt de volgende gratis software nodig:
-a. git
-b. node.js
-c. playwright 
+Je hebt de volgende - gratis - software nodig:
+a. git,
+b. node.js,
+c. playwright.
 
-Open een terminal (met ctrl-j). Wacht tot het pad naar je repo in de terminal verschijnt. 
- kun je checken of de bovenstaande software al aanwezig is voor het project:
+Hieronder volgen instructies om die software voor deze repo te installeren. 
+
+Open in vscode een terminal (met ctrl-j). Wacht tot het pad naar je repo in de terminal verschijnt. 
 
 a. plak dit commando achter het pad om te checken of git aanwezig is: 
 
