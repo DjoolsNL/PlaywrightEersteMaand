@@ -9,10 +9,24 @@
       3. een testwebsite om het automatiseren van software tests te leren.
 
       Ad 1. Wil je gelikt? Wil je horen wat de buzz is terwijl je ook behoefte hebt aan verdieping?
-            Wil je modern, zakelijk, efficient? Humaan en sociaal? Wil je een zakelijke partner hebben die je
-            client verder kan helpen? Wil je zelf verder leren in de ict? Tester? Of je eigen pad 
-            binnen de ict ontdekken? Stuiter door de website. De site is gebouwd als de menu kaart
-            van een fastfood restaurant: Friture, Hamburgers, Pizza, Drank en   
+            
+            Wil je modern, zakelijk, efficient? Humaan en sociaal? 
+            
+            Wil je een ketenpartner die je client verder kan helpen? 
+            
+            Wil je zelf verder leren in de ict? Tester? Of je eigen pad binnen de ict ontdekken? 
+            
+            Stuiter dan vooral een paar keer door de website op en neer. 
+            
+      Ad 2. De site is gebouwd als de menukaart van een fastfood restaurant: Gefrituurd, Hamburgers, 
+            Pizza, Drank en Toetjes (in ons geval: Leerbedrijf, Educatief, Baanperspectief, Portfolio en 
+            Templates). Aan die kapstok is alles opgehangen. Deze indeling zorgt voor structuur. 
+            
+            Het enige advies als je iets gaat bouwen dat ertoe doet: streef naar een eenvoud. 
+            https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fyg86vgkjvyrf1.png
+
+      Ad 3. De site is vooral voor de beginner. Ben je meer gevorderd dan zijn er ook testwebsites die
+            het je moeilijker maken.    
 
 
 

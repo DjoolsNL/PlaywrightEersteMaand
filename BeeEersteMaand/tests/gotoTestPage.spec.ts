@@ -26,6 +26,10 @@ import path from 'path';
    //  "subreddit": "d-portfolio/subreddit"
 //#endregion
 
+// hier stel je de grootte van het browserscherm (viewport)
+
+
+test.describe('Dynamic tests', () => {
 test.use( { viewport: { width: 1833, height: 980 } } );
 test( 'Go to any page', async ( { page } ) => {
 
@@ -33,6 +37,7 @@ test( 'Go to any page', async ( { page } ) => {
    let filePath = path.resolve( `test website/html-css/${naam}.html` );
    const fileUrl = `file://${filePath}`;
 
+   // navigeert naar de url
    await page.goto( fileUrl );
 
    await page.getByRole( 'link', { name: 'Educatief' } ).click( { delay: 1000 } );
@@ -41,10 +46,16 @@ test( 'Go to any page', async ( { page } ) => {
    await page.getByRole( 'link', { name: 'Portfolio' } ).click( );
    await page.getByRole( 'link', { name: 'Baanperspectief' } ).click( { delay: 1000 } );
    await page.getByRole( 'link', { name: 'Home' } ).click( { delay: 1000 } );
+   await page.getByRole( 'link', { name: 'Educatief' } ).click( { delay: 1000 } );
+   await page.getByRole( 'link', { name: 'Templates', exact: true } ).click(  );
+   await page.getByRole( 'link', { name: 'Leerbedrijf' } ).click( { delay: 1000 } );
+   await page.getByRole( 'link', { name: 'Portfolio' } ).click( );
+   await page.getByRole( 'link', { name: 'Baanperspectief' } ).click( { delay: 1000 } );
+   await page.getByRole( 'link', { name: 'Home' } ).click( { delay: 1000 } );
+
 
    await page.goto( 'https://nos.nl' );
 
-   
-
-
 } )
+
+})
