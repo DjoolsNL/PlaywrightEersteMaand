@@ -27,14 +27,11 @@ import path from 'path';
 //#endregion
 
 // hier stel je de grootte van het browserscherm (viewport)
-
-
-test.describe('Dynamic tests', () => {
 test.use( { viewport: { width: 1833, height: 980 } } );
 test( 'Go to any page', async ( { page } ) => {
 
    let naam = 'c-baanperspectief/certificaten';
-   let filePath = path.resolve( `test website/html-css/${naam}.html` );
+   let filePath = path.resolve( `testwebsite/html-css/${naam}.html` );
    const fileUrl = `file://${filePath}`;
 
    // navigeert naar de url
@@ -54,8 +51,4 @@ test( 'Go to any page', async ( { page } ) => {
    await page.getByRole( 'link', { name: 'Home' } ).click( { delay: 1000 } );
 
 
-   await page.goto( 'https://nos.nl' );
-
 } )
-
-})

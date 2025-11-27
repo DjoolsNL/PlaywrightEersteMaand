@@ -14,7 +14,7 @@ test( 'Validate all links - run with trace viewer to see results of checks', asy
       return href.startsWith( '/' ) || href.startsWith( 'http://' ) || href.startsWith( 'https://' );
    }
    async function checkLinks ( fileName: string ) {
-      let filePath = path.resolve( `test website/html-css/${fileName}.html` );
+      let filePath = path.resolve( `testwebsite/html-css/${fileName}.html` );
       const fileUrl = `file://${filePath}`;
 
       // Navigate to the local file
@@ -85,7 +85,7 @@ test( 'Validate links on certain pages - run with trace viewer to see results of
       return href.startsWith( '/' ) || href.startsWith( 'http://' ) || href.startsWith( 'https://' );
    }
    async function checkLinks ( fileName: string ) {
-      let filePath = path.resolve( `test website/html-css/${fileName}.html` );
+      let filePath = path.resolve( `testwebsite/html-css/${fileName}.html` );
       const fileUrl = `file://${filePath}`;
 
       // Navigate to the local file

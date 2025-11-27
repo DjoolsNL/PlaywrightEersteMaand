@@ -30,7 +30,7 @@ test.use( { viewport: { width: 1833, height: 980 } } );
 test( 'Go to any page', async ( { page } ) => {
 
    let naam = 'c-baanperspectief/certificaten';
-   let filePath = path.resolve( `test website/html-css/${naam}.html` );
+   let filePath = path.resolve( `testwebsite/html-css/${naam}.html` );
    const fileUrl = `file://${filePath}`;
 
    await page.goto( fileUrl );
