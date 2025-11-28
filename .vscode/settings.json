@@ -5,6 +5,6 @@
       "**/xpackage.json": true,
       "**/xplaywright.config.ts": true,
       "**/xtsconfig.json": true,
-      "**/tests/unit-tests": true
+      
    }
 }
