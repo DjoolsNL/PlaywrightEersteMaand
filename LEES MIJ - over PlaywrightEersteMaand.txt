@@ -12,3 +12,8 @@ https://playwright.dev/. Vscode is zeer veelzijdig en je kunt dat allemaal in de
 Hier zit een gedachte achter: hoe meer je binnen PlaywrightEersteMaand werkt, hoe beter je ook 
 vscode leert kennen en dat is een basisvaardigheid die je snel onder de knie moet krijgen want
 vscode is een van de essentials.
+
+Template
+Het ligt helemaal aan je zelf of je van deze repository iets maakt dat van waarde is voor je cv.
+Je kunt met de werkende testcode en de werkende website als voorbeeld een mooi 
+portfolio project voor je cv bouwen. 
