@@ -2,7 +2,7 @@
 
 ----------------------------------------------------------------------------------
 
-Dit is je eigen repository. Gebruik die ook zo. In elke file kun je aantekeningen erbij typen. 
+Dit is nu je eigen repository. Gebruik die ook zo. In elke file kun je aantekeningen erbij typen. 
 Je mag de testwebsite veranderen, je mag, nee moet tests gaan scripten en files gaan toevoegen 
 aan de map tests. Als je nog verder wil gaan om dingen te veranderen? Prima.
 
