@@ -31,6 +31,7 @@ test.use( { viewport: { width: 1833, height: 980 } } );
 test( 'Go to any page', async ( { page } ) => {
 
    let naam = 'c-baanperspectief/certificaten';
+   // path.resolve zorgt ervoor dat de file op jouw lokale machine gevonden kan worden 
    let filePath = path.resolve( `testwebsite/html-css/${naam}.html` );
    const fileUrl = `file://${filePath}`;
 
