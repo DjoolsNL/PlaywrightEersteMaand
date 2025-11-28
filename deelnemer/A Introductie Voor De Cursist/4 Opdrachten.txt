@@ -12,9 +12,3 @@ kun je ook nog werken aan het project Bijzondere Bijstand*
 
 Verwerk de kennis die je in de afgelopen weken hebt opgedaan in je 
 eindpresentatie. Laat zien wat je hebt geleerd. 
-
-
-* Een verzameling end-to-end tests die de zoekfuncties van de gemeente waar je woont
-test vanuit het perspectief van burgers die op zoek zijn naar informatie over 
-Bijzondere Bijstand, inkomensondersteuning en re-integratie. Elke deelnemer aan
-de software straat voegt een nieuwe test toe aan de verzameling. 

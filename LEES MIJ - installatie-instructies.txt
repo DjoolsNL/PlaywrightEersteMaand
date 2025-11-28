@@ -1,14 +1,20 @@
+INSTALLATIE
+
+----------------------------------------------------------------------------------
+
 Belangrijk! Voordat je gaat installeren:
 
-Je hebt de zip file uitgepakt en geopend in vscode. Open nu een terminal in vscode (met ctrl-j). 
+Je hebt de zip file uitgepakt en geopend in vscode. Open nu een terminal in vscode (met ctrl-j)
+want die hebben nodig voor de installatie.
+
 Wacht tot het pad naar je repo in de terminal verschijnt.
 
 !!! Als dat pad eindigt op '\PlaywrightEersteMaand>' moet je dit commando in de terminal plakken:
 
 cd playwright
 
-Playwright dient namelijk te worden geinstalleerd in de map 'playwright'. Check of het pad in de
-terminal nu eindigt op '\playwright>'!!!! 
+Dit commando geeft de computer de opdracht om naar de map playwright te gaan. Want daar moet 
+de software worden geinstalleerd. Check of het pad in de terminal nu eindigt op '\playwright>'!!!! 
 
 -----------------------------------------------------------------------------
    Installatie instructies
@@ -60,5 +66,3 @@ d. Je bent er nu bijna. Alleen dien je nog naar de activity bar (het linkermenu 
    te gaan en hier de Playwright Test extensie te installeren. Die geeft je wat extra mogelijkheden.   
  
 Als de software geinstaleerd is, open je voortaan de repo weer in de map PlaywrightEersteMaand. 
-
-
