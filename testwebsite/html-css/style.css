@@ -51,7 +51,7 @@
          color: #bebebe;
       }
 
-      li {
+      ul li {
          list-style-type: disc;
          padding: 5px 20px 5px;
       }

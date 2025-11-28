@@ -14,5 +14,5 @@ OCHTEND
 
 MIDDAG
 - een-op-een gesprek met de kandidaat
-- afspraken over aanwezigheid, eventuele bijzondere e.d.
+- afspraken over aanwezigheid, eventuele bijzonderheden
 - verder met installeren en accounts 
