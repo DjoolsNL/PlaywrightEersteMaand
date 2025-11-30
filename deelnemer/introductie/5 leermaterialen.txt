@@ -5,11 +5,13 @@ LEERMATERIALEN
 De LEERMATERIALEN 
 vervullen een ondersteunende rol.
 
-- De inhoud van de testwebsite. Die is als leermateriaal bedoeld. Profiteer ervan.
+Hieronder een - niet uitputtend - overzicht
 
- - https://playwright.dev/docs/locators
+- De inhoud van de testwebsite. 
 
-- ChatGPT / Co-pilot / Google ai (via de search bar)
+- https://playwright.dev/docs/locators
+
+- ChatGPT / Co-pilot / Google Search in AI mode 
 
 - https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web
 
