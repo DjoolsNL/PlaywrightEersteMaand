@@ -23,3 +23,6 @@ je cv.
 
 Je kunt met de werkende testcode en de werkende website als voorbeeld een mooi 
 portfolio project voor je cv bouwen. 
+
+Zet bijvoorbeeld je eigen website in de map 'testwebsite' of bouw de bestaande website 
+om naar je eigen.

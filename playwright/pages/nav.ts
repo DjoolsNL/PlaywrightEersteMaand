@@ -18,4 +18,7 @@ export class Nav {
       this.portfolio = page.getByRole('link', { name: 'Portfolio' });
       this.templates = page.getByRole('link', { name: 'Templates', exact: true });
    }
+
+   ToAnyLink(): void {
+   }
 }
