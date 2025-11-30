@@ -1,19 +1,25 @@
- OVER PLAYWRIGHTEERSTEMAAND
+ OVER PlawrightEersteMaand
 
 ----------------------------------------------------------------------------------
 
-Dit is nu je eigen repository. Gebruik die ook zo. In elke file kun je aantekeningen erbij typen. 
-Je mag de testwebsite veranderen, je mag, nee moet tests gaan scripten en files gaan toevoegen 
-aan de map tests. Als je nog verder wil gaan om dingen te veranderen? Prima.
+Deze repository is jouw persoonlijke leeromgeving. Gebruik die ook zo. In elke file 
+kun je aantekeningen erbij typen. 
 
-In je eigen map kun je media files opslaan en afspelen, je kunt links in txt bestanden zetten zoals
-https://playwright.dev/. Vscode is zeer veelzijdig en je kunt dat allemaal in deze repo.
+Je mag de testwebsite veranderen, je mag, nee gaat tests scripten en files toevoegen 
+aan de map tests. Als je nog verder wil gaan om dingen te veranderen? Prima. Het is 
+jouw repo. 
 
-Hier zit een gedachte achter: hoe meer je binnen PlaywrightEersteMaand werkt, hoe beter je ook 
-vscode leert kennen en dat is een basisvaardigheid die je snel onder de knie moet krijgen want
-vscode is een van de essentials.
+In je eigen map 'deelnemer' kun je mediafiles opslaan en afspelen, je kunt links in .txt 
+bestanden zetten zoals bijv. https://playwright.dev/. Vscode is zeer veelzijdig en je 
+kunt dat allemaal binnen deze repo.
+
+Hier zit een gedachte achter: hoe meer je binnen en met vscode werkt, hoe beter je vscode leert 
+kennen en dat is een basisvaardigheid die je snel onder de knie moet krijgen want
+vscode is een van de essential tools in de wereld van het web. 
 
 Template
-Het ligt helemaal aan je zelf of je van deze repository iets maakt dat van waarde is voor je cv.
+Het ligt helemaal aan je zelf of je van deze repository iets maakt dat van waarde is voor 
+je cv.
+
 Je kunt met de werkende testcode en de werkende website als voorbeeld een mooi 
 portfolio project voor je cv bouwen. 
