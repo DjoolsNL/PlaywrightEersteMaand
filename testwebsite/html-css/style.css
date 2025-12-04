@@ -71,6 +71,10 @@
          background-color: transparent;
       }
 
+      #zero {
+         font-size: 2.2vw;
+      }
+
       .linkbox-container-nowrap {
          display: flex;
          justify-content: center;

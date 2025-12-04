@@ -1,11 +1,11 @@
 Testskills: Vaktermen
 
---------------------------------------------------------
+---------------------------------------------------------------------------------
 
 Een van de pagina's in de testwebsite heet Vaktermen. Daar tref je een kort overzicht
 aan van vaak gebruikte termen.
 
-De OPDRACHT
+De OPDRACHT deel 1
 
 Lees die vaktermen door en vervang zo nodig de omschrijving van elke term door een 
 eenvoudigere omschrijving als je vindt dat de omschrijving die je aantrof te moeilijk
@@ -15,3 +15,17 @@ Er staan ook termen in die nog geen omschrijving hebben. Gebruik AI of google om
 passende omschrijving voor te vinden. 
 
 De aanpassingen verwerk je rechtstreeks in de file vaktermen.html.
+
+De OPDRACHT deel 2
+Sommige begrippen staan in heel grote letters op de webpagina. Als je in de code kijkt van 
+vaktermen.html zie je dat al die begrippen een id="zero" hebben zoals hier: 
+<strong id="zero">Risk</strong>
+
+Je moet bij alle begrippen die een id="zero" hebben de volgende verandering doorvoeren:
+<strong id="Risk">Risk</strong>. 
+
+In de code van de pagina staan voorbeelden waar dit al gebeurd is.
+
+Als je het goed doet dan krijgen de heel grote letters weer een normaal uiterlijk. Sla de 
+file op en vernieuw de pagina vaktermen in de browser en kijk of de grote letters verdwenen 
+zijn. 

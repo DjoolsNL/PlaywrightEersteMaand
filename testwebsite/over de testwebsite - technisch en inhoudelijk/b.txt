@@ -1,37 +1,37 @@
 +++   De site is:
 
-      1. een digitaal visitekaartje naar alle kanten toe* met relevante en representatieve
-         content over het leerbedrijf Bee LKQ,
+      1. een digitaal visitekaartje met relevante en representatieve content over het 
+         leerbedrijf Bee LKQ,
 
-      2. maar ook een template voor een cv-portfolioproject dat door deelnemers, binnen 
+      2. een template voor cv-portfolioprojecten die door deelnemers, binnen 
          redelijkheid en naar eigen inzicht, gebruikt mag worden,
 
-      3. en bovendien is het een testwebsite die gebruikt mag worden om het automatiseren 
-         van software tests te leren.
+      3. een testwebsite die gebruikt mag worden om het automatiseren van software 
+         tests te leren.
 
       Ad 1. Visitekaartje      
             Voor de ketenpartner: zoek je een ketenpartner die je client verder kan helpen?         
             
-            Voor de potentiele deelnemer: wil je een baan in de ict? Tester? Of je eigen pad 
-            binnen de ict ontdekken?             
+            Voor de potentiële deelnemer: vind je ICT leuk? Verken dan de website want die 
+            gaat over het geautomatiseerd testen van software en over hoe je dat binnen ons 
+            team kunt leren.       
             
             Voor de deelnemer: wil je je als tester ontwikkelen? Er staat heel veel relevante 
-            content op de site. 
+            content op de site die je helpt om je kennis te vergroten. 
                       
       Ad 2. Template
-            De site is gebouwd als de menukaart van een fastfood restaurant: Gefrituurd, 
-            Hamburgers, Pizza, Drank en Toetjes (in ons geval: Leerbedrijf, Educatief, 
-            Baanperspectief, Portfolio en Templates). Aan die kapstok is alles opgehangen. Deze 
-            indeling zorgt voor een eenvoudige maar doeltreffende structuur.  
+            De site is gebouwd rondom de onderwerpen Leerbedrijf, Educatief, Baanperspectief, 
+            Portfolio en Templates. Aan die kapstok is alles opgehangen. Deze indeling zorgt 
+            voor een eenvoudige maar doeltreffende structuur.  
 
             Je kunt met de werkende testcode en / of met de werkende website als voorbeeld een mooi 
             portfolio project voor je cv bouwen. 
            
       Ad 3. Testwebsite 
-            Het is ook een testsite om de testskills te trainen zonder dat je je zorgen hoeft
-            te maken of je de website wel zo vaak als je wil mag bezoeken. Vooral voor de 
-            beginnende tester. Ben je meer gevorderd dan zijn er ook testwebsites die het je 
-            moeilijker maken.    
-
-* alle kanten: actoren binnen en buiten de keten, deelnemers en potentiele deelnemers
+            De site is ook als testsite bedoeld zodat je je testskills kunt ontwikkelen zonder
+            dat je last hebt van de beperkingen die je op het internet tegenkomt. Deze website
+            kun je ook testen als je geen verbinding met internet hebt. Je kunt een pagina zo vaak 
+            oproepen als je wil zonder dat iemand vervelend gaat doen. Je hebt geen last van cookies
+            en reclames of van wijzigingen die op een website worden doorgevoerd. Je testcode die 
+            vandaag werkt zal ook over een maand werken omdat je zelf alle controle hebt. 
 

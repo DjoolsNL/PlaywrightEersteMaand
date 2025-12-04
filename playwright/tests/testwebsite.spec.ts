@@ -15,7 +15,19 @@ test( 'Verify links Leerbedrijf and Educatief', async ( { page } ) => {
    // navigeert naar de url
    await page.goto( fileUrl );
 
-   const wachttijd: number = 1000;
+   // Find all <p> elements
+   const paragraphs = page.locator( 'p' );
+
+   // Get the count
+   const count = await paragraphs.count();
+   console.log( `Found ${count} <p> elements` );
+
+   // Loop through and print their text
+   for ( let i = 0; i < count; i++ ) {
+      console.log( await paragraphs.nth( i ).textContent() );
+   }
+
+   const wachttijd: number = 2000;
    // hightlight de plek waar geklikt wordt zodat we dat goed kunnen observeren
    await page.getByRole( 'link', { name: 'Home' } ).highlight();
    await page.getByRole( 'link', { name: 'Home' } ).click( { delay: wachttijd } );
@@ -43,7 +55,7 @@ test( 'Verify links Leerbedrijf and Educatief', async ( { page } ) => {
 
    await page.getByRole( 'link', { name: 'Home' } ).highlight();
    await page.getByRole( 'link', { name: 'Home' } ).click( { delay: wachttijd } );
-   
+
    await page.getByRole( 'link', { name: 'De rol van testen' } ).highlight();
    await page.getByRole( 'link', { name: 'De rol van testen' } ).click( { delay: wachttijd } );
 

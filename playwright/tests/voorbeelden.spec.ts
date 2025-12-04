@@ -5,6 +5,24 @@ import path from 'path';
 
 //test.use( { viewport: { width: 800, height: 1040 } } );
 test.use( { viewport: { width: 1833, height: 980 } } );
+test( 'Go to Ikea', async ( { page } ) => {
+   await page.goto( 'https://ikea.nl' );  
+   await page.getByRole('button', { name: 'Weiger' }).click();
+   await page.getByRole('button', { name: 'Kerstcollectie' }).click();
+   await page.getByRole('link', { name: 'Kersttextiel' }).click();
+   await page.getByRole('link', { name: 'Rood vierkant kussen met' }).click();
+   await page.getByLabel('Selecteer productfoto 3 van 4').click();
+   await page.getByLabel('Selecteer productfoto 4 van 4').click();
+   await page.getByRole('button', { name: 'Productinformatie' }).click();
+   await page.getByRole('button', { name: 'Goed om te weten' }).click();
+   await page.locator('.pipf-modal-wrapper__backdrop').click();
+   await page.getByLabel('Hoeveelheid verhogen').click();
+   await page.getByRole('button', { name: 'Voeg toe aan winkelwagen' }).click();
+   await page.locator('#complete-with__quantity-selection').selectOption('2');
+   await page.getByLabel('Voeg 4 items toe aan').click();
+   await page.getByRole('button', { name: 'Ga naar winkelwagen' }).click();
+} )
+
 test( 'Go to NOS.nl', async ( { page } ) => {
    await page.goto( 'https://nos.nl' );
 } )
@@ -31,8 +49,8 @@ test( 'Go to Tempoteam', async ( { page } ) => {
    await page.goto( 'https://tempoteam.nl/' );
 } )
 
-test( 'Go to Ikea', async ( { page } ) => {
-   await page.goto( 'https://ikea.nl' );
-   await page.getByRole( 'button', { name: 'Accepteer' } ).click();
-   await page.getByRole( 'tab', { name: 'Koopjes' } ).click();
-} )
+
+
+
+
+
