@@ -1,0 +1,18 @@
+Scripten
+
+----------------------------------------------------------------------------------
+
+Opdracht - Skill omgaan met Playwright en werken met codegen
+
+Je gaat al in je eerste week testscripts laten runnen en leren hoe je moet testen.
+
+Kijk om te beginnen in de map 'playwright/tests'. Daar staan de testsfiles voor de 
+testwebsite die je moet laten runnen. 
+
+Niet alle tests in de map testen zijn klaar. Het is de bedoeling dat je zoveel tests
+als mogelijk script. 
+
+Het is de bedoeling dat je de code en de toelichting op de code die in de 
+files staat bestudeert. 
+
+Hoe laat je de scripts runnen? Even vragen dan krijg je hulp!

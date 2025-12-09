@@ -1,0 +1,21 @@
+VASTE MOMENTEN OP DE KALENDER VAN HET BEDRIJF
+
+-------------------------------------------------------------------------------
+
+Dagelijks van maandag tot en met donderdag:
+   09.00 uur - Start
+   09.30 uur - Daily scrum-meeting 
+   10.00 uur - Online les aan de hand van de testuitslagen op de CI van die ochtend.
+               Foutgelopen tests worden onderzocht, geanalyseerd en besproken.  
+
+   12.00 uur - Pauze
+
+   13.00 uur - Praktijkuren en tijd voor coaching
+   15.00 uur - Ruimte voor zelfstudie (thuis of op kantoor)
+
+Elke donderdag:
+   11.00 uur - Playwright vragenuur online met andere Bee Teams samen.
+
+Elke 2de woensdag:
+   10.30 uur - Review met de stakeholder van onze opdrachtgever en onze collega('s) in India
+   10.30 uur - Nabespreking review 

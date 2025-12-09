@@ -1,0 +1,39 @@
+ OVER DEZE REPO 
+
+----------------------------------------------------------------------------------
+
+Deze repo brengt drie verschillende dingen samen: 
+
+1. een leerprogramma (map 'deelnemer'),
+2. een testomgeving (map 'playwright') en 
+3. een testwebsite (map 'testwebsite'). 
+ 
+Ad 1.  
+   Er is naar gestreefd een zo eenvoudig mogelijke, werkende repo te maken die de basis 
+   van web en webtesting laat zien en die klaar is om gebruikt te worden door een nieuwe 
+   deelnemer. 
+
+   De opdrachten binnen het leerprogramma zijn bedoeld om de deelnemer actief te laten werken met 
+   de diverse onderdelen van de repo.
+ 
+   Op de testwebsite staan instructievideo's die helpen om de testomgeving en de testscripts
+   te gebruiken. In de uitleg-uren van het project wordt je op gang gebracht door de technische coach.
+
+Ad 2.
+   De testomgeving bestaat uit vscode, node.js, playwright/typescript. Er zijn werkende testscripts
+   aanwezig die als voorbeeld dienen voor de tests die nog niet zijn gescript.  
+
+Ad 3.
+   Er is naar gestreefd om de content van de testwebsite zo relevant mogelijk te maken voor 
+   startende deelnemers die een traject bij het leerbedrijf doorlopen. Zo werkt de testwebsite ook 
+   als kennisbron.
+
+   // voor mensen met meer technische achtergrond is dit misschien ook nog relevant: 
+   De eenvoud is bereikt door de testwebsite zo te bouwen dat hij in een browser kan 
+   worden weergegeven zonder dat een server of internet eraan te pas komt. Hiermee schakelen we 
+   alle ruis uit die ontstaat zodra we een website op het world wide web willen testen.
+
+   // voor mensen met meer technische achtergrond is dit misschien ook nog relevant:
+   De testwebsite is gebouwd met enkel html en css. Javascript is afwezig. Dit maakt het een stuk
+   makkelijker om te begrijpen wat de html- en css-code doet omdat de 'ruis' van javascript 
+   afwezig is. Die 'ruis' gaan we daarna leren. 

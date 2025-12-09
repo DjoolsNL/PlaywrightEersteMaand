@@ -1,15 +1,17 @@
++++   De site: 
 
-+++   De site: gebouwd met alleen css en html. Voor web-testers zeer relevante talen en zeker ook voor web-frontend mensen.
-      Wie deze template wil gebruiken leert eerst het handwerk. Html en css zijn prima instappers. 
-      Je leert twee redelijk eenvoudige computertalen die je helpen om andere talen sneller te leren.     
+      gebouwd met alleen css en html. Voor web-testers zeer relevante talen en zeker ook voor 
+      web-frontend mensen. Wie deze template wil gebruiken leert eerst het handwerk. Html en 
+      css zijn prima instappers: twee redelijk eenvoudige computertalen die je helpen om 
+      andere talen sneller te leren.     
 
-+++   Mappenstructuur en indexpagina:
-      In de main van de indexpagina zijn de links per onderwerp gegroepeerd. Die indeling zie je ook 
-      in de map html terug. 
+      1. Mappenstructuur en indexpagina:
+         In de main van de indexpagina zijn de links per onderwerp gegroepeerd. Die indeling zie je ook 
+         in de map html terug. 
 
-      De media in de mappenstructuur zijn op soort media ingedeeld (pdf, video of png). 
+         De media in de mappenstructuur zijn op soort media ingedeeld (pdf, video of png). 
 
-+++   Elke pagina volgt de onderstaande structuur:
+      2. Elke pagina volgt de onderstaande structuur:
 
          <!DOCTYPE html>
          <html lang="nl">
@@ -50,8 +52,8 @@
 
          </html>
 
-+++   Verdere bouwstenen:
-      optionele elementen voor: <div class="hoofdstuk" id="PLACEHOLDER">
+      3. Verdere bouwstenen:
+         optionele elementen voor: <div class="hoofdstuk" id="PLACEHOLDER">
       
          <div class="inleiding">
             optionele elementen: <div> <p> <ol> <ul> <img> <object>     
@@ -83,6 +85,3 @@
          <object />
          <iframe />
          <img alt="" />
-
-+++   Voor wie een eigen site wil bouwen:
-      gebruik de template zoals je wil, inclusief alle content.

@@ -1,0 +1,27 @@
+Tool skills: html basics 
+
+--------------------------------------------------------
+
+Als webtester moet je je met de code achter een webpagina kunnen 
+werken. Want binnen die code zitten de selectors die je nodig 
+hebt om de webpagina met het testscript te bedienen.
+
+Die selectors moet je in de code kunnen vinden. 
+
+Je hoeft geen uitgebreide kennis te hebben van html om selectors
+te vinden. Een goed begrip van enkele basisprincipes is al voldoende.
+
+Je moet weten wat een html tag is, hoe een tag geschreven wordt, je moet 
+weten wat een attribuut is, hoe die geschreven wordt. Je moet weten
+wat de rol is van de tags 'head' en 'body' in de html code van een pagina. 
+
+Opdracht 1.
+
+Maak in deze maand je eigen CV html pagina met html en css maakt. De 
+pagina die je maakt moet in een browser geopend kunnen worden en correcte 
+html en css hebben.
+
+Opdracht 2.
+
+Schrijf een script dat test of het cv op de pagina jouw cv is. Je kunt 
+dit ook als eindopdracht maken voor de eerste maand. 

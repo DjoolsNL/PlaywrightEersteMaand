@@ -7,14 +7,15 @@ aan van vaak gebruikte termen.
 
 De OPDRACHT deel 1
 
-Lees die vaktermen door en vervang zo nodig de omschrijving van elke term door een 
-eenvoudigere omschrijving als je vindt dat de omschrijving die je aantrof te moeilijk
-is. Tip: gebruik daarvoor AI.
+Lees die vaktermen door en vervang zo nodig de omschrijving van elke term in de file 
+vaktermen.html door een eenvoudigere omschrijving als je vindt dat de omschrijving 
+die je aantrof te moeilijk is. Tip: gebruik daarvoor AI.
 
 Er staan ook termen in die nog geen omschrijving hebben. Gebruik AI of google om daar een
-passende omschrijving voor te vinden. 
+passende omschrijving voor te vinden en zet die ook in vaktermen.html. 
 
-De aanpassingen verwerk je rechtstreeks in de file vaktermen.html.
+Je moet wel uitproberen of al je aanpassingen ook op de juiste manier in de browser 
+worden weergegeven.
 
 De OPDRACHT deel 2
 Sommige begrippen staan in heel grote letters op de webpagina. Als je in de code kijkt van 

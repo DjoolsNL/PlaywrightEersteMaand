@@ -1,7 +1,0 @@
- OVER PlaywrightEersteMaand
-
-----------------------------------------------------------------------------------
-
-Drie verschillende dingen brengt dit project samen: 
-
-een testomgeving, een testwebsite en een leerprogramma om met beide te leren werken.

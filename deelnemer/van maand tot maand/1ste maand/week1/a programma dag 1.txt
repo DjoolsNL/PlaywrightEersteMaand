@@ -4,9 +4,7 @@ Programma Dag 1 - Introductiedag
 
 OCHTEND
 - koffie en kennismaking
-- vragen?
 - korte toelichting op introductieprogramma
-- vragen?
 
 - rondleiding gebouw
 
@@ -16,3 +14,4 @@ MIDDAG
 - een-op-een gesprek met de kandidaat
 - afspraken over aanwezigheid, eventuele bijzonderheden
 - verder met installeren en accounts 
+

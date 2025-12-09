@@ -3,7 +3,9 @@ OPDRACHTEN
 ------------------------------------------------------------------------
 
 De OPDRACHTEN 
-zijn bedoeld om je actief met de studiestof te laten werken.  
+in de map 'van maand tot maand' zijn bedoeld om je actief met de studiestof te laten werken.
+
+Voor het introductieprogramma staan de opdrachten in de submap 1ste maand.
 
 Er is een ook nog een EINDOPDRACHT.
 Je geeft ergens in de laatste week een presentatie van testscripts die je
@@ -11,3 +13,5 @@ hebt geschreven voor een website naar eigen keuze.
 
 Verwerk de kennis die je in de afgelopen weken hebt opgedaan in je 
 eindpresentatie. Laat zien wat je hebt geleerd. 
+
+De submappen 2de tot en met 6de maand mag je naar eigen inzicht gebruiken.

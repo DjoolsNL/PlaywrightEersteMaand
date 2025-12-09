@@ -33,5 +33,7 @@
             kun je ook testen als je geen verbinding met internet hebt. Je kunt een pagina zo vaak 
             oproepen als je wil zonder dat iemand vervelend gaat doen. Je hebt geen last van cookies
             en reclames of van wijzigingen die op een website worden doorgevoerd. Je testcode die 
-            vandaag werkt zal ook over een maand werken omdat je zelf alle controle hebt. 
+            vandaag werkt zal ook over een maand werken omdat je zelf alle controle hebt. En werkt
+            je code niet dan kan het alleen maar aan je script liggen en niet aan een slechte 
+            verbinding of wat dan ook.  
 
