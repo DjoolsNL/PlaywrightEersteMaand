@@ -14,14 +14,21 @@ Ad 1.
    deelnemer. 
 
    De opdrachten binnen het leerprogramma zijn bedoeld om de deelnemer actief te laten werken met 
-   de diverse onderdelen van de repo.
+   de diverse onderdelen van de repo. 
  
    Op de testwebsite staan instructievideo's die helpen om de testomgeving en de testscripts
    te gebruiken. In de uitleg-uren van het project wordt je op gang gebracht door de technische coach.
 
+   Het programma is als game opgezet waarbij de speler punten kan verdienen als hij taken uitvoert.
+   Kennis van de content van de testwebsite weegt zwaar in de punten evenals kennis van scripten.
+   Voor beide is het nodig om handigheid in het gebruik van vscode op te bouwen.  
+
 Ad 2.
    De testomgeving bestaat uit vscode, node.js, playwright/typescript. Er zijn werkende testscripts
-   aanwezig die als voorbeeld dienen voor de tests die nog niet zijn gescript.  
+   aanwezig die als voorbeeld dienen voor de tests die nog niet zijn gescript. Bovendien kan de 
+   playwright-tool 'codegen' worden gebruikt waarmee testcode kan worden gegenereerd terwijl
+   de deelnemer de website in de browser bezoekt. Ongeveer de helft van die automatisch gegenereerde
+   code werkt en de andere helft niet. Een ideale tool om de basis snel te leren. 
 
 Ad 3.
    Er is naar gestreefd om de content van de testwebsite zo relevant mogelijk te maken voor 
