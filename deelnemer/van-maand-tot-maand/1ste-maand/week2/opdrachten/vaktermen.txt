@@ -1,0 +1,17 @@
+Testskills: Vaktermen
+
+---------------------------------------------------------------------------------
+
+Een van de pagina's in de testwebsite heet Vaktermen. Daar tref je een kort overzicht
+aan van vaak gebruikte termen.
+
+De OPDRACHT 
+Lees die vaktermen door en vervang zo nodig de omschrijving van elke term in de file 
+vaktermen.html door een eenvoudigere omschrijving als je vindt dat de omschrijving 
+die je aantrof te moeilijk is. Tip: gebruik daarvoor AI.
+
+Er staan ook termen in die nog geen omschrijving hebben. Gebruik AI of google om daar een
+passende omschrijving voor te vinden en zet die ook in vaktermen.html. 
+
+Je moet wel uitproberen of al je aanpassingen ook op de juiste manier in de browser 
+worden weergegeven.

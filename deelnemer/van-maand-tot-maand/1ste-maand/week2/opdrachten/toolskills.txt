@@ -1,8 +1,8 @@
-Tool skills: html basics / Maak je eigen CV met mtml en ccs
+Tool skills: html basics / Maak je eigen CV met html en ccs
 
 --------------------------------------------------------
 
-Als webtester moet je je met de code achter een webpagina kunnen 
+Als webtester moet je met de code achter een webpagina kunnen 
 werken. Want binnen die code zitten de selectors die je nodig 
 hebt om de webpagina met het testscript te bedienen.
 

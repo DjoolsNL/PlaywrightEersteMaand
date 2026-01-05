@@ -39,7 +39,7 @@
 
                <hr>
                <h2>PLACEHOLDER VOOR HOOFDSTUKKEN</h2>
-               <div class="hoofdstuk" id="PLACEHOLDER">
+               <section class="hoofdstuk" id="PLACEHOLDER">
                   PLACEHOLDER CONTENT         
                </div>
             </main>
@@ -53,7 +53,7 @@
          </html>
 
       3. Verdere bouwstenen:
-         optionele elementen voor: <div class="hoofdstuk" id="PLACEHOLDER">
+         optionele elementen voor: <section class="hoofdstuk" id="PLACEHOLDER">
       
          <div class="inleiding">
             optionele elementen: <div> <p> <ol> <ul> <img> <object>     

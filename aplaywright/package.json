@@ -2,21 +2,20 @@
   "name": "playwright_eerste_maand",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-
-  },
+  "scripts": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
     "@playwright/test": "^1.45.3",
-    "@types/node": "^22.10.7",
+    "@types/node": "^22.19.2",
     "typescript": "^5.7.3"
   },
   "dependencies": {
     "child_process": "^1.0.2",
     "dotenv": "^16.4.7",
+    "lodash": "^4.17.21",
     "readline": "^1.3.0"
   }
 }
