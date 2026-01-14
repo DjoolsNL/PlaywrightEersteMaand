@@ -4,9 +4,9 @@
 
 Deze repo brengt drie verschillende dingen samen: 
 
-1. een leerprogramma (map 'deelnemer'),
-2. een testomgeving (map 'playwright') en 
-3. een testwebsite (map 'testwebsite'). 
+1. het leerprogramma (map 'deelnemer'),
+2. de testsoftware en 
+3. de testwebsite. 
  
 Ad 1.  
    Er is naar gestreefd een zo eenvoudig mogelijke, werkende repo te maken die de basis 
@@ -24,7 +24,7 @@ Ad 1.
    Voor beide is het nodig om handigheid in het gebruik van vscode op te bouwen.  
 
 Ad 2.
-   De testomgeving bestaat uit vscode, node.js, playwright/typescript. Er zijn werkende testscripts
+   De testsoftware is playwright/typescript. Er zijn werkende testscripts
    aanwezig die als voorbeeld dienen voor de tests die nog niet zijn gescript. Bovendien kan de 
    playwright-tool 'codegen' worden gebruikt waarmee testcode kan worden gegenereerd terwijl
    de deelnemer de website in de browser bezoekt. Ongeveer de helft van die automatisch gegenereerde
@@ -39,8 +39,3 @@ Ad 3.
    De eenvoud is bereikt door de testwebsite zo te bouwen dat hij in een browser kan 
    worden weergegeven zonder dat een server of internet eraan te pas komt. Hiermee schakelen we 
    alle ruis uit die ontstaat zodra we een website op het world wide web willen testen.
-
-   // voor mensen met meer technische achtergrond is dit misschien ook nog relevant:
-   De testwebsite is gebouwd met enkel html en css. Javascript is afwezig. Dit maakt het een stuk
-   makkelijker om te begrijpen wat de html- en css-code doet omdat de 'ruis' van javascript 
-   afwezig is. Die 'ruis' gaan we daarna leren. 

@@ -34,7 +34,6 @@ test( 'Exercise with codegen: go to Wikipedia.com', async ( { page } ) => {
    // Instructions: script a flow within wikipedia to the article about 'w3.org' and 
    // navigate to the w3.org website by using the link
    // in 'external links' of the article.
-
 } )
 
 test( 'Exercise with codegen: go to Playwright', async ( { page } ) => {

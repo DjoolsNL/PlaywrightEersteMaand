@@ -1,3 +1,4 @@
+//#region READ ME
 // To write testautomation we need programming skills and experience. 
 // 
 // Below in test 0.0.0 the script instructs the browser to click on all links of the section 'Leerbedrijf' on the index page. 
@@ -18,6 +19,7 @@
 //
 // In all tests after version 0.0.0 we build upon the previous version to develop our testcode. Try to understand as many versions
 // as you can during your time in the team.      
+//#endregion
 
 import { test, expect, request } from '@playwright/test';
 import path from 'node:path';
@@ -27,7 +29,7 @@ import { localIndexFile, Index } from '../../pages/index'
 test.use( { viewport: { width: 1833, height: 980 } } );
 
 //#region What Happens in this Test?
-//  
+// Use this regiontemplate in this file to annotate the different tests 
 //#endregion
 test( '0.0.0 - Automate navigation for text links in group Leerbedrijf', async ( { page } ) => {
    await page.goto( localIndexFile() );
@@ -53,7 +55,6 @@ test( '0.0.0 - Automate navigation for text links in group Leerbedrijf', async (
 
    await page.getByRole( 'link', { name: 'Home' } ).click();
 } )
-
 
 test( '0.0.1 - Additional code to make flow more visible in headed run.', async ( { page } ) => {
    await page.goto( localIndexFile() );
