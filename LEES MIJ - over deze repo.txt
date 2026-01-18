@@ -2,13 +2,14 @@
 
 ----------------------------------------------------------------------------------
 
-Deze repo brengt drie verschillende dingen samen: 
+Deze repo brengt vier verschillende dingen samen: 
 
 1. het leerprogramma (map 'deelnemer'),
-2. de testsoftware en 
-3. de testwebsite. 
+2. de testsoftware,  
+3. de testwebsite en
+4. de run-typescript omgeving. 
  
-Ad 1.  
+Ad 1. het leerprogramma 
    Er is naar gestreefd een zo eenvoudig mogelijke, werkende repo te maken die de basis 
    van web en webtesting laat zien en die klaar is om gebruikt te worden door een nieuwe 
    deelnemer. 
@@ -19,23 +20,26 @@ Ad 1.
    Op de testwebsite staan instructievideo's die helpen om de testomgeving en de testscripts
    te gebruiken. In de uitleg-uren van het project wordt je op gang gebracht door de technische coach.
 
-   Het programma is als game opgezet waarbij de speler punten kan verdienen als hij taken uitvoert.
-   Kennis van de content van de testwebsite weegt zwaar in de punten evenals kennis van scripten.
-   Voor beide is het nodig om handigheid in het gebruik van vscode op te bouwen.  
-
-Ad 2.
+Ad 2. de testsoftware
    De testsoftware is playwright/typescript. Er zijn werkende testscripts
    aanwezig die als voorbeeld dienen voor de tests die nog niet zijn gescript. Bovendien kan de 
    playwright-tool 'codegen' worden gebruikt waarmee testcode kan worden gegenereerd terwijl
    de deelnemer de website in de browser bezoekt. Ongeveer de helft van die automatisch gegenereerde
    code werkt en de andere helft niet. Een ideale tool om de basis snel te leren. 
 
-Ad 3.
+Ad 3. testwebsite
    Er is naar gestreefd om de content van de testwebsite zo relevant mogelijk te maken voor 
    startende deelnemers die een traject bij het leerbedrijf doorlopen. Zo werkt de testwebsite ook 
    als kennisbron.
 
-   // voor mensen met meer technische achtergrond is dit misschien ook nog relevant: 
    De eenvoud is bereikt door de testwebsite zo te bouwen dat hij in een browser kan 
-   worden weergegeven zonder dat een server of internet eraan te pas komt. Hiermee schakelen we 
-   alle ruis uit die ontstaat zodra we een website op het world wide web willen testen.
+   worden weergegeven zonder dat een server of internet eraan te pas komt. 
+
+Ad 4. run-typescript omgeving
+   Plaats in deze map je eigen .ts files. Je files hier kun je in de terminal runnen. Dit gaat helemaal
+   buiten de testomgeving om. Hier kun je allerlei ts code experimenten uitvoeren.
+   Je mag zoveel files als je wilt hier neerzetten. In deze omgeving kun je alles bouwen wat je maar wil
+   met ts.
+
+   Gebruik de package.json in de root om je .ts files te runnen vanuit het NPM SCRIPTS menu in de 
+   primary sidebar of start je run in de terminal msxet tsx ./run-typescript/jouwfile.ts   

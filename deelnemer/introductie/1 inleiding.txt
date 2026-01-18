@@ -18,8 +18,3 @@ Ter afsluiting van je eerste vier weken presenteer je in het bijzijn van
 het team wat je allemaal hebt geleerd. Je doet dat aan de hand van een 
 website die je zelf hebt gekozen (of je neemt de testwebsite) en waarvoor je zelf een 
 testscenario en -script hebt geschreven.
-
-Deze repo mag je na afloop van het introductieprogramma blijven gebruiken als testomgeving.
-Het is namelijk altijd handig om een werkende testomgeving te hebben waar je dingen kunt 
-uitproberen!    
-

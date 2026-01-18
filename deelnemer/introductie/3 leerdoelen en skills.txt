@@ -3,4 +3,20 @@ LEERDOELEN en SKILLS
 ------------------------------------------------------------------------
 
 Zie de links Educatief op de indexpagina van de testwebsite. Daar zit een link 'Onboarding skills en leerdoelen'.
-Die leidt naar een opsomming van de leerdoelen. 
+Die leidt naar een opsomming van de leerdoelen. Dit zijn in elk geval al de 4 soorten skills die in dit programma
+centraal staan:
+
+<li><strong>Toolskills</strong></li>
+   handig met windows en computers
+   handig in het vinden van antwoorden met google en ai
+   handig met vscode
+   handig met playwright
+   handig met typescript
+
+
+<li><strong>Testskills</strong></li>
+
+<li><strong>Leerskills</strong></li>
+leer de toolskills googlen en ai te gebruiken om technische antwoorden te krijgen 
+
+<li><strong>Sociale en Communitie skills</strong></li>

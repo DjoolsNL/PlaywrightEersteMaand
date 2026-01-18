@@ -15,3 +15,8 @@ Verwerk de kennis die je in de afgelopen weken hebt opgedaan in je
 eindpresentatie. Laat zien wat je hebt geleerd. 
 
 De submappen 2de tot en met 6de maand mag je naar eigen inzicht gebruiken.
+
+In de map 'van-maand-tot-maand' zet je je verslag van de opdrachten of plakt een file of de antwoorden van AI
+
+De structuur van de map 1ste-maand is al voorgegeven. De andere maanden kun je hier documenteren wat je leert en hoe.
+Het is immers jouw repository binnen de kaders van 

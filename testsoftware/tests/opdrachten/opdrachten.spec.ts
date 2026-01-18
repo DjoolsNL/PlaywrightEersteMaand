@@ -14,6 +14,19 @@ test.use( { viewport: { width: 1833, height: 980 } } );
 ///////////////////////////////////////////////////////////////////////
 test( 'Exercise with codegen: go to NOS.nl', async ( { page } ) => {
    await page.goto( 'https://nos.nl' );
+      type aa = {
+      a: string;
+      b: number;
+      c: boolean[]
+   }
+
+   const Jan: aa = {
+   a: "hallo",
+   b: 12,
+   c: [false, true, ]
+   }
+
+   console.log(Jan);
 
    // Instructions: script a flow that jumps from 'laatste nieuws' to ' videos' to top video in list of videos.
 } )

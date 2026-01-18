@@ -2,8 +2,20 @@ JOUW REPO
 
 ----------------------------------------------------------------------------------
 
-Deze repository is jouw persoonlijke leeromgeving. Gebruik die ook zo. In elke file 
-kun je aantekeningen erbij typen. 
+Dit is nu jouw repository, jouw persoonlijke leeromgeving. In elke file kun je 
+aantekeningen erbij typen. 
+
+Je mag je eigen teststcripts in de map testsoftware/tests zetten en runnen.
+
+Je mag in de map deelnemer doen en laten wat je wil. Maak gebruik van die mogelijkheid!
+
+Je mag de repo na afloop van het introductieprogramma blijven gebruiken 
+als testomgeving. Het is namelijk altijd handig om een werkende testomgeving te hebben
+waar je dingen kunt uitproberen!
+
+Binnen de map run-typescript kun je typescript code uitproberen.
+
+ 
 
 Je mag de testwebsite veranderen, je mag, nee gaat tests scripten en files toevoegen 
 aan de map tests. Als je nog verder wil gaan om dingen te veranderen? Prima. Het is 

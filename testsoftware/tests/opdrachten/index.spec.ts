@@ -1277,6 +1277,3 @@ test( '0.1.4 - Class moved to different file', async ( { page } ) => {
    await index.indexpage.click() ;
    await index.navigateToTextLink('About us');
 } )
-
-
-

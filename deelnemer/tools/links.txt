@@ -1,0 +1,43 @@
+LINKS
+
+------------------------------------------------------------------------
+
+Leren is vooral ook leren waar je de kennis over de onderwerpen die je wil leren 
+kunt halen. Die kennisbronnen maak je toegankelijk door in je browser de bookmarks 
+te gebruiken naar die bronnen. Hoe beter je dit organiseert hoe makkelijker je de 
+kennisbronnen kunt raadplegen.  
+
+Het is handig om meerdere sites te hebben die je over hetzelfde onderwerp kunt raadplegen. 
+ 
+------------------------------------------------------------------------
+
+HTML
+- html basics: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax
+
+- gebruik dit als een soort naslag voor html: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content
+
+- html basics en naslag: https://www.w3schools.com/html/html_intro.asp
+
+
+CSS
+- basics css: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/What_is_CSS
+
+- basics css: https://www.w3schools.com/css/css_intro.asp
+
+PLAYWRIGHT
+- startpagina playwright/typescript: https://playwright.dev/docs/test-typescript
+
+- alles over playwright locators: https://playwright.dev/docs/locators
+
+
+
+
+
+
+- ChatGPT / Co-pilot / Google Search in AI mode 
+
+- https://www.reddit.com/r/BeesHeerlen/
+
+- 'plattegrond' van het vakgebied software tester: https://roadmap.sh/qa
+
+- leer de onderdelen van vscode kennen: https://code.visualstudio.com/docs/getstarted/userinterface

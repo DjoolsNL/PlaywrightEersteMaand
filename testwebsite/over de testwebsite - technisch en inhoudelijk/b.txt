@@ -35,4 +35,3 @@
             en reclames of van wijzigingen die op een website worden doorgevoerd. Je testcode die 
             vandaag werkt zal ook over een maand werken omdat je zelf alle controle hebt. En werkt
             je code niet dan kan het alleen maar aan jou liggen. 
-
