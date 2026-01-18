@@ -42,4 +42,4 @@ Ad 4. run-typescript omgeving
    met ts.
 
    Gebruik de package.json in de root om je .ts files te runnen vanuit het NPM SCRIPTS menu in de 
-   primary sidebar of start je run in de terminal msxet tsx ./run-typescript/jouwfile.ts   
+   primary sidebar of start je run in de terminal met tsx ./run-typescript/jouwfile.ts   
