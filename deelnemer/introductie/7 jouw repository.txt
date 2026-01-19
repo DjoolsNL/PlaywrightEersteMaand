@@ -15,8 +15,6 @@ waar je dingen kunt uitproberen!
 
 Binnen de map run-typescript kun je typescript code uitproberen.
 
- 
-
 Je mag de testwebsite veranderen, je mag, nee gaat tests scripten en files toevoegen 
 aan de map tests. Als je nog verder wil gaan om dingen te veranderen? Prima. Het is 
 jouw repo. 
