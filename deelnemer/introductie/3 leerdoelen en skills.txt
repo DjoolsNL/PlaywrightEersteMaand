@@ -6,17 +6,17 @@ Zie de links Educatief op de indexpagina van de testwebsite. Daar zit een link '
 Die leidt naar een opsomming van de leerdoelen. Dit zijn in elk geval al de 4 soorten skills die in dit programma
 centraal staan:
 
-<li><strong>Toolskills</strong></li>
-   handig met windows en computers
-   handig in het vinden van antwoorden met google en ai
-   handig met vscode
-   handig met playwright
-   handig met typescript
+1. Toolskills:
+   handigheid in het werken met windows en computers
+   handigheid in het werken met vscode
+   handigheid in het werken met playwright
+   handigheid in het werken met typescript
 
+2. Testskills:
+   basiskennis software testen
 
-<li><strong>Testskills</strong></li>
+3. Leerskills:
+   ontdek wat jouw manier van leren is en leer tools googlen en ai te gebruiken 
 
-<li><strong>Leerskills</strong></li>
-leer de toolskills googlen en ai te gebruiken om technische antwoorden te krijgen 
-
-<li><strong>Sociale en Communitie skills</strong></li>
+4. Sociale en Communitie skills / Soft skills:
+   samenwerken, luisteren, samenvatten, doorvragen, 
