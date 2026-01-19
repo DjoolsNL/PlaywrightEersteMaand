@@ -30,10 +30,11 @@ Ad 2. de testsoftware
 Ad 3. testwebsite
    Er is naar gestreefd om de content van de testwebsite zo relevant mogelijk te maken voor 
    startende deelnemers die een traject bij het leerbedrijf doorlopen. Zo werkt de testwebsite ook 
-   als kennisbron.
+   als kennisbron. 
 
-   De eenvoud is bereikt door de testwebsite zo te bouwen dat hij in een browser kan 
-   worden weergegeven zonder dat een server of internet eraan te pas komt. 
+   Naast kennis biedt de testwebsite ook templates die van GitHub gehaald kunnen worden. Dit zijn 
+   starterspakketten voor portfolio projecten waarmee deelnemers kunnen laten zien wat ze in huis
+   hebben.
 
 Ad 4. run-typescript omgeving
    Plaats in deze map je eigen .ts files. Je files hier kun je in de terminal runnen. Dit gaat helemaal
