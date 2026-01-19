@@ -1,3 +1,8 @@
+// De ts code die je hier schrijft kun je in de terminal laten runnen.
+// Gebruik de package.json in de root om je .ts files te runnen vanuit het NPM SCRIPTS menu in de 
+// primary sidebar of start je run in de terminal met npx tsx ./run-typescript/jouwfile.ts   
+
+
 const now = new Date();
 
 const year: number = now.getFullYear();
