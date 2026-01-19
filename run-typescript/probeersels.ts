@@ -10,7 +10,7 @@ const seconds: string = String(now.getSeconds()).padStart(2, "0");
 
 const dateTime: string = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
 
-console.log(dateTime);
+console.log("datum: ", dateTime);
 
 // -----------------------------------------------------------------------------
 console.log("jouw code:");

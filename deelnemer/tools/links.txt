@@ -18,7 +18,6 @@ HTML
 
 - html basics en naslag: https://www.w3schools.com/html/html_intro.asp
 
-
 CSS
 - basics css: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/What_is_CSS
 
@@ -29,15 +28,18 @@ PLAYWRIGHT
 
 - alles over playwright locators: https://playwright.dev/docs/locators
 
+- serie video's: https://www.youtube.com/watch?v=iTIxEZng-rc&list=PLXgRgGX8-5UVm9yioRY329rfcfy3MusiY
 
-
-
-
-
-- ChatGPT / Co-pilot / Google Search in AI mode 
-
-- https://www.reddit.com/r/BeesHeerlen/
+TESTEN
+- web testing: https://www.eviltester.com/
 
 - 'plattegrond' van het vakgebied software tester: https://roadmap.sh/qa
 
-- leer de onderdelen van vscode kennen: https://code.visualstudio.com/docs/getstarted/userinterface
+VS-CODE
+- leer de onderdelen kennen: https://code.visualstudio.com/docs/getstarted/userinterface
+
+OOK HANDIG
+
+- ChatGPT / Co-pilot / Google Search in AI mode 
+
+- beesHeerlen testnewsfeed: https://www.reddit.com/r/BeesHeerlen/
