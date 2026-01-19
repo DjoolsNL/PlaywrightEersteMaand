@@ -7,37 +7,51 @@ kunt halen. Die kennisbronnen maak je toegankelijk door in je browser de bookmar
 te gebruiken naar die bronnen. Hoe beter je dit organiseert hoe makkelijker je de 
 kennisbronnen kunt raadplegen.  
 
-Het is handig om meerdere sites te hebben die je over hetzelfde onderwerp kunt raadplegen. 
+Het is handig om meerdere sites te hebben die je over hetzelfde onderwerp kunt raadplegen.
+Bookmark de onderstaande links 
  
 ------------------------------------------------------------------------
-
 HTML
-- html basics: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax
-
-- gebruik dit als een soort naslag voor html: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content
 
 - html basics en naslag: https://www.w3schools.com/html/html_intro.asp
 
+- gebruik dit als een soort naslag voor html: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content
+
+- html basics: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax
+
+---------------------------------------------------------------------------------------------------------------
 CSS
-- basics css: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/What_is_CSS
 
 - basics css: https://www.w3schools.com/css/css_intro.asp
 
+- basics css: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/What_is_CSS
+
+---------------------------------------------------------------------------------------------------------------
 PLAYWRIGHT
+
 - startpagina playwright/typescript: https://playwright.dev/docs/test-typescript
 
 - alles over playwright locators: https://playwright.dev/docs/locators
 
+- basic anatomy of a playwright test: https://www.youtube.com/watch?v=35wsgc5lixI&list=PLXgRgGX8-5UVm9yioRY329rfcfy3MusiY&index=4
+
 - serie video's: https://www.youtube.com/watch?v=iTIxEZng-rc&list=PLXgRgGX8-5UVm9yioRY329rfcfy3MusiY
 
+---------------------------------------------------------------------------------------------------------------
 TESTEN
+
+- basics web testing: https://www.youtube.com/watch?v=EiGAG6ZmdtA
+
 - web testing: https://www.eviltester.com/
 
 - 'plattegrond' van het vakgebied software tester: https://roadmap.sh/qa
 
+---------------------------------------------------------------------------------------------------------------
 VS-CODE
+
 - leer de onderdelen kennen: https://code.visualstudio.com/docs/getstarted/userinterface
 
+---------------------------------------------------------------------------------------------------------------
 OOK HANDIG
 
 - ChatGPT / Co-pilot / Google Search in AI mode 
