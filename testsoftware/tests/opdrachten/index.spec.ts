@@ -62,43 +62,43 @@ test( '0.0.1 - Additional code to make flow more visible in headed run.', async 
    // The same flow as in the previous test but with extra code that makes it easier 
    // to see what the script does when it runs.  
    await page.getByRole( 'link', { name: 'About us', exact: true } ).highlight();
-   await page.waitForTimeout( 1000 );
+   await page.waitForTimeout( 500 );
    await page.getByRole( 'link', { name: 'About us', exact: true } ).click();
 
    await page.getByRole( 'link', { name: 'Home' } ).highlight();
-   await page.waitForTimeout( 1000 );
+   await page.waitForTimeout( 500 );
    await page.getByRole( 'link', { name: 'Home' } ).click();
 
    await page.getByRole( 'link', { name: 'Onboarding the team' } ).highlight();
-   await page.waitForTimeout( 1000 );
+   await page.waitForTimeout( 500 );
    await page.getByRole( 'link', { name: 'Onboarding the team' } ).click();
 
    await page.getByRole( 'link', { name: 'Home' } ).highlight();
-   await page.waitForTimeout( 1000 );
+   await page.waitForTimeout( 500 );
    await page.getByRole( 'link', { name: 'Home' } ).click();
 
    await page.getByRole( 'link', { name: 'Testautomation' } ).highlight();
-   await page.waitForTimeout( 1000 );
+   await page.waitForTimeout( 500 );
    await page.getByRole( 'link', { name: 'Testautomation' } ).click();
 
    await page.getByRole( 'link', { name: 'Home' } ).highlight();
-   await page.waitForTimeout( 1000 );
+   await page.waitForTimeout( 500 );
    await page.getByRole( 'link', { name: 'Home' } ).click();
 
    await page.getByRole( 'link', { name: 'Opportunities' } ).highlight();
-   await page.waitForTimeout( 1000 );
+   await page.waitForTimeout( 500 );
    await page.getByRole( 'link', { name: 'Opportunities' } ).click();
 
    await page.getByRole( 'link', { name: 'Home' } ).highlight();
-   await page.waitForTimeout( 1000 );
+   await page.waitForTimeout( 500 );
    await page.getByRole( 'link', { name: 'Home' } ).click();
 
    await page.getByRole( 'link', { name: 'De rol van testen' } ).highlight();
-   await page.waitForTimeout( 1000 );
+   await page.waitForTimeout( 500 );
    await page.getByRole( 'link', { name: 'De rol van testen' } ).click();
 
    await page.getByRole( 'link', { name: 'Home' } ).highlight();
-   await page.waitForTimeout( 1000 );
+   await page.waitForTimeout( 500 );
    await page.getByRole( 'link', { name: 'Home' } ).click();
 
 } )
@@ -109,7 +109,7 @@ test( '0.0.2 - Variable for timeout', async ( { page } ) => {
    // The same flow as in the previous test but we added a variable
    // and use that as timeout. Now we can control the speed of the run in one place.
    // We just added a tool that helps us to observe what happens in the browser when the code is executed. 
-   const timeout: number = 1000;
+   const timeout: number = 500;
 
    await page.getByRole( 'link', { name: 'About us', exact: true } ).highlight();
    await page.waitForTimeout( timeout );
@@ -155,7 +155,7 @@ test( '0.0.2 - Variable for timeout', async ( { page } ) => {
 
 test( '0.0.3 - Variable for home link', async ( { page } ) => {
    await page.goto( localIndexFile() );
-   const timeout: number = 1000;
+   const timeout: number = 500;
 
    // There's still much duplicate code in our test. We start somewhere and pick 
    // the repeating code "page.getByRole( 'link', { name: 'Home' }" to tackle first. 
@@ -206,7 +206,7 @@ test( '0.0.3 - Variable for home link', async ( { page } ) => {
 
 test( '0.0.4 - All code for home link in function', async ( { page } ) => {
    await page.goto( localIndexFile() );
-   const timeout: number = 1000;
+   const timeout: number = 500;
    const home = page.getByRole( 'link', { name: 'Home' } )
 
    // There's still much duplicate code in our test. We move the 'home' code
@@ -241,16 +241,16 @@ test( '0.0.4 - All code for home link in function', async ( { page } ) => {
 
    await goHome();
 
-   await page.getByRole( 'link', { name: 'De rol van testen' } ).highlight();
+   await page.getByRole( 'link', { name: 'De rol van testen in de ICT' } ).highlight();
    await page.waitForTimeout( timeout );
-   await page.getByRole( 'link', { name: 'De rol van testen' } ).click();
+   await page.getByRole( 'link', { name: 'De rol van testen in de ICT' } ).click();
 
    await goHome();
 } )
 
 test( '0.0.5 - Single function for all text links', async ( { page } ) => {
    await page.goto( localIndexFile() );
-   const timeout: number = 1000;
+   const timeout: number = 500;
 
    // There's still much duplicate code in our test. We refactor our function  
    // so that we can use it for all locators.
@@ -276,14 +276,14 @@ test( '0.0.5 - Single function for all text links', async ( { page } ) => {
 
    await goTo( 'Home' );
 
-   await goTo( 'De rol van testen' );
+   await goTo( 'De rol van testen in de ICT' );
 
    await goTo( 'Home' );
 } )
 
 test( '0.0.6 - Variable for locator', async ( { page } ) => {
    await page.goto( localIndexFile() );
-   const timeout: number = 1000;
+   const timeout: number = 500;
 
    // There's still duplicate code in our test. We refactor our function  
    // even further.
@@ -312,7 +312,7 @@ test( '0.0.6 - Variable for locator', async ( { page } ) => {
 
    await goTo( 'Home' );
 
-   await goTo( 'De rol van testen' );
+   await goTo( 'De rol van testen in de ICT' );
 
    await goTo( 'Home' );
 
@@ -323,7 +323,7 @@ test( '0.0.6 - Variable for locator', async ( { page } ) => {
 
 test( '0.0.7 - Array for links group Leerbedrijf', async ( { page } ) => {
    await page.goto( localIndexFile() );
-   const timeout: number = 1000;
+   const timeout: number = 500;
 
    // We introduce a new variable[] that holds all strings and enables us to use a loop. 
    const leerBedrijf: string[] = [
@@ -1274,6 +1274,6 @@ test( '0.1.4 - Class moved to different file', async ( { page } ) => {
    // We also added two methods to navigate to the pages linked on the index page. One for textlinks and one for imagelinks.
    await index.navigateToImageLink("about-us");
    // We also added property for navigating to the indexpage.
-   await index.indexpage.click() ;
+   await index.indexpage.click();
    await index.navigateToTextLink('About us');
 } )
