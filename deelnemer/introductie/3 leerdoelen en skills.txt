@@ -11,6 +11,7 @@ centraal staan:
    handigheid in het werken met vscode
    handigheid in het werken met playwright
    handigheid in het werken met typescript
+   handigheid in het werken met browser en devtools
 
 2. Testskills:
    basiskennis software testen
