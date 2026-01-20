@@ -4,10 +4,10 @@
 
 Deze repo brengt vier verschillende dingen samen: 
 
-1. het leerprogramma (map 'deelnemer'),
+1. het leerprogramma, 
 2. de testsoftware,  
 3. de testwebsite en
-4. de run-typescript omgeving. 
+4. de typescript-workbench omgeving. 
  
 Ad 1. het leerprogramma 
    Er is naar gestreefd een zo eenvoudig mogelijke, werkende repo te maken die de basis 
@@ -36,11 +36,11 @@ Ad 3. testwebsite
    starterspakketten voor portfolio projecten waarmee deelnemers kunnen laten zien wat ze in huis
    hebben.
 
-Ad 4. run-typescript omgeving
-   Plaats in deze map je eigen .ts files. Je files hier kun je in de terminal runnen. Dit gaat helemaal
-   buiten de testomgeving om. Hier kun je allerlei ts code experimenten uitvoeren.
+Ad 4. typescript-workbench 
+   Hier kun je typescript uitproberen, los van playwright. Plaats in deze map je eigen .ts files. Je 
+   kunt deze in de terminal laten runnen. Hier kun je allerlei ts code experimenten uitvoeren.
    Je mag zoveel files als je wilt hier neerzetten. In deze omgeving kun je alles bouwen wat je maar wil
    met ts.
 
    Gebruik de package.json in de root om je .ts files te runnen vanuit het NPM SCRIPTS menu in de 
-   primary sidebar of start je run in de terminal met npx tsx ./run-typescript/jouwfile.ts   
+   primary sidebar of start je run in de terminal met npx tsx ./typescript-workbench/jouwfile.ts   

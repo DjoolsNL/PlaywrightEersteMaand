@@ -1,10 +1,13 @@
 {
+  "name": "playwright_eerste_maand",
+  "version": "1.0.0",
+  "author": "Jules van Nuijs for BEE Ideas",
   "devDependencies": {
     "tsx": "^4.21.0"
   },
 
 "scripts": {
-    "probeersels": "tsx ./run-typescript/probeersels.ts"
+    "probeersels": "tsx ./typescript-workbench/probeersels.ts"
   }
 
 }

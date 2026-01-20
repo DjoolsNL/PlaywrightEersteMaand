@@ -30,7 +30,7 @@ waar een webpagina op staat.
 - outlook
 - Discord
 
-7. Zet windows one drive uit. 
+7. Zet windows one-drive uit. 
 
 8. Ga geen zogenaamd handige extensies in VS-code of op je browser installeren. 
 

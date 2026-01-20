@@ -13,7 +13,7 @@ Je mag de repo na afloop van het introductieprogramma blijven gebruiken
 als testomgeving. Het is namelijk altijd handig om een werkende testomgeving te hebben
 waar je dingen kunt uitproberen!
 
-Binnen de map run-typescript kun je typescript code uitproberen.
+Binnen de map typescript-workbench kun je typescript code uitproberen.
 
 In je eigen map 'deelnemer' kun je mediafiles opslaan en afspelen, je kunt links in .txt 
 bestanden zetten zoals bijv. https://playwright.dev/. Vscode is zeer veelzijdig en je 
