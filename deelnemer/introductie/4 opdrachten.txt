@@ -8,7 +8,7 @@ in de map 'van maand tot maand/eerste-maanden' zijn bedoeld om je actief met de 
 Voor het introductieprogramma staan de opdrachten in de submap 1ste maand.
 
 Verder staan er ook nog opdrachten in de map 'testsoftware/tests/opdrachten. De opdrachten in deze map
-hebben op het gebruik van playwrigt betrekking.
+hebben betrekking op het gebruik van playwrigt.
 
 Er is een ook nog een EINDOPDRACHT:
 Je geeft ergens in de laatste week een presentatie van testscripts die je

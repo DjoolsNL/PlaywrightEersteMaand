@@ -6,7 +6,7 @@ In de ICT draait het om efficientie. Je zult efficient met je digitale
 werkomgeving moeten kunnen omgaan. Je moet handig zijn in het gebruik
 van je digitale tools (toolskills).
 
-1. Organiseer je digitale werkomgeving. Maak een apart account op windows 
+1. Organiseer je digitale werkomgeving. Maak een apart leer/werk account op windows 
 aan voor je leer/werkomgeving. 
 
 2. Creeer vaste plekken voor de dingen die je in je leer/werkaccount opslaat
@@ -16,7 +16,7 @@ gebruikt een plek op het hoogste niveau.
 3. Maak in je browser een aparte map aan voor je leerbronnen (zie file 
 links.txt in de map tools).
 
-4. Zorg dat je per onderwerpen twee of drie go-to sites hebt waar je 
+4. Zorg dat je per onderwerp twee of drie go-to sites hebt waar je 
 terecht kunt als je op zoek naar uitleg bent. Bookmark die sites en beheer die
 bookmarks. 
 
@@ -39,11 +39,11 @@ waar een webpagina op staat.
 10. Verzin zelf ook eens een tip.
 
 11. Je mag dit leerprogramma gebruiken zoals je wil. Het hoeft niet maar je mag
-aantekeningen maken in files als je dat helpt om te leren. Schrijf in code files 
+aantekeningen maken in files als je dat helpt om te leren. Schrijf in scriptfiles 
 comments bij code zodat je ook een volgende keer als je langs komt begrijpt wat 
 er gebeurt. 
 
-Je kunt de testwebsite uitbreiden als je dat wil. Dan maak je er een groep links 
+Je kunt de testwebsite uitbreiden als je dat wil. Dan maak je er bijv. een groep links 
 bij die naar je eigen pagina's gaan. Bijvoorbeeld je cv pagina. Voor die eigen 
 pagina's kun je weer eigen tests schrijven. 
 
@@ -63,6 +63,4 @@ wiel draaiend houdt.
 14. Zes maanden zijn zo voorbij. Benut de tijd in het project om zoveel mogelijk
 te leren. Weet je even niet wat je doen moet? Verken de opties van VS-code, van 
 de devtools van je browser, verken playwright of typescript. Bouw je handigheid
-met de tools op in verloren momenten of als je je verveeld. 
-
-Probeer iets nuttigs te doen.
+met de tools op in verloren momenten of als je je verveelt. 
