@@ -9,5 +9,4 @@
 "scripts": {
     "probeersels": "tsx ./typescript-workbench/probeersels.ts"
   }
-
 }
