@@ -9,26 +9,21 @@ test( 'page about-us', async ( { page } ) => {
 
    await page.goto( fileUrl );
 
+   // onderstaand een stukje normaal typescript dat in een test of testfile gebruikt kan worden 
    const now = new Date();
 
-const year = now.getFullYear();
-const month = String(now.getMonth() + 1).padStart(2, "0"); 
-const day = String(now.getDate()).padStart(2, "0");       
+   const year: number = now.getFullYear();
+   const month: string = String(now.getMonth() + 1).padStart(2, "0");
+   const day: string = String(now.getDate()).padStart(2, "0");
 
-const hour = String(now.getTime);
-const dateString = `${year}-${month}-${day} : ${hour}`;
+   const hours: string = String(now.getHours()).padStart(2, "0");
+   const minutes: string = String(now.getMinutes()).padStart(2, "0");
+   const seconds: string = String(now.getSeconds()).padStart(2, "0");
 
-console.log(dateString); // e.g. "2026-01-16"
+   const dateTime: string = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
 
+   console.log("datum: ", dateTime);
+// aaasdfg
 
-const nnow = (): string => {
-  const d = new Date();
-  const p = (n: number) => String(n).padStart(2, "0");
-
-  return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())} `
-       + `${p(d.getHours())}:${p(d.getMinutes())}:${p(d.getSeconds())}`;
-};
-
-console.log(nnow);
 
 })
