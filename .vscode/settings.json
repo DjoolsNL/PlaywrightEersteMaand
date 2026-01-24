@@ -5,6 +5,7 @@
       "**/xpackage.json": true,
       "**/xplaywright.config.ts": true,
       "**/xtsconfig.json": true,
-      
+      "**/node_modules": true,
+      "**/.vscode":true
    }
 }

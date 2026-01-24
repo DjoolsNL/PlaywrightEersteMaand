@@ -1,7 +1,7 @@
 // De ts code die je hier schrijft kun je in de terminal laten runnen.
 // Gebruik de package.json in de root om je .ts files te runnen vanuit het NPM SCRIPTS menu in de 
 // primary sidebar of start je run in de terminal met npx tsx ./run-typescript/jouwfile.ts   
-
+"use strict";
 
 const now = new Date();
 
@@ -92,20 +92,6 @@ console.log("jouw code:");
 //    else {
 //       console.log(item);
 //    }
-
-//    // Clif Bonas 
-   
-//    // class
-//    // loop for
-//    // if
-//    // function
-
-//    // boolean
-//    // object 
-//    // number
-//    // array
-//    // string
-
 // }
 
 

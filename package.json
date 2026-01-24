@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "author": "Jules van Nuijs for BEE Ideas",
   "devDependencies": {
+    "eslint": "^9.39.2",
     "tsx": "^4.21.0"
   },
-
-"scripts": {
+  "scripts": {
     "probeersels": "tsx ./typescript-workbench/probeersels.ts"
   }
 }

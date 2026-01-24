@@ -1,7 +1,6 @@
-INSTALLATIE
+INSTALLATION
 
-----------------------------------------------------------------------------------
+-----------------------------------------------------------------
 
-Om de repo werkend te krijgen moet je nog node.js en playwright installeren. 
-
-Vraag aan je teamlead hulp als je niet weet hoe je deze software moet installeren. 
+To get the repo working, you still need to install Node.js and Playwright.
+Ask your team lead for help if you don’t know how to install this software.
