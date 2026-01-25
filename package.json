@@ -7,6 +7,7 @@
     "tsx": "^4.21.0"
   },
   "scripts": {
-    "probeersels": "tsx ./typescript-workbench/probeersels.ts"
+    "probeersels": "tsx ./typescript-workbench/probeersels.ts",
+    "exercises": "tsx ./typescript-workbench/exercises.ts"
   }
 }
