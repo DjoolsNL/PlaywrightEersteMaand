@@ -61,7 +61,7 @@ test( '0.0.1 - Additional code to make flow more visible in headed run.', async 
    await page.goto( localIndexFile() );
 
    // The same flow as in the previous test but with extra code that makes it easier 
-   // to see what the script does when it runs.  
+   // to see what the script does when it runs headed (in the browser).  
    await page.getByRole( 'link', { name: 'About us', exact: true } ).highlight();
    await page.waitForTimeout( 500 );
    await page.getByRole( 'link', { name: 'About us', exact: true } ).click();
@@ -212,6 +212,7 @@ test( '0.0.4 - All code for home link in function', async ( { page } ) => {
 
    // There's still much duplicate code in our test. We move the 'home' code
    // into a function.
+   
    async function goHome () {
       await home.highlight();
       await page.waitForTimeout( timeout );
@@ -335,9 +336,11 @@ test( '0.0.7 - Array for links group Leerbedrijf', async ( { page } ) => {
       "De rol van testen in de ICT"
    ];
 
-   // We got rid of the function and introduce a for-loop that iterates through the new variable[] 'leerbedrijf' and in each loop executes 
-   // the commands that used to come from the function. The for loop is just a repeating function that takes input from a collection like an array.  
-   // It is also self-executing. We don't need to call it.
+   // We got rid of the function and introduce a for-loop that iterates through the 
+   // new variable[] 'leerbedrijf' and in each loop executes the commands that 
+   // used to come from the function. The for loop is just a repeating function 
+   // that takes input from a collection like an array. It is also self-executing. 
+   // We don't need to call it.
    for ( const destination of leerBedrijf ) {
       const locator = page.getByRole( 'link', { name: destination, exact: true } );
       await locator.highlight();
@@ -399,7 +402,8 @@ test( '0.0.8 - Type Link and LinkArray', async ( { page } ) => {
 } )
 
 test( '0.0.9 - Type Link expanded for all kind of links', async ( { page } ) => {
-   // we expand type Link so we can use variables of this type for text links and image links and for their verification. 
+   // we expand type Link so we can use variables of this type for text links and 
+   // image links and for their verification. 
    type Link =
       {
          textLinkName: string;

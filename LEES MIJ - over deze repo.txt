@@ -1,8 +1,8 @@
- OVER DEZE REPO 
+ABOUT THIS REPO 
 
 ----------------------------------------------------------------------------------
 
-Deze repo brengt vier verschillende dingen samen: 
+This repo brings together four things: 
 
 1. het leerprogramma, 
 2. de testsoftware,  
@@ -10,9 +10,8 @@ Deze repo brengt vier verschillende dingen samen:
 4. de typescript-workbench omgeving. 
  
 Ad 1. het leerprogramma 
-   Er is naar gestreefd een zo eenvoudig mogelijke, werkende repo te maken die de basis 
-   van web en webtesting laat zien en die klaar is om gebruikt te worden door een nieuwe 
-   deelnemer. 
+   Er is gestreefd naar een eenvoudige, werkende repo die de basis 
+   van web en webtesting laat zien en die klaar is om gebruikt te worden in het leerproces.
 
    De opdrachten binnen het leerprogramma zijn bedoeld om de deelnemer actief te laten werken met 
    de diverse onderdelen van de repo. 
@@ -22,7 +21,7 @@ Ad 1. het leerprogramma
 
 Ad 2. de testsoftware
    De testsoftware is playwright/typescript. Er zijn werkende testscripts
-   aanwezig die als voorbeeld dienen voor de tests die nog niet zijn gescript. Bovendien kan de 
+   die als voorbeeld met opdrachten. Bovendien kan de 
    playwright-tool 'codegen' worden gebruikt waarmee testcode kan worden gegenereerd terwijl
    de deelnemer de website in de browser bezoekt. Ongeveer de helft van die automatisch gegenereerde
    code werkt en de andere helft niet. Een ideale tool om de basis snel te leren. 
