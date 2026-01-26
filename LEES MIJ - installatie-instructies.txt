@@ -4,3 +4,6 @@ INSTALLATION
 
 To get the repo working, you still need to install Node.js and Playwright.
 Ask your team lead for help if you don’t know how to install this software.
+
+Remind your team lead that he needs this: 
+'Set-ExecutionPolicy RemoteSigned -Scope CurrentUser'

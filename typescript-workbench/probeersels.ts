@@ -3,7 +3,7 @@
 // primary sidebar of start je run in de terminal met npx tsx ./run-typescript/jouwfile.ts   
 "use strict";
 
-const now = new Date();
+const now: Date = new Date();
 
 const year: number = now.getFullYear();
 const month: string = String(now.getMonth() + 1).padStart(2, "0");
