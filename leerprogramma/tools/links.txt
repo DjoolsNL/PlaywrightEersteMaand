@@ -58,4 +58,8 @@ OOK HANDIG
 
 - ChatGPT / Co-pilot / Google Search in AI mode 
 
+- Set up AI for vscode: https://code.visualstudio.com/docs/copilot/setup
+
+- Getting started with AI for vscode: https://code.visualstudio.com/docs/copilot/getting-started
+
 - beesHeerlen testnewsfeed: https://www.reddit.com/r/BeesHeerlen/

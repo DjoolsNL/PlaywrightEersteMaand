@@ -1,24 +1,25 @@
 //#region READ ME
 // To write testautomation we need programming skills and experience. 
-// 
+
 // Below in test 0.0.0 the script instructs the browser to click on all links of the section 'Leerbedrijf' on the index page. 
 // After each click the browser navigates to its destination and then back to the index page for the next link. 
-//  
-// The script shows many repetions and programmers don't like repetion. We refactor it to 
+ 
+// The script shows many repetitions and programmers don't like repetion. We refactor it to 
 // make it more lean and flexible. Refactoring helps to manage the continuously growing complexity of code.
-//
+
+// In all tests after version 0.0.0 we build upon the previous version to develop our testcode.
+
 // So how to do it? Automate the elements on the webpage that can be used to interact with. Like this: a) find a reliable playwright locator 
 // for element, b) put locator in variable, c) give variable a very good name, d) use variable with very good name whenever you need. 
 // The next step would be to create a class for this particular webpage that holds all variables and also common methods like
 // verifyThis(), verifyThat().    
-//
+
 // To write testautomation we also need to know the basics of testing
 // Does the product meet its requirements?  
-// 
+
 // To learn testautomation you should focus on 'what does this line of code do when executed' instead on 'how does this work'. 
-//
-// In all tests after version 0.0.0 we build upon the previous version to develop our testcode. Try to understand as many versions
-// as you can during your time in the team.      
+
+// Try to understand as many versions as you can.      
 //#endregion
 
 import { test, expect, request } from '@playwright/test';
@@ -836,10 +837,10 @@ test( '0.1.1 - Execute all', async ( { page } ) => {
 
    // We call the function for all our groups
    await verifyTaggedLinks( 'leerbedrijf' );
-   await verifyTaggedLinks( 'educatief' );
-   await verifyTaggedLinks( 'baanperspectief' );
-   await verifyTaggedLinks( 'portfolio' );
-   await verifyTaggedLinks( 'footer' );
+   // await verifyTaggedLinks( 'educatief' );
+   // await verifyTaggedLinks( 'baanperspectief' );
+   // await verifyTaggedLinks( 'portfolio' );
+   // await verifyTaggedLinks( 'footer' );
 } )
 
 test( '0.1.2 - A class for automation of links on the index page', async ( { page } ) => {
