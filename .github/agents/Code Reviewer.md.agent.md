@@ -1,6 +1,6 @@
 ---
 description: 'Review code for quality and adherence to best practices.'
-tools: ['usages', 'vscodeAPI', 'problems', 'fetch', 'githubRepo', 'search']
+tools: ['search/usages', 'vscode/vscodeAPI', 'read/problems', 'web/fetch', 'web/githubRepo', 'search']
 ---
 # Code Reviewer agent
 
