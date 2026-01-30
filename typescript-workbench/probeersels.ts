@@ -15,9 +15,12 @@ const seconds: string = String(now.getSeconds()).padStart(2, "0");
 
 const dateTime: string = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
 
-console.log("datum: ", dateTime);
+const outputToConsole = "Hello World, vandaag is het " + dateTime;
+console.log(outputToConsole);
 
 // -----------------------------------------------------------------------------
 console.log("jouw code:");
+
+
 
 

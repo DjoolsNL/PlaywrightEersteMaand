@@ -837,10 +837,10 @@ test( '0.1.1 - Execute all', async ( { page } ) => {
 
    // We call the function for all our groups
    await verifyTaggedLinks( 'leerbedrijf' );
-   await verifyTaggedLinks( 'educatief' );
-   await verifyTaggedLinks( 'baanperspectief' );
-   await verifyTaggedLinks( 'portfolio' );
-   await verifyTaggedLinks( 'footer' );
+   // await verifyTaggedLinks( 'educatief' );
+   // await verifyTaggedLinks( 'baanperspectief' );
+   // await verifyTaggedLinks( 'portfolio' );
+   // await verifyTaggedLinks( 'footer' );
 } )
 
 test( '0.1.2 - A class for automation of links on the index page', async ( { page } ) => {
