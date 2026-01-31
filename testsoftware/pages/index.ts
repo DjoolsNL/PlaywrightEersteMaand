@@ -7,6 +7,13 @@ export function localIndexFile (): string {
    return part1 + part2;
 }
 
+/**
+ * Link type definition.
+ * @property {string} textLinkName - The name of the text link.
+ * @property {string} imageid - The test ID of the image link.
+ * @property {string} htmlFile - The HTML file associated with the link.
+ * @property {string} tag - The tag categorizing the link.
+ */
 type Link = {
    textLinkName: string;
    imageid: string;
@@ -18,9 +25,9 @@ export class Index {
    page: Page;
    indexpage: Locator;
    public Links: Link[];
-   constructor(page: Page) {
+   constructor( page: Page ) {
       this.page = page;
-      this.indexpage = this.page.getByRole('link', {name: 'Home'});
+      this.indexpage = this.page.getByRole( 'link', { name: 'Home' } );
       this.Links = [
          // --- leerbedrijf ---
          {
@@ -167,8 +174,13 @@ export class Index {
          }
       ];
    }
-   async verifyLinkRoutine (link:Link) {         
-      if (link.textLinkName !== "") {            
+
+   /**
+    * Verifies a textlink on the index page.
+    * @param link - The link object containing details for verification.
+    */
+   async verifyLinkRoutine ( link: Link ) {
+      if ( link.textLinkName !== "" ) {
          await this.page.getByRole( 'link', { name: link.textLinkName, exact: true } ).click();
          const url = this.page.url();
          expect( url ).toContain( link.htmlFile );
@@ -177,35 +189,51 @@ export class Index {
       }
 
       if ( link.imageid !== "" ) {
-         await this.page.getByTestId(  link.imageid ).click(); 
+         await this.page.getByTestId( link.imageid ).click();
          const url = this.page.url();
-         expect( url ).toContain( link.htmlFile );link
+         expect( url ).toContain( link.htmlFile ); link
 
          await this.indexpage.click();
       }
    }
-   
+
+   /**
+    * Verifies all links on the index page that share a specific tag.
+    * @param tag - The tag used to filter and verify links.
+    */
    async verifyTaggedLinks ( tag: string ) {
       const filterByTag = this.Links.filter( item => item.tag === tag );
       for ( const link of filterByTag ) {
-         await this.verifyLinkRoutine(link);
+         await this.verifyLinkRoutine( link );
       }
    }
 
+   /**
+    * Verifies a single link on the index page using the HTML file name.
+    * @param htmlFileName - The HTML file name associated with the link to verify.
+    */
    async verifySingleLink ( htmlFileName: string ) {
       const filterByHtmlFileName = this.Links.filter( item => item.htmlFile === htmlFileName );
       for ( const link of filterByHtmlFileName ) {
-         await this.verifyLinkRoutine(link);
+         await this.verifyLinkRoutine( link );
       }
    }
 
-   async navigateToImageLink (imageid: string) {
-      const a = this.Links.find(l => l.imageid === imageid);
-      await this.page.getByTestId(a.imageid).click();
+   /**
+    * Navigates to a link on the index page using the image ID.
+    * @param imageid - The test ID of the image link to navigate to. 
+    */
+   async navigateToImageLink ( imageid: string ) {
+      const a = this.Links.find( l => l.imageid === imageid );
+      await this.page.getByTestId( a.imageid ).click();
    }
 
-   async navigateToTextLink (textLinkName: string) {
-      const a = this.Links.find(l => l.textLinkName === textLinkName);
-      await this.page.getByRole('link', {name: a.textLinkName}).click();
+   /**
+    * Navigates to a link on the index page using the text link name.
+    * @param textLinkName - The name of the text link to navigate to.
+    */
+   async navigateToTextLink ( textLinkName: string ) {
+      const a = this.Links.find( l => l.textLinkName === textLinkName );
+      await this.page.getByRole( 'link', { name: a.textLinkName } ).click();
    }
 }

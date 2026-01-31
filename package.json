@@ -1,6 +1,6 @@
 {
   "name": "playwright_eerste_maand",
-  "version": "1.0.0",
+  "version": "2.0.1",
   "author": "Jules van Nuijs for BEE Ideas",
   "devDependencies": {
     "eslint": "^9.39.2",

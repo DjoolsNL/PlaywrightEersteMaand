@@ -2,11 +2,12 @@ INSTALLATION
 
 -----------------------------------------------------------------
 
-To get the repo working, you still need to install Node.js and Playwright.
-Ask your team lead for help if you don’t know how to install this software.
+To get the repo working, you still need to install Node.js and Playwright for node.js.
+You also need to install two extensions in vscode: 'vscode-pdf' and 'Playwright Test for VSCode'.
+Ask your team-lead for help if you don’t know how to install this software.
 
-Node.js should be installed in the projects root and playwright should be 
-installed in the directory testsoftware.
+Node.js should be installed in the project's root and playwright should be 
+installed in the directory 'testsoftware'. 
 
 Remind your team lead that he probably needs this commando after installing
 playwright and trying to run a test:
