@@ -2,17 +2,30 @@ INSTALLATION
 
 -----------------------------------------------------------------
 
-To get the repo working, you still need to install Node.js and Playwright for node.js.
-You also need to install two extensions in vs-code: 'vs-code-pdf' and 'Playwright Test for vs-code'.
 Ask your team-lead for help if you don’t know how to install this software.
 
-Node.js should be installed in the project's root and playwright should be 
-installed in the directory 'testsoftware'. 
+To get the repo working, you still need to install Node.js and Playwright for node.js.
+You also need to install two extensions in vs-code: 
+1. 'vs-code-pdf' and 
+2. 'Playwright Test for vs-code'.
+
+Install in directory PlaywrightEersteMaand: node.js
+
+Install in directory testsoftware: Playwright
+During the installation of Playwright you're presented with a few
+options:
+- TypeScript or JavaScript? Choose TypeScript
+- Tests folder name. Use tests
+- Add a GitHub Actions workflow? no
+- Install Playwright browsers? yes
+- Overwrite Playwright.config.ts? no
 
 Remind your team lead that he probably needs this commando after installing
 Playwright and trying to run a test:
 
 'Set-ExecutionPolicy RemoteSigned -Scope CurrentUser'
+
+-----------------------------------------------------------------
 
 Useful terminal commands: 
 - install project dependencies: npm install 
