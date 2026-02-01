@@ -304,7 +304,7 @@ test( '0.0.5 - Single function for all text links', async ( { page } ) => {
    await goTo( 'Home' );
 
    // Our code already looks much better and is more flexible. 
-   // Btw we can use emojis too in vscode 🎉😊🚀.
+   // Btw we can use emojis too in vs-code 🎉😊🚀.
 } )
 
 test( '0.0.6 - Variable for locator', async ( { page } ) => {
