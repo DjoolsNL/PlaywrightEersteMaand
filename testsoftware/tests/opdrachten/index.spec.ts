@@ -348,15 +348,19 @@ test( '0.0.6 - Variable for locator', async ( { page } ) => {
 
 test( '0.0.6.1 - Arrays and loops', async ( { page } ) => {
    // In this test (which isn't a real test like the others) we introduces arrays and loops.
-   // An array is a collection of variables of a specific type stored in a single variable.
+   // An array is a collection of values of the same type stored in a single variable.
+   // Arrays let you access and manipulate each element individually. When used with a for-loop 
+   // they enable you to perform repetitive tasks (the loop) efficiently.
    // Below is an array of strings called 'words'.   
    const words: string[] = [ 'hopefully', 'you', 'will', 'understand', 'arrays', 'and', 'loops', 'after', 'this', 'lesson' ];
 
-   // A loop is a programming construct that repeats a block of code multiple times.
+   // A for-loop is a programming construct that repeats a block of code multiple times.
    // A collection like an array is often used to loop through. 
    for ( let word of words ) {
       console.log( word );
    }
+
+   console.log(); // Just a linebreak in the console output.
 
    // We can also manipulate the data in the array during the loop.
    for ( let word of words ) {
@@ -364,11 +368,15 @@ test( '0.0.6.1 - Arrays and loops', async ( { page } ) => {
       console.log( word );
    }
 
+   console.log(); // Just a linebreak in the console output.
+  
    // Below is also a string array called 'faces'.
    const faces: string[] = [ '\u{1F604}', '\u{1F601}', '\u{1F606}', '\u{1F923}', '\u{1F602}' ];
    for ( const face of faces ) {
       console.log( face );
    }
+
+   console.log(); // Just a linebreak in the console output.
 
    // In case you like emojis you can find them here: https://unicode.org/emoji/charts/full-emoji-list.html
 

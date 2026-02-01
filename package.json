@@ -2,6 +2,7 @@
   "name": "playwright_eerste_maand",
   "version": "2.0.1",
   "author": "Jules van Nuijs for BEE Ideas",
+  "description": "educational repository for learning Playwright and TypeScript",
   "devDependencies": {
     "eslint": "^9.39.2",
     "globals": "^17.2.0",

@@ -6,9 +6,9 @@
   "keywords": [],
   "author": "Jules van Nuijs for BEE Ideas",
   "license": "ISC",
-  "description": "",
+
   "devDependencies": {
-    "@playwright/test": "^1.45.3",
+    "@playwright/test": "^1.58.1",
     "@types/node": "^22.19.2",
     "typescript": "^5.7.3"
   },

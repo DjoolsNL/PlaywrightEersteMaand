@@ -42,4 +42,6 @@ Ad 4. typescript-workbench
    met ts.
 
    Gebruik de package.json in de root om je .ts files te runnen vanuit het NPM SCRIPTS menu in de 
-   primary sidebar of start je run in de terminal met npx tsx ./typescript-workbench/jouwfile.ts   
+   primary sidebar of start je run in de terminal met npx tsx ./typescript-workbench/jouwfile.ts  
+
+This repo is still a work in progress. One of the goals is to translate the entire repo into English.  
