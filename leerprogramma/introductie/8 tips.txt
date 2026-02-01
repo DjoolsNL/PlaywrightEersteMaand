@@ -24,11 +24,12 @@ bookmarks.
 waar een webpagina op staat. 
 
 6. Zorg dat je handig bent met 
+- vscode
 - de windows verkenner (explorer)
 - de instellingen van windows
 - windows taakbeheer(Task Manager) 
 - outlook
-- Discord
+- discord
 
 7. Zet windows one-drive uit. 
 
