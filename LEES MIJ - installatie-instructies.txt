@@ -5,12 +5,17 @@ INSTALLATION
 Ask your team-lead for help even if you know how to install software.
 
 To get the repo working, you still need to install Node.js and Playwright for node.js.
-You also need to install two extensions in vs-code: 
+You also need to install two extensions in vs-code.
+
+VS-CODE EXTENSIONS  
+Install these two:
 1. 'vs-code-pdf' and 
 2. 'Playwright Test for vs-code'.
 
+NODE.JS 
 Install in directory PlaywrightEersteMaand: node.js
 
+PLAYWRIGHT 
 Install in directory testsoftware: Playwright
 During the installation of Playwright you're presented with a few
 options:
@@ -19,6 +24,8 @@ options:
 - Add a GitHub Actions workflow? no
 - Install Playwright browsers? yes
 - Overwrite Playwright.config.ts? no
+
+-----------------------------------------------------------------
 
 Remind your team lead that he probably needs this commando after installing
 Playwright and trying to run a test:

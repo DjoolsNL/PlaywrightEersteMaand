@@ -6,7 +6,7 @@
   "keywords": [],
   "author": "Jules van Nuijs for BEE Ideas",
   "license": "ISC",
- 
+
   "devDependencies": {
     "@playwright/test": "^1.58.1",
     "@types/node": "^22.19.2",
