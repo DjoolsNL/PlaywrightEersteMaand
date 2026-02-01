@@ -2,7 +2,7 @@ INSTALLATION
 
 -----------------------------------------------------------------
 
-Ask your team-lead for help if you don’t know how to install this software.
+Ask your team-lead for help even if you know how to install software.
 
 To get the repo working, you still need to install Node.js and Playwright for node.js.
 You also need to install two extensions in vs-code: 
