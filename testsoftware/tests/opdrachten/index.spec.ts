@@ -348,7 +348,8 @@ test( '0.0.6 - Variable for locator', async ( { page } ) => {
 
 test( '0.0.6.1 - Arrays and loops - part 1', async ( { page } ) => {
    // In this test (which isn't a real test like the others) we introduces arrays and loops.
-   // An array is a collection of values of the same type stored in a single variable.
+   // An array is type of variable that can hold a collection of values of the same type. A 
+   // individual value in an array is called element or item.
    // Arrays let you access and manipulate each element individually. When used with a for-loop 
    // they enable you to perform repetitive tasks (the loop) efficiently.
    // Below is an array of strings called 'words'.   
@@ -400,60 +401,60 @@ test( '0.0.6.2 - Arrays and loops - part 2', async ( { page } ) => {
 
    console.log(); // Just a linebreak in the console output.
 
-   for ( let item of bisoncalf ) {
-      item = item.toUpperCase();
-      console.log( "A question for you about", item );
+   for ( let variable of bisoncalf ) {
+      variable = variable.toUpperCase();
+      console.log( "A question for you about", variable );
 
-      if ( item === "BOOLEANS" ) {
-         console.log( item, "are an alien race from Star Trek." );
+      if ( variable === "BOOLEANS" ) {
+         console.log( variable, "are an alien race from Star Trek." );
          console.log( "True or False?" );
          console.log();
       }
 
-      if ( item === "IF-STATEMENTS" ) {
-         console.log( item, "are BOOLEANS." );
+      if ( variable === "IF-STATEMENTS" ) {
+         console.log( variable, "are BOOLEANS." );
          console.log( "True or False?" );
          console.log();
       }
 
-      if ( item === "STRINGS" ) {
-         console.log( item, "can be found are in orchestra's and code." );
+      if ( variable === "STRINGS" ) {
+         console.log( variable, "can be found are in orchestra's and code." );
          console.log( "True or False?" );
          console.log();
       }
 
-      if ( item === "OBJECTS" ) {
-         console.log( item, "are things you can find in real life and in programming." );
+      if ( variable === "OBJECTS" ) {
+         console.log( variable, "are things you can find in real life and in programming." );
          console.log( "True or False?" );
          console.log();
       }
 
-      if ( item === "NUMBERS" ) {
-         console.log( item, "are used to count and calculate." );
+      if ( variable === "NUMBERS" ) {
+         console.log( variable, "are used to count and calculate." );
          console.log( "True or False?" );
          console.log();
       }
 
-      if ( item === "CLASSES" ) {
-         console.log( item, "are groups of objects with common variables (called properties) and functions (called methods)." );
+      if ( variable === "CLASSES" ) {
+         console.log( variable, "are groups of objects with common variables (called properties) and functions (called methods)." );
          console.log( "True or False?" );
          console.log();
       }
 
-      if ( item === "ARRAYS" ) {
-         console.log( item, "are collections of values of the same type stored in a single variable." );
+      if ( variable === "ARRAYS" ) {
+         console.log( variable, "are collections of values of the same type stored in a single variable." );
          console.log( "True or False?" );
          console.log();
       }
 
-      if ( item === "LOOPS" ) {
-         console.log( item, "are programming constructs that repeat a block of code multiple times." );
+      if ( variable === "LOOPS" ) {
+         console.log( variable, "are programming constructs that repeat a block of code multiple times." );
          console.log( "True or False?" );
          console.log();
       }
 
-      if ( item === "FUNCTIONS" ) {
-         console.log( item, "are reusable blocks of code that perform a specific task." );
+      if ( variable === "FUNCTIONS" ) {
+         console.log( variable, "are reusable blocks of code that perform a specific task." );
          console.log( "True or False?" );
          console.log();
       }
@@ -1436,6 +1437,6 @@ test( '0.1.4 - Class moved to different file', async ( { page } ) => {
    // 
    // You worked your way up to this file's line 1400 or so coming from from basic 
    // testautomation scripting to a more advanced level of testautomation engineering.
-   // Build upon this knowledge to go to the next level and create more advanced 
+   // Build upon this knowledge to enter the next level while create even more advanced 
    // testautomation scripts.
 } )
