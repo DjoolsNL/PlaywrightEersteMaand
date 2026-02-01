@@ -304,7 +304,7 @@ test( '0.0.5 - Single function for all text links', async ( { page } ) => {
    await goTo( 'Home' );
 
    // Our code already looks much better and is more flexible. 
-   // Btw we can use emojis too in vs-code 🎉😊🚀.
+   // Btw we can use emojis in vs-code 🎉😊🚀.
 } )
 
 test( '0.0.6 - Variable for locator', async ( { page } ) => {
@@ -346,7 +346,7 @@ test( '0.0.6 - Variable for locator', async ( { page } ) => {
    await goTo( 'Home' );
 } )
 
-test( '0.0.6.1 - Arrays and loops', async ( { page } ) => {
+test( '0.0.6.1 - Arrays and loops - part 1', async ( { page } ) => {
    // In this test (which isn't a real test like the others) we introduces arrays and loops.
    // An array is a collection of values of the same type stored in a single variable.
    // Arrays let you access and manipulate each element individually. When used with a for-loop 
@@ -369,7 +369,7 @@ test( '0.0.6.1 - Arrays and loops', async ( { page } ) => {
    }
 
    console.log(); // Just a linebreak in the console output.
-  
+
    // Below is also a string array called 'faces'.
    const faces: string[] = [ '\u{1F604}', '\u{1F601}', '\u{1F606}', '\u{1F923}', '\u{1F602}' ];
    for ( const face of faces ) {
@@ -379,6 +379,89 @@ test( '0.0.6.1 - Arrays and loops', async ( { page } ) => {
    console.log(); // Just a linebreak in the console output.
 
    // In case you like emojis you can find them here: https://unicode.org/emoji/charts/full-emoji-list.html
+
+   // You can find the output of the console.log statements above in the terminal under the tab TEST RESULTS!!!
+} )
+
+test( '0.0.6.2 - Arrays and loops - part 2', async ( { page } ) => {
+   // Strings, arrays and loops can do complex routines when combined. Add if-statements and
+   // you can create advanced flows. Below is an example that uses all these building blocks.
+   const bisoncalf = [
+      "booleans",
+      "if-statements",
+      "strings",
+      "objects",
+      "numbers",
+      "classes",
+      "arrays",
+      "loops",
+      "functions"
+   ];
+
+   console.log(); // Just a linebreak in the console output.
+
+   for ( let item of bisoncalf ) {
+      item = item.toUpperCase();
+      console.log( "A question for you about", item );
+
+      if ( item === "BOOLEANS" ) {
+         console.log( item, "are an alien race from Star Trek." );
+         console.log( "True or False?" );
+         console.log();
+      }
+
+      if ( item === "IF-STATEMENTS" ) {
+         console.log( item, "are BOOLEANS." );
+         console.log( "True or False?" );
+         console.log();
+      }
+
+      if ( item === "STRINGS" ) {
+         console.log( item, "can be found are in orchestra's and code." );
+         console.log( "True or False?" );
+         console.log();
+      }
+
+      if ( item === "OBJECTS" ) {
+         console.log( item, "are things you can find in real life and in programming." );
+         console.log( "True or False?" );
+         console.log();
+      }
+
+      if ( item === "NUMBERS" ) {
+         console.log( item, "are used to count and calculate." );
+         console.log( "True or False?" );
+         console.log();
+      }
+
+      if ( item === "CLASSES" ) {
+         console.log( item, "are groups of objects with common variables (called properties) and functions (called methods)." );
+         console.log( "True or False?" );
+         console.log();
+      }
+
+      if ( item === "ARRAYS" ) {
+         console.log( item, "are collections of values of the same type stored in a single variable." );
+         console.log( "True or False?" );
+         console.log();
+      }
+
+      if ( item === "LOOPS" ) {
+         console.log( item, "are programming constructs that repeat a block of code multiple times." );
+         console.log( "True or False?" );
+         console.log();
+      }
+
+      if ( item === "FUNCTIONS" ) {
+         console.log( item, "are reusable blocks of code that perform a specific task." );
+         console.log( "True or False?" );
+         console.log();
+      }
+   }
+
+   console.log(); // Just a linebreak in the console output.
+
+   console.log(); // Just a linebreak in the console output.
 
    // You can find the output of the console.log statements above in the terminal under the tab TEST RESULTS!!!
 } )
@@ -401,7 +484,7 @@ test( '0.0.7 - Array for links group Leerbedrijf', async ( { page } ) => {
    // used to come from the function that we've removed. The for loop is just a repeating function 
    // that takes input from a collection like an array. It is also self-executing. 
    // We don't need to call it to execute.
-    
+
    for ( const destination of leerBedrijf ) {
       const locator = page.getByRole( 'link', { name: destination, exact: true } );
       await locator.highlight();
@@ -449,7 +532,7 @@ test( '0.0.8 - Type Link and LinkArray', async ( { page } ) => {
 
    await page.goto( localIndexFile() );
    const timeout: number = 100;
-   
+
    for ( const link of leerBedrijf ) {
       const locator = page.getByRole( 'link', { name: link.textLinkName, exact: true } );
       await locator.highlight();
@@ -512,7 +595,7 @@ test( '0.0.9 - Type Link expanded for all kind of links', async ( { page } ) => 
 
    await page.goto( localIndexFile() );
    const timeout: number = 50;
-   
+
    for ( const link of leerBedrijf ) {
       // First we test the text link
       if ( link.textLinkName !== "" ) {
@@ -546,7 +629,7 @@ test( '0.1.0 - Filtering the Link[]', async ( { page } ) => {
       htmlFile: string,
       groupTag: string
    };
-   
+
    // We change the name of the Link array from 'leerbedrijf' to 'links' and add data for the other groups   
    const links: Link[] = [
       // --- leerbedrijf ---
@@ -698,7 +781,7 @@ test( '0.1.0 - Filtering the Link[]', async ( { page } ) => {
 
    // We create a new Link array by filtering the existing Link array for the groupTag 'leerbedrijf'.
    const linksLeerbedrijf: Link[] = links.filter( link => link.groupTag === "leerbedrijf" );
-   
+
    for ( const link of linksLeerbedrijf ) {
       if ( link.textLinkName !== "" ) {
          await page.getByRole( 'link', { name: link.textLinkName, exact: true } ).click();
@@ -726,7 +809,7 @@ test( '0.1.1 - Execute all', async ( { page } ) => {
       htmlFile: string,
       groupTag: string
    };
-   
+
    const links: Link[] = [
       // --- leerbedrijf ---
       {
@@ -1347,6 +1430,12 @@ test( '0.1.4 - Class moved to different file', async ( { page } ) => {
    await index.indexpage.click();
    await index.navigateToTextLink( 'About us' );
 
-   // If you do understand all 15 versions of this file: congratulations!
-   // You can now build upon this knowledge to create more advanced testautomation scripts.
+   // If you understand all 15 versions of this file: 
+   // 
+   // CONGRATULATIONS!
+   // 
+   // You worked your way up to this file's line 1400 or so coming from from basic 
+   // testautomation scripting to a more advanced level of testautomation engineering.
+   // Build upon this knowledge to go to the next level and create more advanced 
+   // testautomation scripts.
 } )

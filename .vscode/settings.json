@@ -1,11 +1,32 @@
 {
+   "editor.formatOnSave": true,
+   "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+   },
+   "eslint.validate": [
+      "javascript",
+      "typescript",
+      "typescriptreact"
+   ],
+   "typescript.tsdk": "node_modules/typescript/lib",
+   "files.watcherExclude": {
+      "**/node_modules/**": true
+   },
    "files.exclude": {
       "**/.gitignore": true,
       "**/desktop.ini": true,
+      "**/eslint.config.mjs": true,
+      "**/node_modules": true,
+      "**/x.vscode": true,
       "**/xpackage.json": true,
       "**/xplaywright.config.ts": true,
       "**/xtsconfig.json": true,
+      "playwright-results": true,
+      "test-results": true
+   },
+   "search.exclude": {
       "**/node_modules": true,
-      "**/.vscode":true
+      "playwright-results": true,
+      "test-results": true
    }
 }
