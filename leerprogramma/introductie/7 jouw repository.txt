@@ -16,12 +16,12 @@ waar je dingen kunt uitproberen!
 Binnen de map typescript-workbench kun je typescript code uitproberen.
 
 In je eigen map 'deelnemer' kun je mediafiles opslaan en afspelen, je kunt links in .txt 
-bestanden zetten zoals bijv. https://playwright.dev/. Vscode is zeer veelzijdig en je 
+bestanden zetten zoals bijv. https://playwright.dev/. vs-code is zeer veelzijdig en je 
 kunt dat allemaal binnen deze repo.
 
-Hier zit een gedachte achter: hoe meer je binnen en met vscode werkt, hoe beter je vscode leert 
+Hier zit een gedachte achter: hoe meer je binnen en met vs-code werkt, hoe beter je vs-code leert 
 kennen en dat is een basisvaardigheid die je snel onder de knie moet krijgen want
-vscode is een van de essential tools in de wereld van het web. 
+vs-code is een van de essential tools in de wereld van het web. 
 
 Template
 Het ligt helemaal aan je zelf of je van deze repository iets maakt dat van waarde is voor 

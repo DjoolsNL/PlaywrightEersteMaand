@@ -51,9 +51,9 @@ test( 'Exercise with codegen: go to Tempoteam', async ( { page } ) => {
 
 } )
 
-test( 'Exercise with codegen: go to VS Code', async ( { page } ) => {
+test( 'Exercise with codegen: go to vs-code', async ( { page } ) => {
    await page.goto( 'https://code.visualstudio.com/' );
-   // Instructions: script a flow to Get Started / VS Code Tutorial
+   // Instructions: script a flow to Get Started / vs-code Tutorial
    // btw bookmark this link. 
 
 } )

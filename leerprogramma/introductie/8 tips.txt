@@ -24,16 +24,16 @@ bookmarks.
 waar een webpagina op staat. 
 
 6. Zorg dat je handig bent met 
-- vscode
-- de windows verkenner (explorer)
-- de instellingen van windows
-- windows taakbeheer(Task Manager) 
-- outlook
-- discord
+- vs-code,
+- de windows verkenner (explorer),
+- de instellingen van windows,
+- windows taakbeheer(Task Manager) ,
+- outlook,
+- discord.
 
 7. Zet windows one-drive uit. 
 
-8. Ga geen zogenaamd handige extensies in VS-code of op je browser installeren. 
+8. Ga geen zogenaamd handige extensies in vs-code of op je browser installeren. 
 
 9. Verzin zelf ook eens een tip.
 
@@ -60,7 +60,7 @@ kun je in principe zonder veel aansturing je studie zelf vervolgen zolang je het
 wiel draaiend houdt. 
 
 13. Zes maanden zijn zo voorbij. Benut de tijd in het project om zoveel mogelijk
-te leren. Weet je even niet wat je doen moet? Verken de opties van VS-code, van 
+te leren. Weet je even niet wat je doen moet? Verken de opties van vs-code, van 
 de devtools van je browser, verken playwright, typescript, discord, windows. Verken
 het vakgebied ICT, verken software testen. Bouw je handigheid met de tools op in 
 verloren momenten of als je je verveelt. 
