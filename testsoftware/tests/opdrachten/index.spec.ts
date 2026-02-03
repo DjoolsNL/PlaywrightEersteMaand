@@ -14,13 +14,14 @@
 // The next step would be to create a class for this particular webpage that holds all variables and also common methods like
 // verifyThis(), verifyThat().    
 //
-// To write testautomation we also need to know the basics of testing
-// Does the product meet its requirements?  
+// To learn testautomation you should focus on 'what does this line of code do when executed' 
+// instead on 'how does this work'.
 //
-// To learn testautomation you should focus on 'what does this line of code do when executed' instead on 'how does this work'. 
+// To write testautomation we also need to know the basics of testing. Ideally we want to test functionality, 
+// usability, data integrity, compatibility, security, and performance.  
 //
+
 // Try to understand as many versions as you can.  
-//
 // If you understand all versions up to 0.1.4 you have a good basis to build upon for more advanced testautomation scripts.
 
 // Extra tip !!!
@@ -114,7 +115,6 @@ test( '0.0.1 - Additional code to make flow more visible in headed run.', async 
    await page.getByRole( 'link', { name: 'Home' } ).highlight();
    await page.waitForTimeout( 500 );
    await page.getByRole( 'link', { name: 'Home' } ).click();
-
 } )
 
 test( '0.0.2 - Added a variable for timeout', async ( { page } ) => {
