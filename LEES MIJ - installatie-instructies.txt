@@ -4,12 +4,14 @@ INSTALLATION
 
 Ask your team-lead for help even if you know how to install software.
 
+First create a new profile within vs-code. Use this profile for this repository.
+ 
 To get the repo working, you still need to install Node.js and Playwright for node.js.
 You also need to install two extensions in vs-code.
 
 VS-CODE EXTENSIONS  
 Install these two:
-1. 'vs-code-pdf' and 
+1. 'vscode-pdf' and 
 2. 'Playwright Test for vs-code'.
 
 NODE.JS 

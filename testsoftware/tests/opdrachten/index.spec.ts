@@ -114,7 +114,6 @@ test( '0.0.1 - Additional code to make flow more visible in headed run.', async 
    await page.getByRole( 'link', { name: 'Home' } ).highlight();
    await page.waitForTimeout( 500 );
    await page.getByRole( 'link', { name: 'Home' } ).click();
-
 } )
 
 test( '0.0.2 - Added a variable for timeout', async ( { page } ) => {

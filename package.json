@@ -11,6 +11,7 @@
   },
   "scripts": {
     "probeersels": "tsx ./typescript-workbench/probeersels.ts",
-    "exercises": "tsx ./typescript-workbench/exercises.ts"
+    "exercises": "tsx ./typescript-workbench/exercises.ts",
+    "test": "npx playwright show-report \\PlaywrightEersteMaand\\testsoftware\\playwright-results"
   }
 }
