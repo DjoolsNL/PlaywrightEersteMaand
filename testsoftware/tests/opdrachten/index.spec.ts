@@ -215,6 +215,8 @@ test( '0.0.3 - Added a variable for home link', async ( { page } ) => {
    await home.highlight();
    await page.waitForTimeout( timeout );
    await home.click();
+
+   await page.getByRole('link', { name: 'Onboarding skills en' }).click();
 } )
 
 test( '0.0.4 - All code for home link in function', async ( { page } ) => {

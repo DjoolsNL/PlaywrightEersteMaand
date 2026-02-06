@@ -8,6 +8,12 @@ This repo brings together four things:
 2. de testsoftware,  
 3. de testwebsite en
 4. de typescript-workbench omgeving. 
+await page.getByRole('link', { name: 'Home' }).click();
+await page.locator('#e-Templates > .linkbox-container-nowrap > div > .imagelinks > a').first().click();
+await page.goto('file:///C:/Users/dell/source/repos/PlaywrightEersteMaand/testwebsite/html-css/index.html');
+await page.locator('#d-Portfolio > .linkbox-container-wrap > div > .imagelinks > a').first().click();
+await page.getByRole('main').getByRole('link', { name: 'Templates' }).click();
+await page.getByRole('main').getByRole('link', { name: 'Templates' }).click();
  
 Ad 1. het leerprogramma 
    Er is gestreefd naar een eenvoudige, werkende repo die de basis 

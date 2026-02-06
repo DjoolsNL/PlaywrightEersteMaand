@@ -24,9 +24,10 @@ export default defineConfig( {
   },
 
   //retries: process.env.CI ? 2 : 0,
+  retries: 2,
   reporter: [
     [ 'list' ],
-    [ 
+    [
       'html',
       {
         outputFolder: 'playwright-results/',
@@ -36,9 +37,9 @@ export default defineConfig( {
   ],
   /* Configure projects for major browsers */
   projects: [ {
-      name: 'Google Chrome',
-      use: { ...devices[ 'Desktop Chrome' ], channel: 'chrome' },
-    }
+    name: 'Google Chrome',
+    use: { ...devices[ 'Desktop Chrome' ], channel: 'chrome' },
+  }
     // {
     //   name: 'chromium',
     //   use: { ...devices['Desktop Chrome'] },

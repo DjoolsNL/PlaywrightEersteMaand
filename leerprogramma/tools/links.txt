@@ -33,7 +33,7 @@ PLAYWRIGHT
 
 - alles over playwright locators: https://playwright.dev/docs/locators
 
-- basic anatomy of a playwright test: https://www.youtube.com/watch?v=35wsgc5lixI&list=PLXgRgGX8-5UVm9yioRY329rfcfy3MusiY&index=4
+- basic anatomy of a playwright test: https://youtu.be/35wsgc5lixI?si=wa9w6Owf6YqWRmKq&t=83
 
 - working with codegen: https://www.youtube.com/watch?v=CZb-jjA3P8Y&list=PLXgRgGX8-5UVm9yioRY329rfcfy3MusiY&index=23
 

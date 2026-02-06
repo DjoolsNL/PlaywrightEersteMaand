@@ -6,11 +6,11 @@ import { localIndexFile, Index } from '../../pages/index'
 // Adjust width and height of the browser to fit your local machine's display resolution (viewport). 
 test.use( { viewport: { width: 1833, height: 980 } } );
 
-test( 'Pages that help you understand testautomation', async ( { page } ) => {
+test( 'Pages from the testwebsite that help you understand testautomation', async ( { page } ) => {
    await page.goto( localIndexFile() );
 
    await page.getByRole( 'link', { name: 'Testautomation' } ).click();
-   await page.getByRole( 'link', { name: 'Home' } ).click();
+   await page.getByRole( 'link', { name: 'Ho me' } ).click();
 
    await page.getByRole( 'link', { name: 'Opportunities' } ).click();
    await page.getByRole( 'link', { name: 'Home' } ).click();
