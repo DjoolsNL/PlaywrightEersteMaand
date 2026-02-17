@@ -4,14 +4,22 @@
   "author": "Jules van Nuijs for BEE Ideas",
   "description": "educational repository for learning Playwright and TypeScript",
   "devDependencies": {
+    "@types/node": "^25.2.3",
     "eslint": "^9.39.2",
     "globals": "^17.2.0",
     "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
     "typescript-eslint": "^8.54.0"
   },
   "scripts": {
-    "probeersels": "tsx ./typescript-workbench/probeersels.ts",
-    "exercises": "tsx ./typescript-workbench/exercises.ts",
-    "test": "npx playwright show-report \\PlaywrightEersteMaand\\testsoftware\\playwright-results"
+    "het-is-nu": "tsx ./typescript-workbench/het-is-nu.ts",
+    "a-stringsnumbers": "tsx ./typescript-workbench/tutorial/a-stringsnumbers.ts",
+    "b-operators": "tsx ./typescript-workbench/tutorial/b-operators.ts",
+    "c-if": "tsx ./typescript-workbench/tutorial/c-ifstatements.ts",
+    "d-methodsfunctions": "tsx ./typescript-workbench/tutorial/d-methodsfunctions.ts",
+    "e-arraysloops": "tsx ./typescript-workbench/tutorial/e-arraysloops.ts",
+    "f-classesobjects": "tsx ./typescript-workbench/tutorial/f-classesobjects.ts",
+    "alltutorial": "tsx ./typescript-workbench/tutorial/ts-cheatsheet1-5.ts",
+    "test": "npx playwright show-report \\PlaywrightEersteMaand\\testsoftware\\playwright-results"      
   }
 }

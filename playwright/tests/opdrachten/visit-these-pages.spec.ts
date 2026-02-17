@@ -10,7 +10,7 @@ test( 'Pages from the testwebsite that help you understand testautomation', asyn
    await page.goto( localIndexFile() );
 
    await page.getByRole( 'link', { name: 'Testautomation' } ).click();
-   await page.getByRole( 'link', { name: 'Ho me' } ).click();
+   await page.getByRole( 'link', { name: 'Home' } ).click();
 
    await page.getByRole( 'link', { name: 'Opportunities' } ).click();
    await page.getByRole( 'link', { name: 'Home' } ).click();

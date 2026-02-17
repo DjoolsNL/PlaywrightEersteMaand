@@ -2,9 +2,7 @@ import path from 'path';
 import { test, Page, expect, Locator } from '@playwright/test';
 
 export function localIndexFile (): string {
-   let part1 = `file://`;
-   let part2 = path.resolve( `testwebsite/html-css/index.html` );
-   return part1 + part2;
+   return `file:///C:/Users/dell/source/repos/PlaywrightEersteMaand/testwebsite/html-css/index.html`;
 }
 
 /**

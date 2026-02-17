@@ -2,7 +2,9 @@
   "name": "playwright_eerste_maand",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "ui-mode": "npx playwright test --ui"
+  },
   "keywords": [],
   "author": "Jules van Nuijs for BEE Ideas",
   "license": "ISC",

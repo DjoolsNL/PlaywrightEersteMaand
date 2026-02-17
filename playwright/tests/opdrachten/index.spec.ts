@@ -36,10 +36,13 @@
 // Rinse and repeat.
 //#endregion
 
-import { test, expect, request } from '@playwright/test';
+import { test, expect, request, Locator } from '@playwright/test';
 import path from 'node:path';
-import { localIndexFile, Index } from '../../pages/index'
+import { localIndexFile, Index } from '../../pages/index';
 
+test.beforeEach( 'Go to indexpage', async ( { page } ) => {
+   await page.goto( `file:///C:/Users/dell/source/repos/PlaywrightEersteMaand/testwebsite/html-css/index.html` );
+} )
 // Adjust width and height of the browser to fit your local machine's display resolution (viewport). 
 test.use( { viewport: { width: 1833, height: 980 } } );
 
@@ -47,10 +50,9 @@ test.use( { viewport: { width: 1833, height: 980 } } );
 // Use this regiontemplate in this file to annotate the different tests 
 //#endregion
 test( '0.0.0 - Automate navigation for text links in group Leerbedrijf', async ( { page } ) => {
-   await page.goto( localIndexFile() );
-
    // The code below was written by codegen
-   await page.getByRole( 'link', { name: 'About us', exact: true } ).click();
+
+   await page.getByRole( 'link', { name: 'Opportunities' } ).click();
 
    await page.getByRole( 'link', { name: 'Home' } ).click();
 
@@ -62,7 +64,7 @@ test( '0.0.0 - Automate navigation for text links in group Leerbedrijf', async (
 
    await page.getByRole( 'link', { name: 'Home' } ).click();
 
-   await page.getByRole( 'link', { name: 'Opportunities' } ).click();
+   await page.getByRole( 'link', { name: 'About us', exact: true } ).click();
 
    await page.getByRole( 'link', { name: 'Home' } ).click();
 
@@ -72,8 +74,6 @@ test( '0.0.0 - Automate navigation for text links in group Leerbedrijf', async (
 } )
 
 test( '0.0.1 - Additional code to make flow more visible in headed run.', async ( { page } ) => {
-   await page.goto( localIndexFile() );
-
    // The same flow as in the previous test but with extra code that makes it easier 
    // to see what the script does when it runs headed (in the browser).  
    await page.getByRole( 'link', { name: 'About us', exact: true } ).highlight();
@@ -118,8 +118,6 @@ test( '0.0.1 - Additional code to make flow more visible in headed run.', async 
 } )
 
 test( '0.0.2 - Added a variable for timeout', async ( { page } ) => {
-   await page.goto( localIndexFile() );
-
    // The same flow as in the previous test but we added a variable
    // and use that as timeout. Now we can control the speed of the run in one place.
    const timeout: number = 500;
@@ -167,13 +165,12 @@ test( '0.0.2 - Added a variable for timeout', async ( { page } ) => {
 } )
 
 test( '0.0.3 - Added a variable for home link', async ( { page } ) => {
-   await page.goto( localIndexFile() );
    const timeout: number = 500;
 
    // There's still much duplicate code in our test. We start somewhere and tackle 
    // the repeating code "page.getByRole( 'link', { name: 'Home' }" first. 
    // We create a variable called 'home' that holds the value "page.getByRole( 'link', { name: 'Home' }". 
-   const home = page.getByRole( 'link', { name: 'Home' } )
+   const home: Locator = page.getByRole( 'link', { name: 'Home' } )
 
    await page.getByRole( 'link', { name: 'About us', exact: true } ).highlight();
    await page.waitForTimeout( timeout );
@@ -216,17 +213,15 @@ test( '0.0.3 - Added a variable for home link', async ( { page } ) => {
    await page.waitForTimeout( timeout );
    await home.click();
 
-   await page.getByRole('link', { name: 'Onboarding skills en' }).click();
+   await page.getByRole( 'link', { name: 'Onboarding skills en' } ).click();
 } )
 
 test( '0.0.4 - All code for home link in function', async ( { page } ) => {
    // There's still much duplicate code in our test. We refactor our home link code and create
    // a function that holds all code for the home link. Now we just need to call the function 
-   // whenever we want to go home.
-
-   await page.goto( localIndexFile() );
+   // whenever we want to go home. 
    const timeout: number = 500;
-   const home = page.getByRole( 'link', { name: 'Home' } )
+   const home: Locator = page.getByRole( 'link', { name: 'Home' } )
 
    /**
     * Function to navigate to the home page. 
@@ -269,7 +264,6 @@ test( '0.0.4 - All code for home link in function', async ( { page } ) => {
 } )
 
 test( '0.0.5 - Single function for all text links', async ( { page } ) => {
-   await page.goto( localIndexFile() );
    const timeout: number = 500;
 
    // There's still much duplicate code in our test. We refactor our function  
@@ -310,7 +304,6 @@ test( '0.0.5 - Single function for all text links', async ( { page } ) => {
 } )
 
 test( '0.0.6 - Variable for locator', async ( { page } ) => {
-   await page.goto( localIndexFile() );
    const timeout: number = 500;
 
    // In this test we introduce a variable called locator. 
@@ -320,7 +313,7 @@ test( '0.0.6 - Variable for locator', async ( { page } ) => {
     */
    async function goTo ( destination: string ) {
       // This const is the only new in this version.
-      const locator = page.getByRole( 'link', { name: destination, exact: true } );
+      const locator: Locator = page.getByRole( 'link', { name: destination, exact: true } );
 
       await locator.highlight();
       await page.waitForTimeout( timeout );
@@ -405,7 +398,7 @@ test( '0.0.6.2 - Arrays and loops - part 2', async ( { page } ) => {
 
    for ( let variable of bisoncalf ) {
       variable = variable.toUpperCase();
-      console.log( "A question for you about", variable );
+      //console.log( "A question for you about", variable );
 
       if ( variable === "BOOLEANS" ) {
          console.log( variable, "are an alien race from Star Trek." );
@@ -470,7 +463,6 @@ test( '0.0.6.2 - Arrays and loops - part 2', async ( { page } ) => {
 } )
 
 test( '0.0.7 - Array for links group Leerbedrijf', async ( { page } ) => {
-   await page.goto( localIndexFile() );
    const timeout: number = 500;
 
    // We introduce a new string array that holds all strings we used in our locators and enables us to use a loop. 
@@ -489,7 +481,7 @@ test( '0.0.7 - Array for links group Leerbedrijf', async ( { page } ) => {
    // We don't need to call it to execute.
 
    for ( const destination of leerBedrijf ) {
-      const locator = page.getByRole( 'link', { name: destination, exact: true } );
+      const locator: Locator = page.getByRole( 'link', { name: destination, exact: true } );
       await locator.highlight();
       await page.waitForTimeout( timeout );
       await locator.click();
@@ -533,11 +525,11 @@ test( '0.0.8 - Type Link and LinkArray', async ( { page } ) => {
       }
    ];
 
-   await page.goto( localIndexFile() );
+
    const timeout: number = 100;
 
    for ( const link of leerBedrijf ) {
-      const locator = page.getByRole( 'link', { name: link.textLinkName, exact: true } );
+      const locator: Locator = page.getByRole( 'link', { name: link.textLinkName, exact: true } );
       await locator.highlight();
       await page.waitForTimeout( timeout );
       await locator.click();
@@ -596,13 +588,13 @@ test( '0.0.9 - Type Link expanded for all kind of links', async ( { page } ) => 
 
    ];
 
-   await page.goto( localIndexFile() );
+
    const timeout: number = 50;
 
    for ( const link of leerBedrijf ) {
       // First we test the text link
       if ( link.textLinkName !== "" ) {
-         const locator = page.getByRole( 'link', { name: link.textLinkName, exact: true } );
+         const locator: Locator = page.getByRole( 'link', { name: link.textLinkName, exact: true } );
          await locator.highlight();
          await page.waitForTimeout( timeout );
          await locator.click();
@@ -613,7 +605,7 @@ test( '0.0.9 - Type Link expanded for all kind of links', async ( { page } ) => 
       }
       // Then we test the image link
       if ( link.imageid !== "" ) {
-         const locator = page.getByTestId( link.imageid );
+         const locator: Locator = page.getByTestId( link.imageid );
          await locator.highlight();
          await page.waitForTimeout( timeout );
          await locator.click();
@@ -779,8 +771,6 @@ test( '0.1.0 - Filtering the Link[]', async ( { page } ) => {
          groupTag: "footer"
       }
    ];
-
-   await page.goto( localIndexFile() );
 
    // We create a new Link array by filtering the existing Link array for the groupTag 'leerbedrijf'.
    const linksLeerbedrijf: Link[] = links.filter( link => link.groupTag === "leerbedrijf" );
@@ -980,8 +970,6 @@ test( '0.1.1 - Execute all', async ( { page } ) => {
          }
       }
    }
-
-   await page.goto( localIndexFile() );
 
    // We call the function for all our groups
    await verifyTaggedLinks( 'leerbedrijf' );
@@ -1197,7 +1185,7 @@ test( '0.1.2 - A class for automation of links on the index page', async ( { pag
 
    const index = new Index();
 
-   await page.goto( localIndexFile() );
+
 
    // We call the function for all our groups
    await index.verifyTaggedLinks( 'leerbedrijf' );
@@ -1404,7 +1392,7 @@ test( '0.1.3 - Method for duplicate code', async ( { page } ) => {
 
    const index = new Index();
 
-   await page.goto( localIndexFile() );
+
 
    // We call the function for all our groups
    await index.verifyTaggedLinks( 'leerbedrijf' );
@@ -1424,8 +1412,6 @@ test( '0.1.4 - Class moved to different file', async ( { page } ) => {
    // a property for navigating to the indexpage,
    // and the constructor now needs the page parameter.  
    const index = new Index( page );
-
-   await page.goto( localIndexFile() );
 
    // We also added two methods to navigate to the pages linked on the index page. One for textlinks and one for imagelinks.
    await index.navigateToImageLink( "about-us" );
