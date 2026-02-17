@@ -54,6 +54,8 @@ console.log();
 // - De parameters maken het mogelijk om de gewenste waardes mee te geven
 
 console.log( 'method om oppervlakte te berekenen' );
+// berekenOppervlakte( 12, 10 ) is hier de aanroep van de functie. 
+// De functie lost op in een waarde die aan const oppervlakte wordt toegewezen 
 const oppervlakte: number = berekenOppervlakte( 12, 10 );
 console.log( 'oppervlakte is: ', oppervlakte, 'm2' );
 console.log();
@@ -85,6 +87,5 @@ function isVolwassen ( leeftijd: number ): boolean {
 console.log( 'Method met een if/else statement' );
 console.log( 'is volwassen: ', isVolwassen( 19 ) )
 console.log();
-//
-//
+
 //#endregion

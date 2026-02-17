@@ -52,7 +52,7 @@ export class Teamlid {
 
    // Deze method geeft geen waarde terug maar voert iets uit.
    welkomsGroet () {
-      console.log( 'Wat leuk dat je ons team komt versterken ' + this.voornaam + '.' );
+      console.log( 'Wat leuk dat je ons team komt versterken ' + this.voornaam.toLocaleUpperCase() + '.' );
       console.log( 'Hieronder alvast een overzicht van onze vaste momenten in het project' );
       console.log( 'Dagelijks van maandag tot en met donderdag:' );
       console.log( '09.00 uur - Start' );
@@ -73,6 +73,7 @@ export class Teamlid {
       console.log( '10.30 uur - Nabespreking review' );
    }
 }
+
 console.log( 'BREAKDOWN' );
 console.log( 'class                 - Vertelt de compiler dat we hier een class definieren.' );
 console.log( 'Teamlid               - De naam van de class en tevens de naam type.' );

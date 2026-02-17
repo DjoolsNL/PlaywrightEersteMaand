@@ -19,7 +19,6 @@
     "d-methodsfunctions": "tsx ./typescript-workbench/tutorial/d-methodsfunctions.ts",
     "e-arraysloops": "tsx ./typescript-workbench/tutorial/e-arraysloops.ts",
     "f-classesobjects": "tsx ./typescript-workbench/tutorial/f-classesobjects.ts",
-    "alltutorial": "tsx ./typescript-workbench/tutorial/ts-cheatsheet1-5.ts",
     "test": "npx playwright show-report \\PlaywrightEersteMaand\\testsoftware\\playwright-results"      
   }
 }
