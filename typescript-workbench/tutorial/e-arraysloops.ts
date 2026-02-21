@@ -1,4 +1,5 @@
 "use strict";
+export { }
 
 console.log( '+++++++++ BASIS KENNIS TYPESCRIPTING ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++' );
 console.log(); // lege parentheses is lege regel in terminal
@@ -9,10 +10,13 @@ console.log( 'DEEL E. ARRAYS EN LOOPS' )
 console.log( '-----------------------------------------------------------------------------------------------------------' );
 console.log(); // lege parentheses is lege regel in terminal
 
+// Arrays en loops zijn twee van de meest gebruikte tools in programmeren (alle talen). Loops zijn de routines en 
+// arrays de data die in de routine gebruikt worden. 
+//
 // Een array is een verzameling waardes van een bepaald type.
-// Arrays zijn ingebouwd in de language en hebben een veelheid aan ingebouwde
-// methods die je gebruiken kunt om met de waarden in de array te werken.
-// Arrays zijn handig omdat je de verzameling als geheel kunt gebruiken maar ook elke waarde afzonderlijk
+// Arrays zijn ingebouwd in de language en hebben een veelheid aan ingebouwde methods die je gebruiken kunt 
+// om met de waarden in de array te werken.
+// Arrays zijn handig omdat je de verzameling als geheel (loop) kunt gebruiken maar ook elke waarde afzonderlijk
 // kunt benaderen.
 
 console.log( 'ESSENTIELE KENNIS: LEER ARRAYS TE LEZEN' );
@@ -44,14 +48,12 @@ console.log(); // lege parentheses is lege regel in terminal
 // Of een array van het type playwright Locator: const locators: Locator[] = [saveButton, backButton, cancelButton];
 
 const isTeamlid: boolean = currentTeam.includes( 'Een advocaat' );
-console.log( 'Log Blok 4.1' );
 console.log( 'is Een advocaat part of this team: ', isTeamlid );
 console.log( 'is Attila part of the team?', currentTeam.includes( 'Attila' ) );
 console.log();
 
 // Arrays werken met een index nummer. De eerste waarde in een array heeft index 0, de tweede heeft index 1 etc.
 // Die index kun je gebruiken:
-console.log( 'Log Blok 4.2' );
 console.log( 'waarde van index 3: ', currentTeam[ 3 ] );
 console.log();
 
@@ -62,8 +64,8 @@ currentTeam[ 4 ] = 'Batman';
 
 console.log( "currentTeam[ 4 ] = 'Batman';" );
 console.log( 'BREAKDOWN' );
-console.log( 'currentTeam - naam van de array' );
-console.log( '[ 4 ]       - schrijfwijze die de compiler vertelt dat de waarde van index 4 moeten hebben' );
+console.log( 'currentTeam - Naam van de array.' );
+console.log( '[ 4 ]       - Schrijfwijze die de compiler vertelt dat de waarde van index 4 moeten hebben.' );
 console.log( '*************************************************************************************************************' );
 
 console.log( 'updated index 4: ', currentTeam[ 4 ] );
@@ -78,15 +80,15 @@ console.log( 'for ( let member of currentTeam ) {' );
 console.log( '   console.log( member );' );
 console.log( '}' );
 console.log( 'BREAKDOWN FOR LOOP:' );
-console.log( 'for                    - vertelt de compiler dat dit een for loop is' );
-console.log( '(                      - opener' );
-console.log( 'let member             - we maken een variabele aan die in de body van de loop wordt gebruikt' );
-console.log( 'of                     - vertelt de compiler dat we de waardes gebruiken van de array die hierna wordt aangeroepen' );
-console.log( 'currentTeam            - naam van de array die wordt aangeroepen' );
-console.log( ')                      - sluiter' );
-console.log( '{                      - opent de body van de loop' );
-console.log( 'console.log( member ); - code die in elke loop wordt uitgevoerd' );
-console.log( '}                      - sluit de loop af' );
+console.log( 'for                    - Vertelt de compiler dat dit een for loop is.' );
+console.log( '(                      - Opener.' );
+console.log( 'let member             - We maken een variabele aan die in de body van de loop wordt gebruikt.' );
+console.log( 'of                     - Vertelt de compiler dat we de waardes gebruiken van de array die hierna wordt aangeroepen.' );
+console.log( 'currentTeam            - Naam van de array die wordt aangeroepen.' );
+console.log( ')                      - Sluiter.' );
+console.log( '{                      - Opent de body van de loop.' );
+console.log( 'console.log( member ); - Code die in elke loop wordt uitgevoerd.' );
+console.log( '}                      - Sluit de loop af.' );
 console.log();
 
 //#endregion

@@ -1,17 +1,24 @@
 "use strict";
+export { }
 
 console.log( '+++++++++ BASIS KENNIS TYPESCRIPTING ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++' );
 console.log(); // lege parentheses is lege regel in terminal
 
-console.log( 'De basis toolkit typescript bestaat uit: strings, numbers, booleans, arrays,' );
-console.log( 'loops, if/else, functions, objects en classes.' );
+console.log( 'De basis toolkit typescript bestaat uit: strings, numbers, booleans, arrays, loops, if/else' );
+console.log( 'functions, objects en classes.' );
 console.log( 'Ezelsbruggetje: Bison Calf of Clif Bonas of Bif Clonas.' );
 console.log(); // lege parentheses is lege regel in terminal
 
 console.log( 'Programmeren is denkwerk. De programmeertaal biedt je het gereedschap om' );
-console.log( 'werkende computerinstructies te schrijven. Strings, numbers, booleans, arrays,' );
-console.log( 'whatever zijn tools die je gebruikt om die instructies te schrijven.' );
+console.log( 'werkende computerinstructies te schrijven. Strings, numbers, booleans, arrays, loops, if/else,' );
+console.log( 'functions, objects en classes zijn tools die je gebruikt om die instructies te schrijven.' );
 console.log(); // lege parentheses is lege regel in terminal
+
+console.log( '** FAT SMART TIP ALERT ** FAT SMART TIP ALERT **' )
+console.log( 'Werkt de code niet meer, laat dan de file in de editor staan, zet de cursor in de open file en' );
+console.log( 'ga terug met ctrl-z. De kans dat je de code weer kunt terugzetten met ctrl-z is je beste kans' );
+console.log( 'om de code weer werkend te krijgen.' );
+console.log();
 
 //#region - DEEL A. STRINGS NUMBERS BOOLEANS - variabelen, waardes en verschillende types variabelen 
 console.log( '-------------------------------------------------------------------------------------------------------------' );
@@ -47,8 +54,6 @@ console.log( 'DEEL A. STRINGS NUMBERS BOOLEANS - variabelen, waardes en verschil
 console.log( '-------------------------------------------------------------------------------------------------------------' );
 console.log(); // lege parentheses is lege regel in terminal
 
-// ESSENTIELE KENNIS 
-// LEER VARIABELEN EN WAARDES TE LEZEN 
 const a: string = 'Dit is een string';
 console.log( 'ESSENTIELE KENNIS: LEER VARIABELEN EN WAARDES TE LEZEN' );
 console.log( '*************************************************************************************************************' );
@@ -114,8 +119,18 @@ console.log();
 console.log( '- Dit soort ingebouwde functies van types als string en number is onderdeel van het gereedschap van de taal.' );
 console.log( '- De programmeertaal die je in staat stelt om werkende computerinstructies te schrijven.' );
 console.log();
+console.log( 'SAMENVATTEND' );
+console.log( 'drie manier om een waarde aan een variabele toe te wijzen:' );
+console.log( '1. const a = 5' );
+console.log( '2. const aa = a' );
+console.log( '3. function geefWaardeA (){' );
+console.log( '     return a;' );
+console.log( '   } ' );
+console.log( '   const aaa = returna()' );
 
-// oefenen met console.log. print de waardes uit. maar zorg dat je geen puinhoop maakt van de output
+// Oefenen met console.log(). Print de waardes uit maar zorg dat je er geen puinhoop van maakt. Werkt de code niet meer,
+// laat dan de file in de editor staan, zet de cursor in de open file en ga terug met ctrl-z. De kans dat je de code weer
+// kunt terugzetten met ctrl-z is je beste kans om de code weer werkend te krijgen.
 const c: string = a.replaceAll( 'i', 'eu' );
 const d: string = a.toLowerCase();
 const e: string = a.substring( 7, 10 );

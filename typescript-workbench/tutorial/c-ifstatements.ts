@@ -1,4 +1,5 @@
 "use strict";
+export { }
 
 console.log( '+++++++++ BASIS KENNIS TYPESCRIPTING ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++' );
 console.log(); // lege parentheses is lege regel in terminal
@@ -18,10 +19,10 @@ console.log();
 console.log( 'Voorbeelden:' );
 let doorgaan: boolean = false;
 if ( doorgaan ) {
-   console.log( 'We gaan door met iets.' );
+   console.log( 'We gaan door met ...' );
 }
 else {
-   console.log( 'We stoppen met dat iets.' );
+   console.log( 'We stoppen met ....' );
 }
 console.log();
 

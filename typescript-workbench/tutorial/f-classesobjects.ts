@@ -1,4 +1,5 @@
 "use strict";
+export { }
 
 console.log( '+++++++++ BASIS KENNIS TYPESCRIPTING ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++' );
 console.log(); // lege parentheses is lege regel in terminal
@@ -10,7 +11,7 @@ console.log( '------------------------------------------------------------------
 console.log(); // lege parentheses is lege regel in terminal
 
 // Een class is een type variabele die je met de taal kunt creeren. Die class geef je een naam (in ons geval Teamlid).
-// Maak je een variabele van dit type aan dan is het type Teamlid. Zo'n variabele met een class op de achtergrond 
+// Maak je een variabele van dit type aan dan heet het type Teamlid. Zo'n variabele met een class op de achtergrond 
 // noemen we ook vaak een object. 
 
 // Het aangemaakte object (de variabele van het type Teamlid) krijgt alle ingebouwde properties en methods van 
@@ -113,7 +114,7 @@ console.log(); // lege parentheses is lege regel in terminal
 // We kunnen ze nu ook in een array van het type Teamlid zetten:
 const team: Teamlid[] = [ Carlo, Michelle, Ibi, Jesper ];
 
-console.log( 'Voor een nieuwe deelnemer die Carlo heet gebruiken we de method welkomsGroet.' );
+console.log( 'Voor een nieuwe deelnemer die Carlo heet gebruiken we de method welkomsGroet().' );
 console.log( 'Carlo.welkomsGroet();' );
 Carlo.welkomsGroet();
 
@@ -135,6 +136,10 @@ Carlo.postcode = 'yyy';
 Carlo.woonplaats = 'zzz';
 
 // Dat is omslachtig. Maar zou de class echt worden gebruikt dan vult iemand de gegevens in via een terminal
-// (frontend). Die gegevens zouden dan in dit script gebruikt worden bij het aanmaken van een nieuw Teamlid.
+// (frontend) of de gegevens worden uit een database of json file gehaald. In het script kun je dan een
+// Die gegevens zouden dan in dit script gebruikt worden bij het aanmaken van een nieuw Teamlid.
+
+// Je hebt vast en zeker het zinnetje 'Vertelt de compiler ...' voorbij zien komen. Dat moet eigenlijk zijn
+// 'Vertelt de compiler en iedereen die ts kan lezen ...'.
 
 //#endregion

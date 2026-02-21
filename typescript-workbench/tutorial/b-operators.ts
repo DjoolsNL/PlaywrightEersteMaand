@@ -1,4 +1,5 @@
 "use strict";
+export { }
 
 console.log( '+++++++++ BASIS KENNIS TYPESCRIPTING ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++' );
 console.log(); // lege parentheses is lege regel in terminal
@@ -11,7 +12,7 @@ console.log(); // lege parentheses is lege regel in terminal
 
 console.log( 'Operators zoals deze tekens + - / * maken het mogelijk om met waardes te werken.' );
 console.log( 'Ze zijn essentieel taalgereedschap.' );
-console.log( '' );
+console.log();
 
 console.log( 'Zo werkt operator + bij numbers:' );
 const getal: number = 30 + 15;
@@ -27,10 +28,6 @@ const sss = s + ss;
 console.log( "sss:", sss );
 console.log();
 
-// Operators voor number manipulations:
-// -
-// *
-// / 
 console.log( 'Operators die werken met numbers:' );
 const tien: number = 10;
 const vier: number = 4;
@@ -49,16 +46,16 @@ console.log( 'operator om getal met 1 te verhogen: ', getal100 );
 console.log();
 
 console.log( 'Operators om waarden of variabelen te vergelijken:' );
-// Ook hier geldt weer dat wat rechts van het = teken staat in een waarde moet oplossen. 
+// Ook hier geldt weer:  wat rechts van het = teken staat moet in een waarde oplossen. 
 // In vergelijkingen zoals hieronder gaat het om de waardes true of false.
 // kip === varken vergelijkt de waarde van kip met die van varken. Zijn ze gelijk dan lost dit op in een true. 
-const kip: string = 'varken';
-const varken: string = 'varken';
-const isEenKipEenVarken: boolean = kip === varken; // 
-console.log( 'de waarde van varken is gelijk aan de waarde van kip:', isEenKipEenVarken )
+const kip: string = 'abcde';
+const varken: string = 'abcde';
+let waarOfniet: boolean = kip === varken; // waarOfniet krijgt hier de waarde true toegewezen.  
+console.log( 'de waarde van varken is gelijk aan de waarde van kip:', waarOfniet ) // en hier lost waarOfniet op in diezelfde waarde
 console.log();
 
-let waarOfniet: boolean = 85 - 1 === 70 + 14;
+waarOfniet = 85 - 1 === 70 + 14;
 console.log( '85 - 1 === 70 + 14: ', waarOfniet );
 console.log();
 
@@ -74,11 +71,11 @@ console.log();
 // <= kleiner dan of gelijk aan
 
 // De assignment operator: =
-const datum: Date = new Date();
-console.log( 'Date is ook een ingebouwd type in ts: ', datum );
+const datum: Date = new Date(); // ook type Date is ingebouwd in js/ts en heeft methods waarmee je kunt werken
+console.log( 'Operator = wijst de tijd toe aan var datum: ', datum );
 console.log();
 
-// Dit zijn geen operators maar het is goed om dit mee te nemen in je kennis
+// Dit zijn geen operators maar het is goed om dit mee te nemen in je kennis:
 // Openers:
 // (
 // {
