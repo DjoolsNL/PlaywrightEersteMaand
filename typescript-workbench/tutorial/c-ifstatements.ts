@@ -26,9 +26,9 @@ else {
 }
 console.log();
 
-let jaar: number = 2026;
-if ( jaar > 2000 ) {
-   console.log( 'variabele', jaar, 'is groter dan 2000' );
+let jaar: number = 2000;
+if ( jaar >= 2000 ) {
+   console.log( 'variabele', jaar, 'is groter dan of gelijk 2000' );
 }
 else {
    console.log( 'variabele', jaar, 'is niet groter dan 2000' );
@@ -50,5 +50,5 @@ if ( reactorTemperatuur > 1000 ) {
    shutDownReactor = true;
 }
 console.log( 'shut down reactor:', shutDownReactor );
-console.log();
-//#endregion
+console.log( console.log() );
+//#endregionconsole.log();

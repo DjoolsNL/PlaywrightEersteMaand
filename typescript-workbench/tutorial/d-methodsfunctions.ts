@@ -89,6 +89,9 @@ function isVolwassen ( leeftijd: number ): boolean {
 }
 console.log( 'Method met een if/else statement' );
 console.log( 'is volwassen: ', isVolwassen( 19 ) )
-console.log();
+
+const arr: string[] = [ 'aaaa', 'bbbbaaaa' ]
+
+console.log( arr, "jajajaja", arr, 8, 1010101010 );
 
 //#endregion

@@ -13,7 +13,7 @@ const seconds: string = String( now.getSeconds() ).padStart( 2, "0" );
 const date: string = day + "-" + month + "-" + year;
 
 // we gebruiken alleen deze.  
-const time: string = hours + ":" + minutes + ":" + seconds;
+const time: string = "\x1b[31m" + hours + ":" + minutes + ":" + seconds + "\x1b[0m";
 
 const output = time;
 

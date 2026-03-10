@@ -2,22 +2,17 @@ ABOUT THIS REPO
 
 ----------------------------------------------------------------------------------
 
-This repo brings together four things: 
+This repo contains the onboarding kit of project Bee LKQ. It contains: 
 
 1. het leerprogramma, 
 2. de testsoftware,  
 3. de testwebsite en
 4. de typescript-workbench omgeving. 
-await page.getByRole('link', { name: 'Home' }).click();
-await page.locator('#e-Templates > .linkbox-container-nowrap > div > .imagelinks > a').first().click();
-await page.goto('file:///C:/Users/dell/source/repos/PlaywrightEersteMaand/testwebsite/html-css/index.html');
-await page.locator('#d-Portfolio > .linkbox-container-wrap > div > .imagelinks > a').first().click();
-await page.getByRole('main').getByRole('link', { name: 'Templates' }).click();
-await page.getByRole('main').getByRole('link', { name: 'Templates' }).click();
  
-Ad 1. het leerprogramma 
-   Er is gestreefd naar een eenvoudige, werkende repo die de basis 
-   van web en webtesting laat zien en die klaar is om gebruikt te worden in het leerproces.
+Ad 1. het leerprogramma
+   Er is gestreefd naar een eenvoudige, werkende repo met tests die gerund kunnen worden 
+   met playwright testsoftware en een testwebsite die ook off-line door de browser 'geserveerd' 
+   kan worden.
 
    De opdrachten binnen het leerprogramma zijn bedoeld om de deelnemer actief te laten werken met 
    de diverse onderdelen van de repo. 
@@ -46,6 +41,8 @@ Ad 4. typescript-workbench
    kunt deze in de terminal laten runnen. Hier kun je allerlei ts code experimenten uitvoeren.
    Je mag zoveel files als je wilt hier neerzetten. In deze omgeving kun je alles bouwen wat je maar wil
    met ts.
+
+   In de workbench tref je ook een typescript tutorial aan dat de basisconcepten van typescript behandelt. 
 
    Gebruik de package.json in de root om je .ts files te runnen vanuit het NPM SCRIPTS menu in de 
    primary sidebar of start je run in de terminal met npx tsx ./typescript-workbench/jouwfile.ts  

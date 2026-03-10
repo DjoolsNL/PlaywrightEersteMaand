@@ -1,4 +1,4 @@
-"use strict";
+//"use strict";
 export { }
 
 console.log( '+++++++++ BASIS KENNIS TYPESCRIPTING ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++' );

@@ -2,8 +2,15 @@ INLEIDING
 
 ----------------------------------------------------------------------------------
 
-Of je nu wel of niet ooit serieus hebt nagedacht over de mogelijkheid van een loopbaan 
-in de IT, in onze leerbedrijf ga je die mogelijkheid actief verkennen.  
+In ons leerbedrijf maak je kennis met de praktijk. Ons team test webservices. Voordat
+een wijziging van de webservice online gaat testen wij die. Functioneert het? Zijn 
+de waarden correct? Etc. Testers bewaken de kwaliteit van het software produkt.   
+naar de klant gaat.       
+
+ga je de mogelijkheid van een loopbaan 
+in de IT die mogelijkheid actief verkennen.
+
+
 
 Praktijkleren staat centraal. Verderop in je traject ga je een commerciële webservice 
 testen en al doende leer je de praktijk van het testen en werken binnen een IT-setting. 

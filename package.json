@@ -12,13 +12,27 @@
     "typescript-eslint": "^8.54.0"
   },
   "scripts": {
-    "het-is-nu": "tsx ./typescript-workbench/het-is-nu.ts",
+    "prijsshow":    "tsx ./typescript-workbench/prijsshow.ts",
+    "prijsshow1":    "tsx ./typescript-workbench/prijsshow1.ts",
+    "prijsshow2":    "tsx ./typescript-workbench/prijsshow2.ts",
+    "het-is-nu":    "tsx ./typescript-workbench/het-is-nu.ts",
     "a-stringsnumbers": "tsx ./typescript-workbench/tutorial/a-stringsnumbers.ts",
     "b-operators": "tsx ./typescript-workbench/tutorial/b-operators.ts",
     "c-if": "tsx ./typescript-workbench/tutorial/c-ifstatements.ts",
     "d-methodsfunctions": "tsx ./typescript-workbench/tutorial/d-methodsfunctions.ts",
     "e-arraysloops": "tsx ./typescript-workbench/tutorial/e-arraysloops.ts",
     "f-classesobjects": "tsx ./typescript-workbench/tutorial/f-classesobjects.ts",
-    "test": "npx playwright show-report \\PlaywrightEersteMaand\\testsoftware\\playwright-results"      
+    "g-handig": "tsx ./typescript-workbench/tutorial/g-handig.ts",
+    "meerkeuze": "tsx ./typescript-workbench/meerkeuzevragen.ts",
+    "g-types": "tsx ./typescript-workbench/tutorial/g-types.ts",
+    "g-jsons": "tsx ./typescript-workbench/tutorial/g-jsons.ts",
+    "ascii": "tsx ./typescript-workbench/tutorial/ascii.ts",
+    "ascii1": "tsx ./typescript-workbench/tutorial/ascii1.ts",
+    "ascii2": "tsx ./typescript-workbench/tutorial/ascii2.ts",
+    "ascii3": "tsx ./typescript-workbench/tutorial/ascii3.ts",
+    "ascii4": "tsx ./typescript-workbench/tutorial/ascii4.ts",
+    "ascii5": "tsx ./typescript-workbench/tutorial/ascii5.ts",
+    "ascii6": "tsx ./typescript-workbench/tutorial/ascii6.ts",
+    "test": "npx playwright show-report \\PlaywrightEersteMaand\\testsoftware\\playwright-results"
   }
 }

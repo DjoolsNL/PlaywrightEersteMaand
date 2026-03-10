@@ -92,3 +92,32 @@ console.log( '}                      - Sluit de loop af.' );
 console.log();
 
 //#endregion
+
+
+const nieuwearray: number[] = [ 1, 2, 3, 3, 5, 6, 7 ];
+console.log( nieuwearray );
+
+for ( let nummer of nieuwearray ) {
+   console.log( nummer * 2 );
+   console.log();
+}
+
+const namen: string[] = [ "Jansen", "De Vries", "Hendriks", "Joosten", "Bouchari", "Graus" ];
+
+for ( let name of namen ) {
+   console.log( 'Meneer ', name.toUpperCase(), 'u bent ontslagen.' );
+
+
+
+
+
+}
+
+const arrarr: string[][] = [ namen, namen, namen ]
+
+console.log( arrarr )
+
+namen[ 0 ] = "Janssen";
+console.log( namen[ 0 ].toUpperCase(), namen[ 3 ] );
+
+
