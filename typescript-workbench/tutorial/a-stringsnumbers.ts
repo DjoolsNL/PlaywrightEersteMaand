@@ -1,23 +1,12 @@
 "use strict";
+import { Kleur } from '../utils';
 export { }
 
 console.log( '+++++++++ BASIS KENNIS TYPESCRIPTING ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++' );
 console.log(); // lege parentheses is lege regel in terminal
-
-console.log( 'De basis toolkit typescript bestaat uit: strings, numbers, booleans, arrays, loops, if/else' );
-console.log( 'functions, objects en classes.' );
-console.log( 'Ezelsbruggetje: Bison Calf of Clif Bonas of Bif Clonas.' );
-console.log(); // lege parentheses is lege regel in terminal
-
-console.log( 'Programmeren is denkwerk. De programmeertaal biedt je het gereedschap om' );
-console.log( 'werkende computerinstructies te schrijven. Strings, numbers, booleans, arrays, loops, if/else,' );
-console.log( 'functions, objects en classes zijn tools die je gebruikt om die instructies te schrijven.' );
-console.log(); // lege parentheses is lege regel in terminal
-
-console.log( '** FAT SMART TIP ALERT ** FAT SMART TIP ALERT **' )
-console.log( 'Werkt de code niet meer, laat dan de file in de editor staan, zet de cursor in de open file en' );
-console.log( 'ga terug met ctrl-z. De kans dat je de code weer kunt terugzetten met ctrl-z is je beste kans' );
-console.log( 'om de code weer werkend te krijgen.' );
+console.log( Kleur.magenta.ansi 
+   + "Probeer de output in de console te begrijpen aan de hand van het script in de scriptfile." 
+   + Kleur.sluiter.ansi );
 console.log();
 
 //#region - DEEL A. STRINGS NUMBERS BOOLEANS - variabelen, waardes en verschillende types variabelen 

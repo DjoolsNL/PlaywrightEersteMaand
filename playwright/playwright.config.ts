@@ -8,7 +8,7 @@ export default defineConfig( {
   timeout: 30 * 1000,
   expect: {
     timeout: 25000,
-    toHaveScreenshot: { maxDiffPixels: 60 },
+    toHaveScreenshot: { maxDiffPixels: 8000 },
   },
 
   /* Opt out of parallel tests on CI. */

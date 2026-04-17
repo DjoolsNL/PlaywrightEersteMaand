@@ -14,13 +14,14 @@ test.use( { viewport: { width: 1833, height: 980 } } );
 ///////////////////////////////////////////////////////////////////////
 test( 'Exercise with codegen: go to NOS.nl', async ( { page } ) => {
    await page.goto( 'https://nos.nl' );
+   await expect( page ).toHaveScreenshot( 'image.png' );
    // Instructions: script a flow that jumps from 'laatste nieuws' to ' videos' to top video in list of videos.
 
 } )
 
 test( 'Exercise with codegen: go to Ikea', async ( { page } ) => {
-   await page.goto( 'https://ikea.nl' );  
-   await page.getByRole('button', { name: 'Weiger' }).click();
+   await page.goto( 'https://ikea.nl' );
+   await page.getByRole( 'button', { name: 'Weiger' } ).click();
 
    // Instructions: script the flow to the webpage of the ikea shop in  Heerlen.
 
@@ -28,9 +29,9 @@ test( 'Exercise with codegen: go to Ikea', async ( { page } ) => {
 
 test( 'Exercise with codegen: go to Wikipedia.com', async ( { page } ) => {
    await page.goto( 'https://en.wikipedia.org/wiki/Wikipedia' );
-   await page.getByLabel('Search Wikipedia').click();
-   await page.getByRole('combobox', { name: 'Search Wikipedia' }).fill('playwright');
-   await page.getByRole('link', { name: 'Playwright (software) End-to-' }).click();
+   await page.getByLabel( 'Search Wikipedia' ).click();
+   await page.getByRole( 'combobox', { name: 'Search Wikipedia' } ).fill( 'playwright' );
+   await page.getByRole( 'link', { name: 'Playwright (software) End-to-' } ).click();
 
    // Instructions: script a flow within wikipedia to the article about 'w3.org' and 
    // navigate to the w3.org website by using the link
@@ -68,17 +69,17 @@ test( 'Exercise without codegen: go to NOS.nl', async ( { page } ) => {
 } )
 
 test( 'Exercise without codegen: go to Ikea', async ( { page } ) => {
-   await page.goto( 'https://ikea.nl' );  
-   await page.getByRole('button', { name: 'Weiger' }).click();
+   await page.goto( 'https://ikea.nl' );
+   await page.getByRole( 'button', { name: 'Weiger' } ).click();
    // Instructions: script the flow to the webpage of the ikea shop in  Heerlen.
 
 } )
 
 test( 'Exercise without codegen: go to Wikipedia.com', async ( { page } ) => {
    await page.goto( 'https://en.wikipedia.org/wiki/Wikipedia' );
-   await page.getByLabel('Search Wikipedia').click();
-   await page.getByRole('combobox', { name: 'Search Wikipedia' }).fill('playwright');
-   await page.getByRole('link', { name: 'Playwright (software) End-to-' }).click();
+   await page.getByLabel( 'Search Wikipedia' ).click();
+   await page.getByRole( 'combobox', { name: 'Search Wikipedia' } ).fill( 'playwright' );
+   await page.getByRole( 'link', { name: 'Playwright (software) End-to-' } ).click();
    // Instructions: script a flow within wikipedia to the article about 'w3.org' and 
    // navigate to the w3.org website by using the link
    // in 'external links' of the article.
@@ -95,4 +96,5 @@ test( 'Exercise without codegen: go to Tempoteam', async ( { page } ) => {
    await page.goto( 'https://tempoteam.nl/' );
    // Instructions: script a flow to the current IT vacancies
 
-} )   
+} )
+

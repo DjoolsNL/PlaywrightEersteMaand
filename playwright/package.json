@@ -5,8 +5,8 @@
   "scripts": {
     "ui-mode": "npx playwright test --ui"
   },
-  "keywords": [],
-  "author": "Jules van Nuijs for BEE Ideas",
+  "keywords": ["testomgeving"],
+  "author": "Jules van Nuijs",
   "license": "ISC",
 
   "devDependencies": {

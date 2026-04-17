@@ -1,8 +1,11 @@
 {
-  "name": "playwright_eerste_maand",
-  "version": "2.0.1",
-  "author": "Jules van Nuijs for BEE Ideas",
+  "name": "playwright_educational_course",
+  "version": "2.0.2",
+  "author": "Jules van Nuijs",
   "description": "educational repository for learning Playwright and TypeScript",
+  
+  "keywords": ["testautomation", "integrated educational environment", "useful templates"],
+  
   "devDependencies": {
     "@types/node": "^25.2.3",
     "eslint": "^9.39.2",
@@ -12,27 +15,16 @@
     "typescript-eslint": "^8.54.0"
   },
   "scripts": {
-    "prijsshow":    "tsx ./typescript-workbench/prijsshow.ts",
-    "prijsshow1":    "tsx ./typescript-workbench/prijsshow1.ts",
-    "prijsshow2":    "tsx ./typescript-workbench/prijsshow2.ts",
-    "het-is-nu":    "tsx ./typescript-workbench/het-is-nu.ts",
+    "ascii9": "tsx ./typescript-workbench/ascii/ascii9.ts",
+    "duckai": "tsx ./typescript-workbench/duckai/duckai.ts",
+    "het-is-nu": "tsx ./typescript-workbench/het-is-nu.ts",
+    "prijsshow4": "tsx ./typescript-workbench/prijsshow/prijsshow4.ts",    
     "a-stringsnumbers": "tsx ./typescript-workbench/tutorial/a-stringsnumbers.ts",
     "b-operators": "tsx ./typescript-workbench/tutorial/b-operators.ts",
     "c-if": "tsx ./typescript-workbench/tutorial/c-ifstatements.ts",
     "d-methodsfunctions": "tsx ./typescript-workbench/tutorial/d-methodsfunctions.ts",
     "e-arraysloops": "tsx ./typescript-workbench/tutorial/e-arraysloops.ts",
     "f-classesobjects": "tsx ./typescript-workbench/tutorial/f-classesobjects.ts",
-    "g-handig": "tsx ./typescript-workbench/tutorial/g-handig.ts",
-    "meerkeuze": "tsx ./typescript-workbench/meerkeuzevragen.ts",
-    "g-types": "tsx ./typescript-workbench/tutorial/g-types.ts",
-    "g-jsons": "tsx ./typescript-workbench/tutorial/g-jsons.ts",
-    "ascii": "tsx ./typescript-workbench/tutorial/ascii.ts",
-    "ascii1": "tsx ./typescript-workbench/tutorial/ascii1.ts",
-    "ascii2": "tsx ./typescript-workbench/tutorial/ascii2.ts",
-    "ascii3": "tsx ./typescript-workbench/tutorial/ascii3.ts",
-    "ascii4": "tsx ./typescript-workbench/tutorial/ascii4.ts",
-    "ascii5": "tsx ./typescript-workbench/tutorial/ascii5.ts",
-    "ascii6": "tsx ./typescript-workbench/tutorial/ascii6.ts",
-    "test": "npx playwright show-report \\PlaywrightEersteMaand\\testsoftware\\playwright-results"
+    "pw-test-verslag-html": "npx playwright show-report \\PlaywrightEersteMaand\\testsoftware\\playwright-results"
   }
 }

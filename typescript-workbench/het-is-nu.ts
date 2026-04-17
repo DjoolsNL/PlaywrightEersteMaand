@@ -1,5 +1,5 @@
-"use strict";
-// voorbeeldcode
+//"use strict";
+
 const now: Date = new Date();
 
 const year: number = now.getFullYear();
@@ -19,5 +19,5 @@ const output = time;
 
 // write output to terminal/console
 console.log( time );
-console.log();
+
 

@@ -667,11 +667,10 @@ const toetsCombinaties: Vraag[] = [
    }
 ];
 
-// de parameter maakt het mogelijk om de vragenlijst te wijzigen zonder dat de rest van het script aangepast hoeft te worden.
 interactief( toetsCombinaties );
 
-let telGoed: number = 0;
-let telFout: number = 0;
+let aantalGoed: number = 0;
+let aantalFout: number = 0;
 
 /**
  * Leest een lijst van vragen en verwerkt de antwoorden van de gebruiker.
@@ -698,41 +697,40 @@ Type z en druk enter om programma te beeindigen.
       // Die method neemt de parameter vraagTekst en stuurt die string naar de terminal.
       // Het antwoord dat de gebruiker in de terminal invoert, wordt als stringwaarde teruggegeven en toegewezen aan
       // antwoord.      
-      const antwoord: string = await rl.question( vraagTekst );
-
-      // Nu we het antwoord binnen hebben kunnen we de user-input verwerken 
-      // Heeft de user z getyped dan eindigt het programma met het commando return
-      if ( antwoord === "z" ) {
+      const antwoordUser: string = await rl.question( vraagTekst );
+      // Beeindig programma
+      if ( antwoordUser === "z" ) {
          afsluiter();
          rl.close();
          return;
       }
-
-      // Deze code wordt uitgevoerd als de user-input anders dan z is
-      console.log();
-      if ( vraag.antwoord === antwoord ) {
-         // Verhoogt de teller van de goede antwoorden
-         ++telGoed;
-         console.log( 'Goed' );
-      }
-      else {
-         ++telFout;
-         console.log( 'Fout. Het goede antwoord is: ', vraag.antwoord );
-      }
+      evalueerAntwoord( vraag, antwoordUser );
    }
-
    afsluiter();
-
    rl.close();
+}
+
+function evalueerAntwoord ( vraag: Vraag, antwoordUser: string ) {
+   let s: string;
+   if ( vraag.antwoord === antwoordUser ) {
+      s = 'Goed';
+      ++aantalGoed;
+   }
+   else {
+      s = `Fout. Het goede antwoord is: ${vraag.antwoord}`;
+      ++aantalFout;
+   }
+   console.log();
+   console.log( s );
 }
 
 // helperfunctie
 function afsluiter (): void {
    console.log();
-   console.log( 'Totaal aantal vragen:', telGoed + telFout );
-   console.log( 'Goed:', telGoed );
-   console.log( 'Fout:', telFout );
-   console.log( 'Je score is: ', ( telGoed / ( telGoed + telFout ) * 100 ).toFixed( 2 ), '%' );
+   console.log( 'Totaal aantal vragen:', aantalGoed + aantalFout );
+   console.log( 'Goed:', aantalGoed );
+   console.log( 'Fout:', aantalFout );
+   console.log( 'Je score is: ', ( aantalGoed / ( aantalGoed + aantalFout ) * 100 ).toFixed( 2 ), '%' );
    console.log();
    console.log( 'Klaar' );
    console.log();

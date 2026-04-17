@@ -10,10 +10,6 @@ let rood: Kleur = "rood";
 let geel: Kleur = "geel";
 let groen: Kleur = "groen";
 
-function print ( kleur: Kleur ) {
-   console.log( kleur );
-}
-
 const stoplicht: Kleur[] = [
    rood,
    geel,
@@ -21,9 +17,10 @@ const stoplicht: Kleur[] = [
 ];
 
 for ( let kleur of stoplicht ) {
-   print( kleur );
+   console.log( kleur );
 }
 
+//////////////////////////////////
 
 
 

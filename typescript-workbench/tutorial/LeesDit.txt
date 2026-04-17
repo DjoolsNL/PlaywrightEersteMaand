@@ -1,0 +1,20 @@
+
+
+Programmeren is denkwerk. De programmeertaal biedt je het gereedschap om werkende 
+computerinstructies te schrijven.   
+De meestgebruikte programmeertalen   
+
+
+
+Er zijn algemene programmeertalen en specialistische programmeertalen. De specialistische 
+zijn voor een doel   De basis toolkit typescript bestaat uit: strings, numbers, booleans, arrays, loops, if/else
+functions, objects en classes.
+Ezelsbruggetje: Bison Calf of Clif Bonas of Bif Clonas.
+
+Programmeren is denkwerk. De programmeertaal biedt je het gereedschap om
+werkende computerinstructies te schrijven. Strings, numbers, booleans, arrays, loops, if/else,
+functions, objects en classes zijn tools die je gebruikt om die instructies te schrijven.
+
+Werkt de code niet meer, laat dan de file in de editor staan, zet de cursor in de open file en
+ga terug met ctrl-z. De kans dat je de code weer kunt terugzetten met ctrl-z is je beste kans
+om de code weer werkend te krijgen.

@@ -28,5 +28,8 @@
       "**/node_modules": true,
       "playwright-results": true,
       "test-results": true
-   }
+   },
+   "chat.agent.enabled": false,
+   "chat.agent.networkFilter": true,
+   "chat.disableAIFeatures": true
 }

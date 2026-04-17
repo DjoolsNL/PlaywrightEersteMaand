@@ -51,6 +51,7 @@ test.use( { viewport: { width: 1833, height: 980 } } );
 //#endregion
 test( '0.0.0 - Automate navigation for text links in group Leerbedrijf', async ( { page } ) => {
    // The code below was written by codegen
+   await expect( page ).toHaveScreenshot( 'image.png' );
 
    await page.getByRole( 'link', { name: 'Opportunities' } ).click();
 
